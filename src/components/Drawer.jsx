@@ -8,6 +8,7 @@ import ListItem from '@mui/material/ListItem';
 import ListItemButton from '@mui/material/ListItemButton';
 import ListItemIcon from '@mui/material/ListItemIcon';
 import ListItemText from '@mui/material/ListItemText';
+import { Link } from 'react-router-dom';
 // eslint-disable-next-line import/no-extraneous-dependencies
 import { Icon } from '@iconify/react';
 
@@ -32,15 +33,30 @@ export default function TemporaryDrawer() {
       onKeyDown={toggleDrawer(anchor, false)}
     >
       <List>
-        <ListItem key="Missa" disablePadding>
-          <ListItemButton>
-            <ListItemIcon>
-              <Icon icon="entypo:folder-music" />
-            </ListItemIcon>
-            <ListItemText primary="Missa" />
-          </ListItemButton>
-        </ListItem>
+        <Link to="/">
+          <ListItem key="Home" disablePadding>
+            <ListItemButton>
+              <ListItemIcon>
+                <Icon icon="entypo:folder-music" />
+              </ListItemIcon>
+              <ListItemText primary="Home" />
+            </ListItemButton>
+          </ListItem>
+        </Link>
       </List>
+      <List>
+        <Link to="/teste">
+          <ListItem key="Missa" disablePadding>
+            <ListItemButton>
+              <ListItemIcon>
+                <Icon icon="entypo:folder-music" />
+              </ListItemIcon>
+              <ListItemText primary="Missa" />
+            </ListItemButton>
+          </ListItem>
+        </Link>
+      </List>
+
       <List>
         <ListItem key="Grupo de Oração" disablePadding>
           <ListItemButton>
