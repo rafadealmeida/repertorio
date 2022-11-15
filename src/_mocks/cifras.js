@@ -468,7 +468,6 @@ const cifra = [
     id: sumId(),
     categoria: 'Louvor',
     cifra: `
-    <pre>
         Intro. F F#  G
         G                                C
         Reunidos aqui, só pra louvar o Senhor

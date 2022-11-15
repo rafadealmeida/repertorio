@@ -33,11 +33,11 @@ export default function TemporaryDrawer() {
       onKeyDown={toggleDrawer(anchor, false)}
     >
       <List>
-        <Link to="/">
+        <Link to="/" className="menu__link">
           <ListItem key="Home" disablePadding>
             <ListItemButton>
               <ListItemIcon>
-                <Icon icon="entypo:folder-music" />
+                <Icon icon="entypo:folder-music" fontSize="large" />
               </ListItemIcon>
               <ListItemText primary="Home" />
             </ListItemButton>
@@ -45,23 +45,23 @@ export default function TemporaryDrawer() {
         </Link>
       </List>
       <List>
-        <Link to="/teste">
+        <Link to="/teste" className="menu__link">
           <ListItem key="Missa" disablePadding>
-            <ListItemButton sx={{ textDecoration: 'none' }}>
+            <ListItemButton>
               <ListItemIcon>
-                <Icon icon="entypo:folder-music" />
+                <Icon icon="mdi:cross-outline" fontSize="large" />
               </ListItemIcon>
-              <ListItemText primary="Missa" />
+              <ListItemText primary="Missa" sx={{ textDecoration: 'none', color: 'black' }} />
             </ListItemButton>
           </ListItem>
         </Link>
       </List>
 
-      <List>
+      <List className="menu__link">
         <ListItem key="Grupo de Oração" disablePadding>
           <ListItemButton>
             <ListItemIcon>
-              <Icon icon="entypo:folder-music" />
+              <Icon icon="la:praying-hands" fontSize="large" />
             </ListItemIcon>
             <ListItemText primary="Grupo de Oração" />
           </ListItemButton>
@@ -74,9 +74,9 @@ export default function TemporaryDrawer() {
 
   return (
     <div>
-      {['Menu'].map((anchor) => (
+      {['left'].map((anchor) => (
         <React.Fragment key={anchor}>
-          <Button onClick={toggleDrawer(anchor, true)}>{anchor}</Button>
+          <Button onClick={toggleDrawer(anchor, true)}>Menu</Button>
           <Drawer anchor={anchor} open={state[anchor]} onClose={toggleDrawer(anchor, false)}>
             {list(anchor)}
           </Drawer>
