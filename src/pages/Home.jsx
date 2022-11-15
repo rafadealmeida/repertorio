@@ -1,11 +1,10 @@
 import React from 'react';
-import Drawer from '../components/Drawer';
 import CardCifra from '../components/CardCifra';
 
 function Home() {
   return (
+    // eslint-disable-next-line react/jsx-no-useless-fragment
     <>
-      <Drawer />
       <CardCifra />
     </>
   );

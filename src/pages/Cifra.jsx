@@ -15,17 +15,20 @@ function Cifra() {
 
   useEffect(() => {
     const cifraSelect = cifras.find((cifraBack) => cifraBack.id === Number(id));
-    console.log(cifraSelect);
     setCifra(cifraSelect);
   }, [id]);
   return (
     <>
       <Card>
-        <Typography>{cifra.titulo}</Typography>
+        <Typography variant="h2" sx={{ textIndent: '1rem', marginTop: '1rem' }}>
+          {cifra.titulo}
+        </Typography>
         <CifraSelect>{cifra.cifra}</CifraSelect>
       </Card>
       <Link to="/">
-        <Button variant="contained">Voltar a home</Button>
+        <Button variant="contained" sx={{ marginTop: '1rem', marginLeft: '90%' }}>
+          Voltar a home
+        </Button>
       </Link>
     </>
   );

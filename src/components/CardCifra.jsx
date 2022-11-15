@@ -16,7 +16,7 @@ function CardCifra() {
       {cifras.map((cifra) => {
         return (
           <Link key={cifra.id} to={`cifra/${cifra.id}`} style={{ textDecoration: 'none' }}>
-            <Card key={cifra.id} sx={{ margin: '5% auto', padding: 5, borderRadius: '10px' }}>
+            <Card key={cifra.id} sx={{ margin: '5% auto', padding: 5, borderRadius: '10px', height: 200, width: 1200 }}>
               <Typography variant="h4">{cifra.titulo}</Typography>
               <Cifra>{cifra.cifra}</Cifra>
             </Card>
