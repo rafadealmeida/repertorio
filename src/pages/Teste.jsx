@@ -1,10 +1,9 @@
 import React from 'react';
-import Drawer from '../components/Drawer';
 
 function Teste() {
   return (
+    // eslint-disable-next-line react/jsx-no-useless-fragment
     <>
-      <Drawer />
       <h1>Teste</h1>
     </>
   );
