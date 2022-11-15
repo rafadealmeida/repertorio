@@ -16,7 +16,7 @@ function CardCifra({ cifras = [] }) {
     <>
       {cifras.map((cifra) => {
         return (
-          <Link key={cifra.id} to={`cifra/${cifra.id}`} style={{ textDecoration: 'none' }}>
+          <Link key={cifra.id} to={`/cifra/${cifra.id}`} style={{ textDecoration: 'none' }}>
             <Card
               key={cifra.id}
               sx={{
