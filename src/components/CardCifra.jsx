@@ -1,7 +1,7 @@
 import React from 'react';
 import { Typography, Card } from '@mui/material';
 import styled from 'styled-components';
-import { useParams } from 'react-router-dom';
+import { useParams, Link } from 'react-router-dom';
 import cifras from '../_mocks/cifras';
 
 const Cifra = styled.pre`
@@ -15,10 +15,12 @@ function CardCifra() {
     <>
       {cifras.map((cifra) => {
         return (
-          <Card key={cifra.id} sx={{ margin: '5% auto', padding: 5, borderRadius: '10px' }}>
-            <Typography variant="h4">{cifra.titulo}</Typography>
-            <Cifra>{cifra.cifra}</Cifra>
-          </Card>
+          <Link key={cifra.id} to={`cifra/${cifra.id}`} style={{ textDecoration: 'none' }}>
+            <Card key={cifra.id} sx={{ margin: '5% auto', padding: 5, borderRadius: '10px' }}>
+              <Typography variant="h4">{cifra.titulo}</Typography>
+              <Cifra>{cifra.cifra}</Cifra>
+            </Card>
+          </Link>
         );
       })}
     </>

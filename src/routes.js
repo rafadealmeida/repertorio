@@ -4,6 +4,7 @@ import * as ReactDOM from 'react-dom';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Home from './pages/Home';
 import Teste from './pages/Teste';
+import Cifra from './pages/Cifra';
 
 export default function AppRouter() {
   return (
@@ -12,6 +13,8 @@ export default function AppRouter() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/teste" element={<Teste />} />
+        <Route path="/cifra/:id" element={<Cifra />} />
+        <Route path="/cifra" element={<Cifra />} />
       </Routes>
     </Router>
   );
