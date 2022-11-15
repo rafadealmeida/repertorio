@@ -47,7 +47,7 @@ export default function TemporaryDrawer() {
       <List>
         <Link to="/teste">
           <ListItem key="Missa" disablePadding>
-            <ListItemButton>
+            <ListItemButton sx={{ textDecoration: 'none' }}>
               <ListItemIcon>
                 <Icon icon="entypo:folder-music" />
               </ListItemIcon>

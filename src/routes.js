@@ -6,6 +6,7 @@ import Home from './pages/Home';
 import Teste from './pages/Teste';
 import Cifra from './pages/Cifra';
 import Drawer from './components/Drawer';
+import Categoria from './pages/Categoria';
 
 export default function AppRouter() {
   return (
@@ -16,7 +17,7 @@ export default function AppRouter() {
         <Route path="/" element={<Home />} />
         <Route path="/teste" element={<Teste />} />
         <Route path="/cifra/:id" element={<Cifra />} />
-        <Route path="/cifra" element={<Cifra />} />
+        <Route path="categoria/:id" element={<Categoria />} />
       </Routes>
     </Router>
   );

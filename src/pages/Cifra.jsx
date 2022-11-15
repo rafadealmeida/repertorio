@@ -6,7 +6,7 @@ import styled from 'styled-components';
 import cifras from '../_mocks/cifras';
 
 const CifraSelect = styled.pre`
-  font-size: 1.5rem;
+  font-size: 1rem;
 `;
 
 function Cifra() {
@@ -19,17 +19,20 @@ function Cifra() {
   }, [id]);
   return (
     <>
-      <Card>
-        <Typography variant="h2" sx={{ textIndent: '1rem', marginTop: '1rem' }}>
-          {cifra.titulo}
-        </Typography>
-        <CifraSelect>{cifra.cifra}</CifraSelect>
-      </Card>
       <Link to="/">
         <Button variant="contained" sx={{ marginTop: '1rem', marginLeft: '90%' }}>
           Voltar a home
         </Button>
       </Link>
+      <Card>
+        <Typography variant="h4" sx={{ textIndent: '1rem', marginTop: '1rem' }}>
+          {cifra.titulo}
+        </Typography>
+        <Typography variant="subtitle2" sx={{ textIndent: '1rem' }}>
+          Categoria: <strong>{cifra.categoria}</strong>
+        </Typography>
+        <CifraSelect>{cifra.cifra}</CifraSelect>
+      </Card>
     </>
   );
 }

@@ -2,6 +2,7 @@ const cifra = [
   {
     titulo: 'Nascer de novo',
     id: 1,
+    categoria: 'Espirito',
     cifra: `
     Am                            G
     Em verdade, em verdade te digo
@@ -38,6 +39,7 @@ const cifra = [
   {
     titulo: 'Espírito da Verdade',
     id: 2,
+    categoria: 'Espirito',
     cifra: `
     [Intro] C  C9  F  C  C9  F
 
@@ -65,6 +67,7 @@ const cifra = [
   {
     titulo: 'NOSSO GENERAL/PRECISO DE VOCÊ',
     id: 3,
+    categoria: 'Louvor',
     cifra: `
     GM
     Pelo senhor, marchamos sim, seu exército poderoso é,
@@ -91,6 +94,7 @@ const cifra = [
   {
     titulo: 'Espirito Santo Repousa',
     id: 4,
+    categoria: 'Espirito',
     cifra: `
     [Intro] A A5 A6 A7 BM E7
     A   A5      A6        A7      BM                   E7
@@ -123,6 +127,7 @@ const cifra = [
   {
     titulo: 'QUERO ESTA EM TUA MÃOS OH PAI',
     id: 5,
+    categoria: 'Louvor',
     cifra: `
     E
     Eu quero estar em Tuas mãos, Oh Pai !
@@ -138,6 +143,7 @@ const cifra = [
   {
     titulo: 'LOUVA A DEUS',
     id: 6,
+    categoria: 'Louvor',
     cifra: `
     [Intro] C  G  Am  Em  F  G  C   F  G
         C        G                 Am  Em            F         G               C   F G
@@ -161,6 +167,7 @@ const cifra = [
   {
     titulo: 'CONSAGRAÇÃO A NOSSA SENHORA',
     id: 7,
+    categoria: 'Maria',
     cifra: `
     A                  C#M               CM BM      E            A
     Ó minha senhora e também minha mãe, eu me ofereço inteiramente todo
