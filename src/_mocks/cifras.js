@@ -70,7 +70,7 @@ const cifra = [
     `,
   },
   {
-    titulo: 'NOSSO GENERAL/PRECISO DE VOCÊ',
+    titulo: 'NOSSO GENERAL /PRECISO DE VOCÊ',
     id: sumId(),
     categoria: 'Decolagem',
     cifra: `

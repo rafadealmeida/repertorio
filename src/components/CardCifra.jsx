@@ -1,29 +1,24 @@
+import '../assets/css/cards.css';
 import React from 'react';
 import { Typography, Card } from '@mui/material';
-import styled from 'styled-components';
 import { Link } from 'react-router-dom';
-import '../assets/css/cards.css';
-
-const Cifra = styled.pre`
-  font-size: 1.5rem;
-`;
 
 // eslint-disable-next-line react/prop-types
 function CardCifra({ cifras = [] }) {
   return (
-    <>
+    <div className="card--cifras">
       {cifras.map((cifra) => {
         return (
           <Link key={cifra.id} to={`/cifra/${cifra.id}`} style={{ textDecoration: 'none' }}>
             <Card
-              className={`cartao-post--${cifra.categoria}`}
+              className={`cartao-post--${cifra.categoria} cartao-post `}
               key={cifra.id}
               sx={{
                 margin: '5% auto',
                 padding: 5,
                 borderRadius: '10px',
-                height: 200,
-                width: 1200,
+                height: 70,
+                width: 400,
                 borderTop: '1.5rem solid',
               }}
             >
@@ -31,12 +26,11 @@ function CardCifra({ cifras = [] }) {
               <Typography variant="subtitle2">
                 Categoria: <strong>{cifra.categoria}</strong>
               </Typography>
-              <Cifra>{cifra.cifra}</Cifra>
             </Card>
           </Link>
         );
       })}
-    </>
+    </div>
   );
 }
 
