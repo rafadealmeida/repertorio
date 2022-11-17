@@ -1,0 +1,46 @@
+.lista-categorias {
+  width: 100%;
+  box-sizing: border-box;
+  justify-content: space-evenly;
+  margin-bottom: 2rem;
+  list-style-type: none;
+  display: flex;
+}
+.link{
+  text-decoration: none;
+
+}
+
+.lista-categorias__categoria {
+  /* font-weight: var(--fonte-peso-categorias);
+  background-color: var(--cor-contraste-claro); */
+  color: #000;
+  font-weight:bold;
+  text-decoration: none;
+  border-radius: 1rem;
+  padding: 1rem;
+  width: 70%;
+}
+
+.lista-categorias__categoria--Maria {
+  background-color: #83D5F1;
+}
+.lista-categorias__categoria--Paz {
+  background-color: #DADDDB
+}
+.lista-categorias__categoria--Decolagem {
+  background-color: #EBA75F
+}
+.lista-categorias__categoria--Louvor {
+  background-color: #F77B72;
+}
+.lista-categorias__categoria--Espirito {
+  background-color: #FFD966
+}
+.lista-categorias__categoria--Perdao {
+  background-color: #BADBE1
+}
+
+.lista-categorias__categoria--Novas {
+  background-color: #B4A7D6;
+}
