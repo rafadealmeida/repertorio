@@ -1,7 +1,7 @@
 .lista-categorias {
   width: 100%;
   box-sizing: border-box;
-  justify-content: space-evenly;
+  justify-content: space-around;
   margin-bottom: 2rem;
   list-style-type: none;
   display: flex;
@@ -43,4 +43,17 @@
 
 .lista-categorias__categoria--Novas {
   background-color: #B4A7D6;
+}
+
+@media  screen and (max-width: 768px) {
+  .lista-categorias{
+    width:100%;
+    gap: 1rem;
+    flex-wrap: wrap;
+    justify-content: start;
+    align-items: center;
+  }
+  .lista-categorias__categoria{
+    width:60%;
+  }
 }
