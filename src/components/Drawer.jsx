@@ -44,7 +44,7 @@ export default function TemporaryDrawer() {
           </ListItem>
         </Link>
       </List>
-      <List>
+      {/* <List>
         <Link to="/teste" className="menu__link">
           <ListItem key="Missa" disablePadding>
             <ListItemButton>
@@ -66,7 +66,7 @@ export default function TemporaryDrawer() {
             <ListItemText primary="Grupo de Oração" />
           </ListItemButton>
         </ListItem>
-      </List>
+      </List> */}
 
       {/* <Divider /> */}
     </Box>
