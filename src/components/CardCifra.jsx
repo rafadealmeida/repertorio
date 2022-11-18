@@ -21,7 +21,7 @@ function CardCifra({ cifras = [] }) {
                 padding: 5,
                 borderRadius: '10px',
                 height: (() => (matches ? 150 : 70))(),
-                width: (() => (matches ? 250 : 400))(),
+                width: (() => (matches ? 270 : 400))(),
                 borderTop: '1.5rem solid',
                 borderColor: (() => colors.find((color) => color.categoria === cifra.categoria).color)(),
               }}

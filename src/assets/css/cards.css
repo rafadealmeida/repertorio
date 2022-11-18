@@ -24,10 +24,3 @@
 .cartao-post--Novas {
   border-color: #B4A7D6
 }
-
-
-@media  screen and (max-width: 768px){
-  .card--cifras{
-    width: 100%;
-  }
-}
