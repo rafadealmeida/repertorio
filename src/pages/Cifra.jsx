@@ -3,11 +3,15 @@ import { Card, Typography, Button } from '@mui/material';
 import reactStringReplace from 'react-string-replace';
 import React, { useState, useEffect } from 'react';
 import { useParams, Link } from 'react-router-dom';
+import useMediaQuery from '@mui/material/useMediaQuery';
 import styled from 'styled-components';
 import cifras from '../_mocks/cifras';
 
 const CifraSelect = styled.pre`
   font-size: 1rem;
+  @media screen and (max-width: 768px) {
+    font-size: 0.5rem;
+  }
 `;
 // eslint-disable-next-line prettier/prettier
 const acordes =
@@ -16,6 +20,7 @@ const acordes =
 function Cifra() {
   const { id } = useParams();
   const [cifra, setCifra] = useState({});
+  const matches = useMediaQuery('(max-width:768px)');
 
   useEffect(() => {
     const cifraSelect = cifras.find((cifraBack) => cifraBack.id === Number(id));
@@ -24,18 +29,17 @@ function Cifra() {
   return (
     <>
       <Link to="/">
-        <Button variant="contained" sx={{ marginTop: '1rem', marginLeft: '90%' }}>
+        <Button variant="contained" sx={{ marginTop: '1rem', marginLeft: (() => (matches ? '58%' : '90%'))() }}>
           Voltar a home
         </Button>
       </Link>
-      <Card>
+      <Card sx={{ width: '100%' }}>
         <Typography variant="h4" sx={{ textIndent: '1rem', marginTop: '1rem' }}>
           {cifra.titulo}
         </Typography>
         <Typography variant="subtitle2" sx={{ textIndent: '1rem' }}>
           Categoria: <strong>{cifra.categoria}</strong>
         </Typography>
-        {/* <CifraSelect>{cifra.cifra}</CifraSelect> */}
         <CifraSelect>
           {reactStringReplace(cifra.cifra, acordes, (match, i) => (
             <b key={i} style={{ color: '#f70' }}>

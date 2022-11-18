@@ -1,10 +1,12 @@
 import '../assets/css/cards.css';
 import React from 'react';
 import { Typography, Card } from '@mui/material';
+import useMediaQuery from '@mui/material/useMediaQuery';
 import { Link } from 'react-router-dom';
 
 // eslint-disable-next-line react/prop-types
 function CardCifra({ cifras = [] }) {
+  const matches = useMediaQuery('(max-width:768px)');
   return (
     <div className="card--cifras">
       {cifras.map((cifra) => {
@@ -17,8 +19,8 @@ function CardCifra({ cifras = [] }) {
                 margin: '5% auto',
                 padding: 5,
                 borderRadius: '10px',
-                height: 70,
-                width: 400,
+                height: (() => (matches ? 150 : 70))(),
+                width: (() => (matches ? 250 : 400))(),
                 borderTop: '1.5rem solid',
               }}
             >
