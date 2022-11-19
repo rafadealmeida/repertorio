@@ -1,9 +1,9 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import categorias from '../_mocks/categorias';
 import '../assets/css/categorias.css';
 
-function ListaCategorias() {
+// eslint-disable-next-line react/prop-types
+function ListaCategorias({ categorias = [] }) {
   return (
     <ul className="lista-categorias container flex">
       {categorias.map((categoria) => (
