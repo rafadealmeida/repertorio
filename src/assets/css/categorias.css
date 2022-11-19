@@ -44,6 +44,36 @@
 .lista-categorias__categoria--Novas {
   background-color: #B4A7D6;
 }
+.lista-categorias__categoria--Entrada {
+  background-color: #F77B72;
+}
+.lista-categorias__categoria--Penitencial {
+  background-color: #BADBE1;
+}
+.lista-categorias__categoria--Aclamacao {
+  background-color: #FFD966;
+}
+.lista-categorias__categoria--Oferta {
+  background-color: #B4D3A7;
+}
+.lista-categorias__categoria--Salmo {
+  background-color: #DADDDB;
+}
+.lista-categorias__categoria--Santo {
+  background-color: #B4A7D6;
+}
+.lista-categorias__categoria--Cordeiro {
+  background-color: #E69138;
+}
+.lista-categorias__categoria--Comunhao {
+  background-color: #CC0000;
+}
+.lista-categorias__categoria--Gracas {
+  background-color: #D8E7F5;
+}
+.lista-categorias__categoria--Final {
+  background-color: #FFD966;
+}
 
 @media  screen and (max-width: 768px) {
   .lista-categorias{

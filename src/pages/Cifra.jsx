@@ -6,6 +6,7 @@ import { useParams, Link } from 'react-router-dom';
 import useMediaQuery from '@mui/material/useMediaQuery';
 import styled from 'styled-components';
 import cifras from '../_mocks/cifras';
+import repertorioMissa from '../_mocks/repertorioMissa';
 
 const CifraSelect = styled.pre`
   font-size: 1rem;
@@ -23,9 +24,16 @@ function Cifra() {
   const matches = useMediaQuery('(max-width:768px)');
 
   useEffect(() => {
-    const cifraSelect = cifras.find((cifraBack) => cifraBack.id === Number(id));
-    setCifra(cifraSelect);
+    if (Number(id) < 1000) {
+      const cifraSelect = cifras.find((cifraBack) => cifraBack.id === Number(id));
+      setCifra(cifraSelect);
+    }
+    if (Number(id) >= 1000) {
+      const cifraSelect = repertorioMissa.find((cifraBack) => cifraBack.id === Number(id));
+      setCifra(cifraSelect);
+    }
   }, [id]);
+
   return (
     <>
       <Link to="/">
