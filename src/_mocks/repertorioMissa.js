@@ -131,13 +131,13 @@ const repertorioMissa = [
     D   A   Bm  F#m  G    D  A  A7
     Aleluia,  aleluia,  aleluia
 
-    G             D/F#  E          F#M
+    G             D/F#  Bm          A
     Quando estamos unidos, estás entre nós
-    G         EM         (F)           A
+    G         EM               A A4
     E nos falarás da Tua vida
-    G             D/F#  E          F#M
+    G             D/F#  Bm          A
     Este nosso mundo sentido terá
-    G         EM         (F)           A
+    G         EM            A   A4
     Se Tua palavra renovar
         1.
     D   A   Bm  F#m  G    D  A  A7
@@ -164,7 +164,7 @@ const repertorioMissa = [
     Te mostrará um outro mar
             G          D
     E sobre muitos corações
-          Em        Bm  F#
+          Em        Bm
     A tua rede lançará
 
     Bm         D          A       F#       G
@@ -202,8 +202,7 @@ const repertorioMissa = [
     id: sumId(),
     categoria: 'Santo',
     cifra: `
-    [Intro] Em7  D9  G/B
-    C  Am7  D/F#
+    [Intro] C  Am  D/F#
 
     G      D/F#   C       D
     Santo  santo  san....anto
@@ -243,7 +242,7 @@ const repertorioMissa = [
     id: sumId(),
     categoria: 'Cordeiro',
     cifra: `
-    [Intro]  C/E  D/F#  G
+    [Intro]  G A Bm C D
 
         G         Bm7               C9
     Cordeiro de Deus que tirais o pecado do mundo
@@ -255,7 +254,7 @@ const repertorioMissa = [
     Tende piedade, piedade de nós
         G         Bm7               C9
     Cordeiro de Deus que tirais o pecado do mundo
-    Am7     D D7  G
+    Am7     D/G  D7  G
     Dai-nos a paz, a vossa paz
     `,
   },
