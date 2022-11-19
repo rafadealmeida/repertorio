@@ -1,10 +1,15 @@
 import React from 'react';
+import CardCifra from '../components/CardCifra';
+import repertorioMissa from '../_mocks/repertorioMissa';
+import ListaCategorias from '../components/ListaCategorias';
+import { categoriaMissa } from '../_mocks/categorias';
 
 function Teste() {
   return (
     // eslint-disable-next-line react/jsx-no-useless-fragment
     <>
-      <h1>Teste</h1>
+      <ListaCategorias categorias={categoriaMissa} />
+      <CardCifra cifras={repertorioMissa} />
     </>
   );
 }

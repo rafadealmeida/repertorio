@@ -1,3 +1,4 @@
+/* eslint-disable import/no-extraneous-dependencies */
 import * as React from 'react';
 import Box from '@mui/material/Box';
 import Drawer from '@mui/material/Drawer';
@@ -9,8 +10,9 @@ import ListItemButton from '@mui/material/ListItemButton';
 import ListItemIcon from '@mui/material/ListItemIcon';
 import ListItemText from '@mui/material/ListItemText';
 import { Link } from 'react-router-dom';
-// eslint-disable-next-line import/no-extraneous-dependencies
 import { Icon } from '@iconify/react';
+import crossOutline from '@iconify/icons-mdi/cross-outline';
+import prayingHands from '@iconify/icons-la/praying-hands';
 
 export default function TemporaryDrawer() {
   const [state, setState] = React.useState({
@@ -37,19 +39,19 @@ export default function TemporaryDrawer() {
           <ListItem key="Home" disablePadding>
             <ListItemButton>
               <ListItemIcon>
-                <Icon icon="entypo:folder-music" fontSize="large" />
+                <Icon icon={prayingHands} fontSize={30} />
               </ListItemIcon>
-              <ListItemText primary="Home" />
+              <ListItemText primary="Grupo de Oração" />
             </ListItemButton>
           </ListItem>
         </Link>
       </List>
-      {/* <List>
-        <Link to="/teste" className="menu__link">
+      <List>
+        <Link to="/missa" className="menu__link">
           <ListItem key="Missa" disablePadding>
             <ListItemButton>
               <ListItemIcon>
-                <Icon icon="mdi:cross-outline" fontSize="large" />
+                <Icon icon={crossOutline} fontSize={30} />
               </ListItemIcon>
               <ListItemText primary="Missa" sx={{ textDecoration: 'none', color: 'black' }} />
             </ListItemButton>
@@ -57,7 +59,7 @@ export default function TemporaryDrawer() {
         </Link>
       </List>
 
-      <List className="menu__link">
+      {/* <List className="menu__link">
         <ListItem key="Grupo de Oração" disablePadding>
           <ListItemButton>
             <ListItemIcon>

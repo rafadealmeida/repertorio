@@ -18,7 +18,7 @@ export default function AppRouter() {
       <Drawer />
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/teste" element={<Teste />} />
+        <Route path="/missa" element={<Teste />} />
         <Route path="/cifra/:id" element={<Cifra />} />
         <Route path="categoria/:id" element={<Categoria />} />
       </Routes>

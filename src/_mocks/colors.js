@@ -27,6 +27,46 @@ const color = [
     categoria: 'Novas',
     color: '#B4A7D6',
   },
+  {
+    categoria: 'Entrada',
+    color: '#F77B72',
+  },
+  {
+    categoria: 'Penitencial',
+    color: '#BADBE1',
+  },
+  {
+    categoria: 'Salmo',
+    color: '#DADDDB',
+  },
+  {
+    categoria: 'Aclamacao',
+    color: '#FFD966',
+  },
+  {
+    categoria: 'Oferta',
+    color: '#B4D3A7',
+  },
+  {
+    categoria: 'Santo',
+    color: '#B4A7D6',
+  },
+  {
+    categoria: 'Cordeiro',
+    color: '#E69138',
+  },
+  {
+    categoria: 'Comunhao',
+    color: '#CC0000',
+  },
+  {
+    categoria: 'Gracas',
+    color: '#D8E7F5',
+  },
+  {
+    categoria: 'Final',
+    color: '#FFD966',
+  },
 ];
 
 export default color;
