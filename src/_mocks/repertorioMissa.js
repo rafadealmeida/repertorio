@@ -12,6 +12,7 @@ const repertorioMissa = [
     Tom: A  || Capotraste : 2ºCasa
 
     C Bm E Am D G7M D
+    
     G7M       D        G7M        G7M       D            G7M  G7M B7M C7M
     Vigia esperando a aurora, Qual noiva esperando o amor.
      C7M       Bb7M      E               Am      D        G7M    G7M Bb7M C7M
