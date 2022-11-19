@@ -9,12 +9,8 @@ import { categorias, categoriaMissa } from '../_mocks/categorias';
 
 function Categoria() {
   const { id } = useParams();
-  console.log(id);
-  console.log(categorias);
-  console.log(categoriaMissa);
   const [cifra, setCifra] = useState([]);
   const [missa, setMissa] = useState(false);
-  console.log(missa);
 
   useEffect(() => {
     setCifra([]);
