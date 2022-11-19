@@ -198,7 +198,7 @@ const repertorioMissa = [
     `,
   },
   {
-    titulo: 'SANTO 2',
+    titulo: 'Santo 2',
     id: sumId(),
     categoria: 'Santo',
     cifra: `
@@ -239,7 +239,7 @@ const repertorioMissa = [
     `,
   },
   {
-    titulo: 'CORDEIRO',
+    titulo: 'Cordeiro',
     id: sumId(),
     categoria: 'Cordeiro',
     cifra: `
@@ -260,7 +260,7 @@ const repertorioMissa = [
     `,
   },
   {
-    titulo: 'COMUNHÃO',
+    titulo: 'Comunhão',
     id: sumId(),
     categoria: 'Comunhao',
     cifra: `
@@ -295,7 +295,7 @@ const repertorioMissa = [
     `,
   },
   {
-    titulo: 'AÇÃO DE GRAÇAS',
+    titulo: 'Ação de Graças',
     id: sumId(),
     categoria: 'Gracas',
     cifra: `
