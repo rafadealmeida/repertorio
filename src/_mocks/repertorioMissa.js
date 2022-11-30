@@ -172,7 +172,7 @@ const repertorioMissa = [
     Doa a tua vida como Maria aos pés da cruz
     Bm  B9    Bm     D             A
     E   se....rás... Servo de cada homem
-    D          G    D         Em       D   F#
+    D          G    D         Em       Bm
     Servo por amor  sacerdote da humanidade
 
                          Bm  c#m   D
@@ -377,6 +377,42 @@ const repertorioMissa = [
     Onde Cristo é tudo em todos, vem à vida nova se lançar
     C      D7           G
       (Alçando vôo se lançar)
+    `,
+  },
+  {
+    titulo: 'Primeira cristã',
+    id: sumId(),
+    categoria: 'Final',
+    cifra: `
+    INTRO : A D E A
+
+        A                E
+    Primeira cristã Maria da luz
+          Bm  E7             A   D A
+    Sabias, ó mãe,    amar teu Jesus
+        A                  E
+    Primeira cristã Maria do amor
+            Bm    E7              A   D A
+    Soubeste seguir   teu filho e Senhor
+
+    [Refrão]
+
+          Bm                A
+    Nossa Senhora das milhões de luzes
+                E7       A
+    Que meu povo acende pra te louvar
+        Bm         A
+    Iluminada, iluminadora
+        E7            A
+    Inspiradora de quem quer amar
+              E7
+    E andar com Jesus
+              A
+    E andar com Jesus
+              E7
+    E andar com Jesus
+              A   D A
+    E andar com Jesus
     `,
   },
 ];
