@@ -84,6 +84,67 @@ const repertorioMissa = [
     `,
   },
   {
+    titulo: 'A escolhida',
+    id: sumId(),
+    categoria: 'Entrada',
+    cifra: `
+    [Intro] E  A  E  C#
+    F#  A  B  E  B
+
+    [Primeira Parte]
+
+    E                     B
+    Uma entre todas foi a escolhida
+    C#m                     G#m
+    Foste tu Maria a serva preferida
+    A             E
+    Mãe do meu Senhor
+    F#              B  B7
+    Mãe do meu salvador
+
+    E     A        B         E
+    Maria, cheia de graça e consolo
+    A      B7              E
+    Venha caminhar com teu povo
+    A         B        E  B
+    Nossa mãe sempre será
+
+    E     A        B         E
+    Maria, cheia de graça e consolo
+    A         B7          E
+    Venha caminhar com teu povo
+    A         B        E  B
+    Nossa mãe sempre será
+
+    E                    B
+    Roga pelos pecadores desta Terra
+    C#m                       G#m
+    Roga pelo povo que em seu Deus espera
+    A             E
+    Mãe do meu Senhor
+    F#              B  B7
+    Mãe do meu salvador
+
+    E     A        B         E
+    Maria, cheia de graça e consolo
+    A     B7              E
+    Venha caminhar com teu povo
+    A         B        E  B
+    Nossa mãe sempre será
+
+    E     A        B         E
+    Maria, cheia de graça e consolo
+    A        B7           E
+    Venha caminhar com teu povo
+    A         B        E  B
+    Nossa mãe sempre será
+
+    [Final] E  A  E  C#
+        F#  A  B
+        E  B  E
+    `,
+  },
+  {
     titulo: 'Quero confessar a ti',
     id: sumId(),
     categoria: 'Penitencial',
