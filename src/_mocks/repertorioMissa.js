@@ -104,14 +104,14 @@ const repertorioMissa = [
 
     E     A        B         E
     Maria, cheia de graça e consolo
-    A      B7              E
+    A      B7              E  B C#m
     Venha caminhar com teu povo
     A         B        E  B
     Nossa mãe sempre será
 
     E     A        B         E
     Maria, cheia de graça e consolo
-    A         B7          E
+    A         B7          E B C#m
     Venha caminhar com teu povo
     A         B        E  B
     Nossa mãe sempre será
@@ -321,6 +321,23 @@ const repertorioMissa = [
     `,
   },
   {
+    titulo: 'Amém',
+    id: sumId(),
+    categoria: 'Cordeiro',
+    cifra: `
+    Tom: F
+
+        Dm          Dm         D D7
+    A|-a-a-amém, a-a-a-amém
+
+    Gm  C7   F   Bb  Gm   A7   Dm   D7
+    A a a    A a a    A a a  amém
+
+    Gm  C7   F   Bb  Gm   A7   Dm  A  Dm
+    A a a    A a a    A a a  amém
+    `,
+  },
+  {
     titulo: 'Comunhão',
     id: sumId(),
     categoria: 'Comunhao',
@@ -445,7 +462,7 @@ const repertorioMissa = [
     id: sumId(),
     categoria: 'Gracas',
     cifra: `
-    INTRO : A D E A
+    INTRO : A D E D A
 
         A                E
     Primeira cristã Maria da luz
