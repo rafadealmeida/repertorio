@@ -50,7 +50,7 @@ const repertorioMissa = [
   {
     titulo: 'Hino da Imaculada Conceição',
     id: sumId(),
-    categoria: 'Entrada',
+    categoria: 'Final',
     cifra: `
       C                              Em Ebm Dm
     1 – Salve! Salve! A Virgem Maria/ Imaculada Conceição/
@@ -371,10 +371,10 @@ const repertorioMissa = [
     Contigo o pou...co é muito
         G   D/F#   Em
     Sem ti o tudo é nada
-       D  C       D                       Em
-    Minha   vida é teu mandar
-            D/F#                       C    D
-    O teu caminho é o meu
+       D  C             D   Em
+    Minha     vida é teu..... mandar
+            D/F#        C    D
+    O teu caminho é o me......u
 
                  G
     Não, eu não posso
@@ -443,7 +443,7 @@ const repertorioMissa = [
   {
     titulo: 'Primeira cristã',
     id: sumId(),
-    categoria: 'Final',
+    categoria: 'Gracas',
     cifra: `
     INTRO : A D E A
 

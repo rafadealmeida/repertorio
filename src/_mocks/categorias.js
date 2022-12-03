@@ -24,11 +24,11 @@ export const categorias = [
     nome: `Paz`,
     subcategoria: ['animada'],
   },
-  // {
-  //   id: `Novas`,
-  //   nome: `Novas`,
-  //   subcategoria: ['meditativa', 'animada'],
-  // },
+  {
+    id: `Novas`,
+    nome: `Novas`,
+    subcategoria: ['meditativa', 'animada'],
+  },
   {
     id: `Decolagem`,
     nome: `Decolagem`,
