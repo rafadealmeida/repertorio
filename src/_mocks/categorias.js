@@ -24,11 +24,11 @@ export const categorias = [
     nome: `Paz`,
     subcategoria: ['animada'],
   },
-  {
-    id: `Novas`,
-    nome: `Novas`,
-    subcategoria: ['meditativa', 'animada'],
-  },
+  // {
+  //   id: `Novas`,
+  //   nome: `Novas`,
+  //   subcategoria: ['meditativa', 'animada'],
+  // },
   {
     id: `Decolagem`,
     nome: `Decolagem`,
@@ -65,6 +65,10 @@ export const categoriaMissa = [
     nome: `Cordeiro`,
   },
   {
+    id: `Novas`,
+    nome: `Novas`,
+  },
+  {
     id: `Comunhao`,
     nome: `Comunhão`,
   },
@@ -75,5 +79,9 @@ export const categoriaMissa = [
   {
     id: `Final`,
     nome: `Final`,
+  },
+  {
+    id: `Todas`,
+    nome: `Todas musicas`,
   },
 ];

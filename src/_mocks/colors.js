@@ -25,7 +25,7 @@ const color = [
   },
   {
     categoria: 'Novas',
-    color: '#B4A7D6',
+    color: '#83D5F1',
   },
   {
     categoria: 'Entrada',
@@ -66,6 +66,10 @@ const color = [
   {
     categoria: 'Final',
     color: '#FFD966',
+  },
+  {
+    categoria: 'Todas',
+    color: '#f595c3',
   },
 ];
 

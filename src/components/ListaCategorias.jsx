@@ -6,13 +6,25 @@ import '../assets/css/categorias.css';
 function ListaCategorias({ categorias = [] }) {
   return (
     <ul className="lista-categorias container flex">
-      {categorias.map((categoria) => (
-        <Link key={categoria.id} to={`/categoria/${categoria.id}`} className="link">
-          <li className={`lista-categorias__categoria lista-categorias__categoria--${categoria.id}`}>
-            {categoria.nome}
-          </li>
-        </Link>
-      ))}
+      {categorias.map((categoria) => {
+        // eslint-disable-next-line eqeqeq, prettier/prettier
+        if (categoria.id === 'Todas') {
+          return (
+            <Link key={categoria.id} to="/missa" className="link">
+              <li className={`lista-categorias__categoria lista-categorias__categoria--${categoria.id}`}>
+                {categoria.nome}
+              </li>
+            </Link>
+          );
+        }
+        return (
+          <Link key={categoria.id} to={`/categoria/${categoria.id}`} className="link">
+            <li className={`lista-categorias__categoria lista-categorias__categoria--${categoria.id}`}>
+              {categoria.nome}
+            </li>
+          </Link>
+        );
+      })}
     </ul>
   );
 }

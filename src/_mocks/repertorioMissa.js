@@ -170,7 +170,7 @@ const repertorioMissa = [
     `,
   },
   {
-    titulo: 'Salmo',
+    titulo: 'Nos seus dias a justiça florirá',
     id: sumId(),
     categoria: 'Salmo',
     cifra: `
@@ -183,7 +183,7 @@ const repertorioMissa = [
     `,
   },
   {
-    titulo: 'Aclamação',
+    titulo: 'Quando estámos unidos',
     id: sumId(),
     categoria: 'Aclamacao',
     cifra: `
@@ -300,7 +300,7 @@ const repertorioMissa = [
     `,
   },
   {
-    titulo: 'Cordeiro',
+    titulo: 'Cordeiro de Deus',
     id: sumId(),
     categoria: 'Cordeiro',
     cifra: `
@@ -323,7 +323,7 @@ const repertorioMissa = [
   {
     titulo: 'Amém',
     id: sumId(),
-    categoria: 'Cordeiro',
+    categoria: 'Novas',
     cifra: `
     Tom: F
 
@@ -338,7 +338,7 @@ const repertorioMissa = [
     `,
   },
   {
-    titulo: 'Comunhão',
+    titulo: 'Maria de Deus senhora de Paz ',
     id: sumId(),
     categoria: 'Comunhao',
     cifra: `
@@ -373,7 +373,7 @@ const repertorioMissa = [
     `,
   },
   {
-    titulo: 'Ação de Graças',
+    titulo: 'Contigo é bem melhor',
     id: sumId(),
     categoria: 'Gracas',
     cifra: `
@@ -410,7 +410,7 @@ const repertorioMissa = [
     `,
   },
   {
-    titulo: 'Final',
+    titulo: 'Busque o alto',
     id: sumId(),
     categoria: 'Final',
     cifra: `

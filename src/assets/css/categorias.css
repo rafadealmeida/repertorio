@@ -42,7 +42,7 @@
 }
 
 .lista-categorias__categoria--Novas {
-  background-color: #B4A7D6;
+  background-color: #83D5F1;
 }
 .lista-categorias__categoria--Entrada {
   background-color: #F77B72;
@@ -73,6 +73,9 @@
 }
 .lista-categorias__categoria--Final {
   background-color: #FFD966;
+}
+.lista-categorias__categoria--Todas {
+  background-color: #f595c3;
 }
 
 @media  screen and (max-width: 768px) {
