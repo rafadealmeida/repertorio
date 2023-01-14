@@ -154,49 +154,6 @@ const repertorioMissaFev = [
     E paz na terra aos homens por Ele amados
     `,
   },
-  // {
-  //   titulo: 'Uma luz brilha nas trevas para o justo',
-  //   id: sumId(),
-  //   link: 'https://www.youtube.com/watch?v=X6gENwKXvpc&feature=youtu.be',
-  //   categoria: 'Salmo',
-  //   cifra: `
-
-  //   Bm                  A9                 D
-  //   Uma luz brilha nas trevas para o justo,
-  //   G                 D               A
-  //   permanece para sempre o bem que fez.
-
-
-  //   G             A9                 Bm
-  //   Ele é correto, generoso e compassivo,
-  //   G                    A9                     Bm
-  //   como luz brilha nas trevas para os justos.
-  //   G             D               A
-  //   Feliz o homem caridoso e prestativo,
-  //   G                  D                  A
-  //   que resolve seus negócios com justiça.
-
-
-  //   G           A9               Bm
-  //   Porque jamais vacilará o homem reto,
-  //   G                 A9               Bm
-  //   sua lembrança permanece eternamente!
-  //   G         D                  A
-  //   Ele não teme receber notícias más;
-  //   G              D               A
-  //   confiando em Deus, seu coração está seguro.
-
-
-  //   G                    A9               Bm
-  //   Seu coração está tranquilo e nada teme.
-  //   G                    A9                  Bm
-  //   Ele reparte com os pobres os seus bens,
-  //   G               D                         A
-  //   permanece para sempre o bem que fez
-  //   G              D                A
-  //   e crescerão a sua glória e seu poder.
-  //   `,
-  // },
   {
     titulo: 'Uma luz brilha nas trevas para o justo',
     id: sumId(),
@@ -204,42 +161,85 @@ const repertorioMissaFev = [
     categoria: 'Salmo',
     cifra: `
 
-    F#m                  E7/B                 A
+    Bm                  A9                 D
     Uma luz brilha nas trevas para o justo,
-    D                 A/C#               E
+    G                 D               A
     permanece para sempre o bem que fez.
 
 
-    D9             E5/B                 F#m7
+    G             A9                 Bm
     Ele é correto, generoso e compassivo,
-    D9                    E5/B                     F#m7
+    G                    A9                     Bm
     como luz brilha nas trevas para os justos.
-    D9             A/C#               E
+    G             D               A
     Feliz o homem caridoso e prestativo,
-    D9                  A/C#                  E
+    G                  D                  A
     que resolve seus negócios com justiça.
 
 
-    D9           E5/B               F#m7
+    G           A9               Bm
     Porque jamais vacilará o homem reto,
-    D9                 E5/B               F#m7
+    G                 A9               Bm
     sua lembrança permanece eternamente!
-    D9         A/C#                  E
+    G         D                  A
     Ele não teme receber notícias más;
-    D9              A/C#               E
+    G              D               A
     confiando em Deus, seu coração está seguro.
 
 
-    D9                    E5/B               F#m7
+    G                    A9               Bm
     Seu coração está tranquilo e nada teme.
-    D9                    E5/B                  F#m7
+    G                    A9                  Bm
     Ele reparte com os pobres os seus bens,
-    D9               A/C#                         E
+    G               D                         A
     permanece para sempre o bem que fez
-    D9              A/C#                E
+    G              D                A
     e crescerão a sua glória e seu poder.
     `,
   },
+  // {
+  //   titulo: 'Uma luz brilha nas trevas para o justo',
+  //   id: sumId(),
+  //   link: 'https://www.youtube.com/watch?v=X6gENwKXvpc&feature=youtu.be',
+  //   categoria: 'Salmo',
+  //   cifra: `
+
+  //   F#m                  E7/B                 A
+  //   Uma luz brilha nas trevas para o justo,
+  //   D                 A/C#               E
+  //   permanece para sempre o bem que fez.
+
+
+  //   D9             E5/B                 F#m7
+  //   Ele é correto, generoso e compassivo,
+  //   D9                    E5/B                     F#m7
+  //   como luz brilha nas trevas para os justos.
+  //   D9             A/C#               E
+  //   Feliz o homem caridoso e prestativo,
+  //   D9                  A/C#                  E
+  //   que resolve seus negócios com justiça.
+
+
+  //   D9           E5/B               F#m7
+  //   Porque jamais vacilará o homem reto,
+  //   D9                 E5/B               F#m7
+  //   sua lembrança permanece eternamente!
+  //   D9         A/C#                  E
+  //   Ele não teme receber notícias más;
+  //   D9              A/C#               E
+  //   confiando em Deus, seu coração está seguro.
+
+
+  //   D9                    E5/B               F#m7
+  //   Seu coração está tranquilo e nada teme.
+  //   D9                    E5/B                  F#m7
+  //   Ele reparte com os pobres os seus bens,
+  //   D9               A/C#                         E
+  //   permanece para sempre o bem que fez
+  //   D9              A/C#                E
+  //   e crescerão a sua glória e seu poder.
+  //   `,
+  // },
   // {
   //   titulo: 'Uma luz brilha nas trevas para o justo',
   //   id: sumId(),
@@ -283,6 +283,7 @@ const repertorioMissaFev = [
     link: 'https://www.youtube.com/watch?v=iOJazAXasB4',
     categoria: 'Aclamacao',
     cifra: `
+    Intro: C EM F G
         C   Em   F   C
         Aleluia, aleluia
         Dm     Dm/C G    G7
@@ -301,14 +302,6 @@ const repertorioMissaFev = [
         Em     A      G  D
         Cristo é meu Rei
 
-        E    G#m A   E
-        Aleluia, aleluia
-        F#m   F#m/E B   B7
-        A minh'alma abrirei
-        E    G#m A   E
-        Aleluia, aleluia
-        F#m    B      A  E
-        Cristo é meu Rei
     `,
   },
   {
@@ -320,13 +313,6 @@ const repertorioMissaFev = [
     Tom: A
 
     [Intro] D9  E  C#m7  Bm7
-
-    E|--------5-4-7/9-4--------7-------|
-    B|--2-3-5-7---7/9-5-----5--7-------|
-    G|--------7-------4-6h7----7-------|
-    D|--------0-------6--------7-------|
-    A|----------------4--------7-------|
-    E|---------------------------------|
 
     [Primeira Parte]
 
@@ -356,38 +342,13 @@ const repertorioMissaFev = [
     Não ha limites para o amor
                  D9               F#m7
     Vem transformar também minha vida
-           Bm7    E                  A4  A/C#
+           Bm7    E                  A9  A/C# D9
     Oh senhor, é teu esse milagre de amor
-
-    [Primeira Parte]
-
-           D9              A             Bm7
-    Pão e vinho te apresentamos nesse altar
-            F#m7         G9            F#m7
-    Como sinal que tu recolhes nossa oferta
-                Em7              A
-    Tudo o que somos deixamos aqui
-
-    [Refrão]
-
-    D/F#    G9           F#m7
-    É um milagre que se dá
-               G9               Bm7
-    O pão e o vinho em corpo e sangue
-             Em7    A
-    Vão se transformar
-     D/F#     G9          F#m7
-    Não ha limites para o amor
-                 G9               Bm7
-    Vem transformar também minha vida
-           Em7    A                  D9  Bm7 Em7
-    Oh senhor, é teu esse milagre de amor
-
     [Final]
 
-       A                    D9  Bm7 Em7
+       E                    A9  A/C# D9
     É teu esse milagre de amor
-       A                    D9
+       E                   A9
     É teu esse milagre de amor
     `,
   },
@@ -406,7 +367,7 @@ const repertorioMissaFev = [
        Am     G       F          E
     A Ele o poder, a honra e a glória (BIS - MULHERES)
 
-      Am    G    F      E
+      Am    G        F           E
     Hosana, hosana, hosana ao Senhor (BIS)
 
       Am         G     F        E
@@ -425,19 +386,19 @@ const repertorioMissaFev = [
     categoria: 'Cordeiro',
     link: 'https://www.youtube.com/watch?v=dOOJTDGAwIw',
     cifra: `
-    [Intro]  G A Bm C D
+    [Intro]  G Bm C D
 
         G         Bm7               C9
     Cordeiro de Deus que tirais o pecado do mundo
-    Am7       D                    G D/F#
+           Am7       D           G    D/F#
     Tende piedade, piedade de nós
         G         Bm7               C9
     Cordeiro de Deus que tirais o pecado do mundo
-    Am7       D                    G D/F#
+          Am7       D           G     D/F#
     Tende piedade, piedade de nós
         G         Bm7               C9
     Cordeiro de Deus que tirais o pecado do mundo
-    Am7     D/G  D7  G
+           Am7     D/G  D7  G
     Dai-nos a paz, a vossa paz
     `,
   },
@@ -563,6 +524,8 @@ const repertorioMissaFev = [
     Tendo uma vela ace---sa,    coloque-a sobre a me---sa.
     E/G#         Am             D4           D  D4   D
     Pra anunciar o Reino do Céu às nações, assim seja!
+
+    [Refrão]
     G           D/F#          C                     D4            D G
     Luz! Seja luz, Para aqueles que ainda precisam encontrar Jesus.
         D/F#            C                   D                     Em
