@@ -58,6 +58,18 @@ export default function TemporaryDrawer() {
           </ListItem>
         </Link>
       </List>
+      <List>
+        <Link to="/missaFev" className="menu__link">
+          <ListItem key="Missa" disablePadding>
+            <ListItemButton>
+              <ListItemIcon>
+                <Icon icon={crossOutline} fontSize={30} />
+              </ListItemIcon>
+              <ListItemText primary="Missa Fevereiro 2023" sx={{ textDecoration: 'none', color: 'black' }} />
+            </ListItemButton>
+          </ListItem>
+        </Link>
+      </List>
 
       {/* <List className="menu__link">
         <ListItem key="Grupo de Oração" disablePadding>

@@ -10,6 +10,7 @@ import useMediaQuery from '@mui/material/useMediaQuery';
 import styled from 'styled-components';
 import cifras from '../_mocks/cifras';
 import repertorioMissa from '../_mocks/repertorioMissa';
+import repertorioMissaFev from '../_mocks/repertorioMissaFev';
 
 // eslint-disable-next-line prettier/prettier
 const acordes =
@@ -36,6 +37,10 @@ function Cifra() {
     }
     if (Number(id) >= 1000) {
       const cifraSelect = repertorioMissa.find((cifraBack) => cifraBack.id === Number(id));
+      setCifra(cifraSelect);
+    }
+    if (Number(id) >= 2000) {
+      const cifraSelect = repertorioMissaFev.find((cifraBack) => cifraBack.id === Number(id));
       setCifra(cifraSelect);
     }
   }, [id]);
@@ -75,6 +80,28 @@ function Cifra() {
         <Typography variant="subtitle2" sx={{ textIndent: '1rem' }}>
           Categoria: <strong>{cifra.categoria}</strong>
         </Typography>
+        {cifra.link && (
+          <iframe
+            width="1280"
+            height="720"
+            src={`${cifra.link}`}
+            title="YouTube video player"
+            frameBorder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen
+          />
+        )}
+        {/* <iframe
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/szAXJgaI_kI"
+          title="YouTube video player"
+          frameBorder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen
+        >
+          teste
+        </iframe> */}
         <CifraSelect>
           {reactStringReplace(cifra.cifra, acordes, (match, i) => (
             <b key={i} style={{ color: '#f70' }}>
