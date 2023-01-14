@@ -1,6 +1,7 @@
 /* eslint-disable import/no-extraneous-dependencies */
 import { Card, Typography, Button } from '@mui/material';
 // eslint-disable-next-line no-unused-vars
+import PlayCircleOutlineIcon from '@mui/icons-material/PlayCircleOutline';
 import { Icon } from '@iconify/react';
 import resetIcon from '@iconify/icons-carbon/reset';
 import reactStringReplace from 'react-string-replace';
@@ -28,6 +29,17 @@ function Cifra() {
     @media screen and (max-width: 768px) {
       font-size: ${tamanho / 2}rem;
     }
+  `;
+
+  const LinkMusica = styled.a`
+    text-decoration: none;
+    color: black;
+    font-size: 1rem;
+    font-weight: bold;
+    margin-left: 1rem;
+    background-image: '../assets/img/play.svg';
+    background-repeat: no-repeat;
+    background-size: 15rem;
   `;
 
   useEffect(() => {
@@ -81,27 +93,29 @@ function Cifra() {
           Categoria: <strong>{cifra.categoria}</strong>
         </Typography>
         {cifra.link && (
-          <iframe
-            width="1280"
-            height="720"
-            src={`${cifra.link}`}
-            title="YouTube video player"
-            frameBorder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            allowfullscreen
-          />
+          // <iframe
+          //   width="1280"
+          //   height="720"
+          //   src={`${cifra.link}`}
+          //   title="YouTube video player"
+          //   frameBorder="0"
+          //   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          //   allowfullscreen
+          // />
+          // <LinkMusica href={cifra.link} target="_blank" rel="noreferrer">
+          //   Escute a musica
+          // </LinkMusica>
+          <Button
+            as={LinkMusica}
+            href={cifra.link}
+            variant="contained"
+            target="_blank"
+            startIcon={<PlayCircleOutlineIcon sx={{ margin: 'auto' }} />}
+          >
+            Escute a musica
+          </Button>
         )}
-        {/* <iframe
-          width="560"
-          height="315"
-          src="https://www.youtube.com/embed/szAXJgaI_kI"
-          title="YouTube video player"
-          frameBorder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          allowfullscreen
-        >
-          teste
-        </iframe> */}
+
         <CifraSelect>
           {reactStringReplace(cifra.cifra, acordes, (match, i) => (
             <b key={i} style={{ color: '#f70' }}>
