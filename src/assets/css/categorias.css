@@ -44,6 +44,9 @@
 .lista-categorias__categoria--Novas {
   background-color: #83D5F1;
 }
+.lista-categorias__categoria--Gloria {
+  background-color: #800FFF;
+}
 .lista-categorias__categoria--Entrada {
   background-color: #F77B72;
 }

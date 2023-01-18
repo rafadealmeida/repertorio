@@ -81,7 +81,7 @@ const repertorioMissaFev = [
   {
     titulo: 'Glória a Deus Nas Alturas - Ministério Amor e adoração',
     id: sumId(),
-    categoria: 'Novas',
+    categoria: 'Gloria',
     link: 'https://www.cifraclub.com.br/ministerio-amor-e-adoracao/gloria-a-deus-nas-alturas/',
     cifra: `
     E                  B9
@@ -459,9 +459,9 @@ const repertorioMissaFev = [
     Não comungo porque mereço, isso eu sei, oh meu Senhor
     Em                      Am
     Comungo pois preciso de ti
-    Bb(F)                      Dm
+    F                      Dm
     Quando faltei à missa, eu fugia de mim e de Ti
-    Bb(F)             F                  G   G7
+    F             F                  G   G7
     Mas agora eu voltei, por favor aceita-me
 
     C      G              Am                   A7

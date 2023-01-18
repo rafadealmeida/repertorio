@@ -69,6 +69,10 @@ export const categoriaMissa = [
     nome: `Novas`,
   },
   {
+    id: `Gloria`,
+    nome: `Gloria`,
+  },
+  {
     id: `Comunhao`,
     nome: `Comunhão`,
   },

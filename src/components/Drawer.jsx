@@ -46,7 +46,7 @@ export default function TemporaryDrawer() {
           </ListItem>
         </Link>
       </List>
-      <List>
+      {/* <List>
         <Link to="/missa" className="menu__link">
           <ListItem key="Missa" disablePadding>
             <ListItemButton>
@@ -57,7 +57,7 @@ export default function TemporaryDrawer() {
             </ListItemButton>
           </ListItem>
         </Link>
-      </List>
+      </List> */}
       <List>
         <Link to="/missaFev" className="menu__link">
           <ListItem key="Missa" disablePadding>
