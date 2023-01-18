@@ -28,6 +28,10 @@ const color = [
     color: '#83D5F1',
   },
   {
+    categoria: 'Gloria',
+    color: '#800FFF',
+  },
+  {
     categoria: 'Entrada',
     color: '#F77B72',
   },

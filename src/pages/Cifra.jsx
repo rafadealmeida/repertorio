@@ -1,6 +1,7 @@
 /* eslint-disable import/no-extraneous-dependencies */
 import { Card, Typography, Button } from '@mui/material';
 // eslint-disable-next-line no-unused-vars
+import PlayCircleOutlineIcon from '@mui/icons-material/PlayCircleOutline';
 import { Icon } from '@iconify/react';
 import resetIcon from '@iconify/icons-carbon/reset';
 import reactStringReplace from 'react-string-replace';
@@ -10,6 +11,7 @@ import useMediaQuery from '@mui/material/useMediaQuery';
 import styled from 'styled-components';
 import cifras from '../_mocks/cifras';
 import repertorioMissa from '../_mocks/repertorioMissa';
+import repertorioMissaFev from '../_mocks/repertorioMissaFev';
 
 // eslint-disable-next-line prettier/prettier
 const acordes =
@@ -29,6 +31,17 @@ function Cifra() {
     }
   `;
 
+  const LinkMusica = styled.a`
+    text-decoration: none;
+    color: black;
+    font-size: 1rem;
+    font-weight: bold;
+    margin-left: 1rem;
+    background-image: '../assets/img/play.svg';
+    background-repeat: no-repeat;
+    background-size: 15rem;
+  `;
+
   useEffect(() => {
     if (Number(id) < 1000) {
       const cifraSelect = cifras.find((cifraBack) => cifraBack.id === Number(id));
@@ -36,6 +49,10 @@ function Cifra() {
     }
     if (Number(id) >= 1000) {
       const cifraSelect = repertorioMissa.find((cifraBack) => cifraBack.id === Number(id));
+      setCifra(cifraSelect);
+    }
+    if (Number(id) >= 2000) {
+      const cifraSelect = repertorioMissaFev.find((cifraBack) => cifraBack.id === Number(id));
       setCifra(cifraSelect);
     }
   }, [id]);
@@ -75,6 +92,30 @@ function Cifra() {
         <Typography variant="subtitle2" sx={{ textIndent: '1rem' }}>
           Categoria: <strong>{cifra.categoria}</strong>
         </Typography>
+        {cifra.link && (
+          // <iframe
+          //   width="1280"
+          //   height="720"
+          //   src={`${cifra.link}`}
+          //   title="YouTube video player"
+          //   frameBorder="0"
+          //   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          //   allowfullscreen
+          // />
+          // <LinkMusica href={cifra.link} target="_blank" rel="noreferrer">
+          //   Escute a musica
+          // </LinkMusica>
+          <Button
+            as={LinkMusica}
+            href={cifra.link}
+            variant="contained"
+            target="_blank"
+            startIcon={<PlayCircleOutlineIcon sx={{ margin: 'auto' }} />}
+          >
+            Escute a musica
+          </Button>
+        )}
+
         <CifraSelect>
           {reactStringReplace(cifra.cifra, acordes, (match, i) => (
             <b key={i} style={{ color: '#f70' }}>

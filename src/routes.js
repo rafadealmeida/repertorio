@@ -5,7 +5,8 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 // eslint-disable-next-line import/no-extraneous-dependencies
 import { Icon } from '@iconify/react';
 import Home from './pages/Home';
-import Teste from './pages/Teste';
+import Missa from './pages/Missa';
+import MissaFev from './pages/MissaFev';
 import Cifra from './pages/Cifra';
 import Drawer from './components/Drawer';
 import Categoria from './pages/Categoria';
@@ -18,7 +19,8 @@ export default function AppRouter() {
       <Drawer />
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/missa" element={<Teste />} />
+        <Route path="/missa" element={<Missa />} />
+        <Route path="/missafev" element={<MissaFev />} />
         <Route path="/cifra/:id" element={<Cifra />} />
         <Route path="categoria/:id" element={<Categoria />} />
       </Routes>
