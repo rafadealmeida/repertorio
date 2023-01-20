@@ -346,7 +346,7 @@ const repertorioMissaFev = [
     Oh senhor, é teu esse milagre de amor
     [Final]
 
-       E                    A9  A/C# D9
+       E                    A9  F#m7 Bm7
     É teu esse milagre de amor
        E                   A9
     É teu esse milagre de amor
@@ -420,58 +420,62 @@ const repertorioMissaFev = [
     categoria: 'Comunhao',
     link: 'https://www.cifraclub.com.br/nelsinho-correa/sacramento-da-comunhao/',
     cifra: `
-    Tom: C
-
-      C               G           Am
+        D                         A/C#           Bm7              Bm/A
     Senhor, quando te vejo no sacramento da comunhão
-    F                G         C   G/B   Am
-    Sinto o céu se abrir e uma luz a me atingir
-        Dm                     F                  G
+
+      G                     A            D         A/C#    Bm7
+    Sinto o céu se abrir e uma luz a me atin     gir
+
+    Em7/9                        G             Em7                 A4   A
     Esfriando minha cabeça e esquentando meu coração
 
-      C                  G           Am
-    Senhor, graças e louvores sejam dadas a todo momento
-    F                   G         C          G/B    Am
+    D                             A/C#           Bm7             Bm/A
+    Senhor, graças e louvores sejam dados a todo momento
+
+    G                        A              D         A/C#     Bm7
     Quero te louvar na dor, na alegria e no sofrimento
-    F                      G         Em           Am
+
+          Em7            A         D   D/F#        G
     E se em meio à tribulação, eu me esquecer de ti
-    Dm                          G
+
+    Em7                G                      A4 A
     Ilumina minhas trevas com Tua luz
 
-    C      G              Am                   A7
+    D    A/C#                  Bm7                        Bm/A
     Jesus, fonte de misericórdia que jorra do templo
-    Dm       F        G
-    Jesus, o Filho da Rainha
-    Em  Am    F
-    Jesus, rosto divino do homem
-    C        G            C    C7
+
+    G      D/F#              Em7    A4    A
+    Jesus, O Filho da Rainha
+
+          D     Bbº   Bm7               G        C7/13
+      Jesus....us,   rosto divino do homem
+
+        D   Em7     A            D
     Jesus, rosto humano de Deus
 
-    F                        G
+    G                                       A/G
     Chego muitas vezes em Tua casa, meu Senhor
-    Em                     Am
-    Triste, abatido, precisando de amor
-    F                          Dm
-    Mas depois da comunhão tua casa é meu coração
-          F                      G
-    Então sinto o céu dentro de mim
-          F                             G
-    Não comungo porque mereço, isso eu sei, oh meu Senhor
-    Em                      Am
-    Comungo pois preciso de ti
-    Bb(F)                      Dm
-    Quando faltei à missa, eu fugia de mim e de Ti
-    Bb(F)             F                  G   G7
-    Mas agora eu voltei, por favor aceita-me
 
-    C      G              Am                   A7
-    Jesus, fonte de misericórdia que jorra do templo
-    Dm       F        G
-    Jesus, o Filho da Rainha
-    Em  Am    F
-    Jesus, rosto divino do homem
-    C        G            C    C7
-    Jesus, rosto humano de Deus
+    F#m7                     Bm7        Bm/A
+    Triste, abatido, precisando de amor
+
+                G                               C
+    Mas depois da comunhão Tua casa é meu coração
+
+            Em7             G         A4   A
+    Então sinto o céu dentro de mim
+
+                G                                          A/G
+    Não comungo porque mereço, isso eu sei, oh meu Senhor
+
+    F#m7(11)             B4   B
+    Comungo pois preciso de ti
+
+      Em7                            C
+    Quando faltei à missa, fugia de mim e de Ti
+
+          Em7            G                    A4     A
+    Mas agora eu voltei, por favor aceita-me
     `,
   },
   {
