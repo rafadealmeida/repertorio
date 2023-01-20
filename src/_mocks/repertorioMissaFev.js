@@ -81,7 +81,7 @@ const repertorioMissaFev = [
   {
     titulo: 'Glória a Deus Nas Alturas - Ministério Amor e adoração',
     id: sumId(),
-    categoria: 'Novas',
+    categoria: 'Gloria',
     link: 'https://www.cifraclub.com.br/ministerio-amor-e-adoracao/gloria-a-deus-nas-alturas/',
     cifra: `
     E                  B9

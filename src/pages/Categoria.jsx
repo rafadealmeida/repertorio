@@ -3,7 +3,8 @@ import { useParams } from 'react-router-dom';
 import ListaCategorias from '../components/ListaCategorias';
 import CardCifra from '../components/CardCifra';
 import cifras from '../_mocks/cifras';
-import repertorioMissa from '../_mocks/repertorioMissa';
+// import repertorioMissa from '../_mocks/repertorioMissa';
+import repertorioMissaFev from '../_mocks/repertorioMissaFev';
 // eslint-disable-next-line no-unused-vars
 import { categorias, categoriaMissa } from '../_mocks/categorias';
 
@@ -29,7 +30,7 @@ function Categoria() {
 
   useEffect(() => {
     if (cifra.length <= 0) {
-      repertorioMissa.forEach((cifraBack) => {
+      repertorioMissaFev.forEach((cifraBack) => {
         let cifraSelect;
         if (cifraBack.categoria === id) {
           cifraSelect = cifraBack;
