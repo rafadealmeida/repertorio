@@ -12,44 +12,40 @@ const repertorioMissaFev = [
     link: 'https://www.youtube.com/watch?v=gUdIhyT6bdE',
     cifra: `
     Tom: G
-
-        D             Bm       Em    A
-    Tu anseias, eu bem sei, por salvação
-          Em        A7      D
-    Tens desejo de banir a escuridão
-          D               D7      G   Gm
-    Abre, pois, de par em par teu coração
-        D     Bm     Em   A7    D
-    E deixa a luz do céu     entrar
-
     [refrão]
 
     D                     A7
     Deixa a luz do céu entrar
     Em              A7     D
     Deixa a luz do céu entrar
-                D7            G   Gm
+    D           D7            G   Gm
     Abre bem as portas do teu coração
-      D      Bm     Em   A7      D
+    D      Bm     Em   A7      D
     E deixa a luz do céu      entrar
 
-              D             Bm       Em  A7
+    D             Bm       Em    A
+    Tu anseias, eu bem sei, por salvação
+    Em        A7      D
+    Tens desejo de banir a escuridão
+    D               D7      G   Gm
+    Abre, pois, de par em par teu coração
+    D     Bm     Em   A7    D
+    E deixa a luz do céu     entrar
+
+    [refrão]
+
+    D             Bm       Em  A7
     Cristo, a luz do céu em ti, quer habitar
-            Em          A7    D
+    Em          A7    D
     Para as trevas do pecado dissipar
-          D            D7   G   Gm
+    D            D7   G   Gm
     Teu caminho e coração iluminar
-      D       Bm     Em  A7     D
+    D       Bm     Em  A7     D
     E deixa a luz do céu    entrar
 
-            D            Bm    Em    A7
-    Que alegria andar ao brilho dessa luz
-          Em             A    D
-    Vida eterna e paz no coração produz
-        D             D7   G     Gm
-    Oh! Aceita agora o Salvador Jesus
-      D       Bm    Em   A7    D
-    E deixa a luz do céu   entrar
+
+    [refrão]
+
     `,
   },
   {
@@ -89,14 +85,7 @@ const repertorioMissaFev = [
       A9                 B9
     Glória a Deus nas alturas
        C#m              B9              A9
-    E paz na terra aos homens por Ele amados
-
-      E                  B9
-    Glória a Deus nas alturas
-      A9                 B9
-    Glória a Deus nas alturas
-       C#m              B9              A9
-    E paz na terra aos homens por Ele amados
+    E paz na terra aos homens por Ele amados (2x)
 
     [Primeira Parte]
 
@@ -484,6 +473,8 @@ const repertorioMissaFev = [
     categoria: 'Gracas',
     link: 'https://www.cifraclub.com.br/vida-reluz/joia-rara/',
     cifra: `
+    C7/9   F7M Bb7M Am7 Cm7 F7 Bb7M Am7 Cm7 F7 Bb7M Am7 D7 Bb7M Gm7
+    C/D F/G
     C                       F
     Este é o momento da mais pura doação
         C                      G             G#°
@@ -505,7 +496,7 @@ const repertorioMissaFev = [
     F  Dm              G        C
         sela em mim  a tua salvação
 
-    (volta  ao início)
+    (volta ao refrão)
     `,
   },
   {
