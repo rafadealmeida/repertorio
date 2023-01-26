@@ -473,8 +473,9 @@ const repertorioMissaFev = [
     categoria: 'Gracas',
     link: 'https://www.cifraclub.com.br/vida-reluz/joia-rara/',
     cifra: `
-    C7/9   F7M Bb7M Am7 Cm7 F7 Bb7M Am7 Cm7 F7 Bb7M Am7 D7 Bb7M Gm7
-    C/D F/G
+    [Intro]
+    C7/9   F7M Bb7M Am7 Cm7 F7 Bb7M Am7 Cm7 F7 Bb7M Am7 D7 Bb7M Gm7       C/D F/G
+
     C                       F
     Este é o momento da mais pura doação
         C                      G             G#°
