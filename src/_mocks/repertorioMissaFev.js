@@ -436,13 +436,13 @@ const repertorioMissaFev = [
     G      D/F#        Em7    A4    A
     Jesus, O Filho da Rainha
 
-          D     Bbº   Bm7               G        C7/13
+          D     Bbº   Bm7               G
       Jesus....us,   rosto divino do homem
 
         D   Em7     A            D
     Jesus, rosto humano de Deus
 
-    G                      A/G
+    G                      A
     Chego muitas vezes em Tua casa, meu Senhor
 
     F#m7                Bm7        Bm/A
@@ -454,7 +454,7 @@ const repertorioMissaFev = [
           Em7       G         A4   A
     Então sinto o céu dentro de mim
 
-          G                     A/G
+          G                     A
     Não comungo porque mereço, isso eu sei, oh meu Senhor
 
     F#m7(11)             B4   B
@@ -510,7 +510,7 @@ const repertorioMissaFev = [
 
     INTRO : Em    D      Em     D
 
-    LA LA IÊ LA IÊ LA IÊ LA IÂ LC 8, 43-47
+    LA LA IÊ LA IÊ LA IÊ LA IÂ LA
 
     Em                              C7+
     Todo aquele que entrega a vida nas mãos de Jesus,
@@ -526,8 +526,8 @@ const repertorioMissaFev = [
     Luz! Seja luz, Para aqueles que ainda precisam encontrar Jesus.
         D/F#            C                   D                     Em
     Seja luz! Mostre ao mundo que vive nas trevas que existe uma luz
-    D            C7+      Bm   Am D
-          É Jesus.     É Jesus.
+    D            C7+
+          É Jesus.  
     Em                           C7+
     Vem Espírito Santo, traz luz ao meu coração.
     Em                             C7+
