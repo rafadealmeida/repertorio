@@ -150,122 +150,36 @@ const repertorioMissaFev = [
     categoria: 'Salmo',
     cifra: `
 
-    Bm                  A9                 D
+    C#m                  B/D#                 E
     Uma luz brilha nas trevas para o justo,
-    G                 D               A
+                 A                 E/G#                        B
     permanece para sempre o bem que fez.
-
-
-    G             A9                 Bm
+    A9             B9                  C#m
     Ele é correto, generoso e compassivo,
-    G                    A9                     Bm
+    A9                    B9                      C#m
     como luz brilha nas trevas para os justos.
-    G             D               A
+    A9             E/G#               B
     Feliz o homem caridoso e prestativo,
-    G                  D                  A
+    A9                  E/G#                  B
     que resolve seus negócios com justiça.
-
-
-    G           A9               Bm
+    A9           B9                C#m
     Porque jamais vacilará o homem reto,
-    G                 A9               Bm
+    A9                 B9                C#m
     sua lembrança permanece eternamente!
-    G         D                  A
+    A9         E/G#                   B
     Ele não teme receber notícias más;
-    G              D               A
+    A9              E/G#                B
     confiando em Deus, seu coração está seguro.
-
-
-    G                    A9               Bm
+    A9                    B9                C#m
     Seu coração está tranquilo e nada teme.
-    G                    A9                  Bm
+    A9                    B9                   C#m
     Ele reparte com os pobres os seus bens,
-    G               D                         A
+    A9               E/G#                         B
     permanece para sempre o bem que fez
-    G              D                A
+    A9              E/G#                B
     e crescerão a sua glória e seu poder.
     `,
   },
-  // {
-  //   titulo: 'Uma luz brilha nas trevas para o justo',
-  //   id: sumId(),
-  //   link: 'https://www.youtube.com/watch?v=X6gENwKXvpc&feature=youtu.be',
-  //   categoria: 'Salmo',
-  //   cifra: `
-
-  //   F#m                  E7/B                 A
-  //   Uma luz brilha nas trevas para o justo,
-  //   D                 A/C#               E
-  //   permanece para sempre o bem que fez.
-
-
-  //   D9             E5/B                 F#m7
-  //   Ele é correto, generoso e compassivo,
-  //   D9                    E5/B                     F#m7
-  //   como luz brilha nas trevas para os justos.
-  //   D9             A/C#               E
-  //   Feliz o homem caridoso e prestativo,
-  //   D9                  A/C#                  E
-  //   que resolve seus negócios com justiça.
-
-
-  //   D9           E5/B               F#m7
-  //   Porque jamais vacilará o homem reto,
-  //   D9                 E5/B               F#m7
-  //   sua lembrança permanece eternamente!
-  //   D9         A/C#                  E
-  //   Ele não teme receber notícias más;
-  //   D9              A/C#               E
-  //   confiando em Deus, seu coração está seguro.
-
-
-  //   D9                    E5/B               F#m7
-  //   Seu coração está tranquilo e nada teme.
-  //   D9                    E5/B                  F#m7
-  //   Ele reparte com os pobres os seus bens,
-  //   D9               A/C#                         E
-  //   permanece para sempre o bem que fez
-  //   D9              A/C#                E
-  //   e crescerão a sua glória e seu poder.
-  //   `,
-  // },
-  // {
-  //   titulo: 'Uma luz brilha nas trevas para o justo',
-  //   id: sumId(),
-  //   link: 'https://www.youtube.com/watch?v=X6gENwKXvpc&feature=youtu.be',
-  //   categoria: 'Salmo',
-  //   cifra: `
-
-  //   C#m                  B/D#                 E
-  //   Uma luz brilha nas trevas para o justo,
-  //                A                 E/G#                        B
-  //   permanece para sempre o bem que fez.
-  //   A9             B9                  C#m
-  //   Ele é correto, generoso e compassivo,
-  //   A9                    B9                      C#m
-  //   como luz brilha nas trevas para os justos.
-  //   A9             E/G#               B
-  //   Feliz o homem caridoso e prestativo,
-  //   A9                  E/G#                  B
-  //   que resolve seus negócios com justiça.
-  //   A9           B9                C#m
-  //   Porque jamais vacilará o homem reto,
-  //   A9                 B9                C#m
-  //   sua lembrança permanece eternamente!
-  //   A9         E/G#                   B
-  //   Ele não teme receber notícias más;
-  //   A9              E/G#                B
-  //   confiando em Deus, seu coração está seguro.
-  //   A9                    B9                C#m
-  //   Seu coração está tranquilo e nada teme.
-  //   A9                    B9                   C#m
-  //   Ele reparte com os pobres os seus bens,
-  //   A9               E/G#                         B
-  //   permanece para sempre o bem que fez
-  //   A9              E/G#                B
-  //   e crescerão a sua glória e seu poder.
-  //   `,
-  // },
   {
     titulo: 'Aleluia, a minha alma abrirei',
     id: sumId(),
@@ -473,31 +387,32 @@ const repertorioMissaFev = [
     categoria: 'Gracas',
     link: 'https://www.cifraclub.com.br/vida-reluz/joia-rara/',
     cifra: `
+    Tom: G
     [Intro]
-    C7/9   F7M Bb7M Am7 Cm7 F7 Bb7M Am7 Cm7 F7 Bb7M Am7 D7 Bb7M Gm7       C/D F/G
+    D7/9   G7M C7M Bm7 Dm7 G7 C7M Bm7 Dm7 G7 C7M Bm7 E7 C7M Am7     D/E G/A
 
-    C                       F
+    D                       G
     Este é o momento da mais pura doação
-        C                      G             G#°
+        D                      A             A#°
     de quem sabe amar como ninguém jamais amou
-      Am              F        Dm                    G
+     Bm              G        Em                    A
     Ele nos da sua vida, seu plano de amor nos revela
-      C             F       C                  G   G#°
+     D             G       D                  A   A#°
     É alimento da alma, o pão que desceu do céu
-        Am                      F               G       C
+       Bm                      G               A       D
     nos da o seu corpo e seu sangue,para nossa comunhão
-    Gm C7   F            G/F
-          Jesus tu és a jóia mais rara,
-    G#°              Am       Am/G F Dm
+    Am D7   G            A/G
+         Jesus tu és a jóia mais rara,
+    A#°              Bm       Bm/A G Em
     fonte de vida que não se acaba,  te entrego todo meu
-        G           C  Gm C7
+       A           D  Am D7
     ser,em gratidão
-        F                   G/F       G#°         Am Am/G
+        G                   A/G       A#°         Bm Bm/A
     permanece em mim com teu amor, teu amor infinito
-    F  Dm              G        C
-        sela em mim  a tua salvação
+    G  Em              A        D
+       sela em mim  a tua salvação
 
-    (volta ao refrão)
+    (volta  ao refrão)
     `,
   },
   {
@@ -527,7 +442,7 @@ const repertorioMissaFev = [
         D/F#            C                   D                     Em
     Seja luz! Mostre ao mundo que vive nas trevas que existe uma luz
     D            C7+
-          É Jesus.  
+          É Jesus.
     Em                           C7+
     Vem Espírito Santo, traz luz ao meu coração.
     Em                             C7+
