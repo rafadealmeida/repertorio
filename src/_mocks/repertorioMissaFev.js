@@ -251,7 +251,7 @@ const repertorioMissaFev = [
     Não ha limites para o amor
                  D9               F#m7
     Vem transformar também minha vida
-           Bm7    E                  A9  A/C# D9
+           Bm7    E                  A9  F#m7 Bm7
     Oh senhor, é teu esse milagre de amor
     [Final]
 
