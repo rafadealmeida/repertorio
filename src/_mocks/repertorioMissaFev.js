@@ -333,6 +333,8 @@ const repertorioMissaFev = [
     link: 'https://www.cifras.com.br/cifra/diacono-nelsinho-correa/sacramento-da-comunhao',
     base: true,
     cifra: `
+
+    Intro : D A Bm A
         D           A/C#      Bm7              Bm/A
     Senhor, quando te vejo no sacramento da comunhão
 
