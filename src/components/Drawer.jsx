@@ -9,11 +9,15 @@ import ListItem from '@mui/material/ListItem';
 import ListItemButton from '@mui/material/ListItemButton';
 import ListItemIcon from '@mui/material/ListItemIcon';
 import ListItemText from '@mui/material/ListItemText';
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 import { Icon } from '@iconify/react';
 import crossOutline from '@iconify/icons-mdi/cross-outline';
 import prayingHands from '@iconify/icons-la/praying-hands';
+import styled from 'styled-components';
 
+const LinkStyled = styled.a`
+  text-decoration: none;
+`;
 export default function TemporaryDrawer() {
   const [state, setState] = React.useState({
     left: false,
@@ -35,7 +39,7 @@ export default function TemporaryDrawer() {
       onKeyDown={toggleDrawer(anchor, false)}
     >
       <List>
-        <Link to="/" className="menu__link">
+        <LinkStyled href="/" className="menu__link">
           <ListItem key="Home" disablePadding>
             <ListItemButton>
               <ListItemIcon>
@@ -44,7 +48,7 @@ export default function TemporaryDrawer() {
               <ListItemText primary="Grupo de Oração" />
             </ListItemButton>
           </ListItem>
-        </Link>
+        </LinkStyled>
       </List>
       {/* <List>
         <Link to="/missa" className="menu__link">
@@ -59,7 +63,7 @@ export default function TemporaryDrawer() {
         </Link>
       </List> */}
       <List>
-        <Link to="/missaFev" className="menu__link">
+        <LinkStyled href="/missaFev" className="menu__link">
           <ListItem key="Missa" disablePadding>
             <ListItemButton>
               <ListItemIcon>
@@ -68,7 +72,7 @@ export default function TemporaryDrawer() {
               <ListItemText primary="Missa Fevereiro 2023" sx={{ textDecoration: 'none', color: 'black' }} />
             </ListItemButton>
           </ListItem>
-        </Link>
+        </LinkStyled>
       </List>
 
       {/* <List className="menu__link">
