@@ -10,6 +10,7 @@ const repertorioMissaFev = [
     id: sumId(),
     categoria: 'Entrada',
     link: 'https://www.youtube.com/watch?v=gUdIhyT6bdE',
+    base: true,
     cifra: `
     Tom: G
     [refrão]
@@ -53,6 +54,7 @@ const repertorioMissaFev = [
     id: sumId(),
     categoria: 'Penitencial',
     link: 'https://www.youtube.com/watch?v=sr9HxxIDToY',
+    base: false,
     cifra: `
     [Intro] F#m7  D9  E  F#m7  D9  E4 E
 
@@ -79,6 +81,7 @@ const repertorioMissaFev = [
     id: sumId(),
     categoria: 'Gloria',
     link: 'https://www.cifraclub.com.br/ministerio-amor-e-adoracao/gloria-a-deus-nas-alturas/',
+    base: true,
     cifra: `
     E                  B9
     Glória a Deus nas alturas
@@ -147,6 +150,7 @@ const repertorioMissaFev = [
     titulo: 'Uma luz brilha nas trevas para o justo',
     id: sumId(),
     link: 'https://www.youtube.com/watch?v=X6gENwKXvpc&feature=youtu.be',
+    base: false,
     categoria: 'Salmo',
     cifra: `
 
@@ -184,6 +188,7 @@ const repertorioMissaFev = [
     titulo: 'Aleluia, a minha alma abrirei',
     id: sumId(),
     link: 'https://www.youtube.com/watch?v=iOJazAXasB4',
+    base: false,
     categoria: 'Aclamacao',
     cifra: `
     Intro: C EM F G
@@ -212,6 +217,7 @@ const repertorioMissaFev = [
     id: sumId(),
     categoria: 'Oferta',
     link: 'https://www.youtube.com/watch?v=szAXJgaI_kI',
+    base: false,
     cifra: `
     Tom: A
 
@@ -260,6 +266,7 @@ const repertorioMissaFev = [
     id: sumId(),
     categoria: 'Santo',
     link: 'https://www.youtube.com/watch?v=U9jVob3i8T8',
+    base: false,
     cifra: `
     Tom: C
 
@@ -288,6 +295,7 @@ const repertorioMissaFev = [
     id: sumId(),
     categoria: 'Cordeiro',
     link: 'https://www.youtube.com/watch?v=dOOJTDGAwIw',
+    base: false,
     cifra: `
     [Intro]  G Bm C D
 
@@ -310,6 +318,7 @@ const repertorioMissaFev = [
     id: sumId(),
     categoria: 'Novas',
     link: 'https://www.youtube.com/watch?v=ZpafvInYt1w&list=PL9F8jR3RBb9I30WZptERGTIr05Qvyj3Vp&index=9',
+    base: false,
     cifra: `
         D#º   Em9         C    G        D7
         A________mém, a--a--mém amém, amém
@@ -322,6 +331,7 @@ const repertorioMissaFev = [
     id: sumId(),
     categoria: 'Comunhao',
     link: 'https://www.cifras.com.br/cifra/diacono-nelsinho-correa/sacramento-da-comunhao',
+    base: true,
     cifra: `
         D           A/C#      Bm7              Bm/A
     Senhor, quando te vejo no sacramento da comunhão
@@ -386,6 +396,7 @@ const repertorioMissaFev = [
     id: sumId(),
     categoria: 'Gracas',
     link: 'https://www.cifraclub.com.br/vida-reluz/joia-rara/',
+    base: true,
     cifra: `
     Tom: G
     [Intro]
@@ -420,6 +431,7 @@ const repertorioMissaFev = [
     id: sumId(),
     categoria: 'Final',
     link: 'https://www.cifraclub.com.br/anjos-de-resgate-musicas/seja-luz/',
+    base: true,
     cifra: `
     Tom: G
 

@@ -1,17 +1,23 @@
 /* eslint-disable import/no-extraneous-dependencies */
-import { Card, Typography, Button } from '@mui/material';
+import { Card, Typography, Button, Box } from '@mui/material';
 // eslint-disable-next-line no-unused-vars
 import PlayCircleOutlineIcon from '@mui/icons-material/PlayCircleOutline';
 import { Icon } from '@iconify/react';
 import resetIcon from '@iconify/icons-carbon/reset';
 import reactStringReplace from 'react-string-replace';
 import React, { useState, useEffect } from 'react';
+import ReactAudioPlayer from 'react-audio-player';
 import { useParams, Link } from 'react-router-dom';
 import useMediaQuery from '@mui/material/useMediaQuery';
 import styled from 'styled-components';
 import cifras from '../_mocks/cifras';
 import repertorioMissa from '../_mocks/repertorioMissa';
 import repertorioMissaFev from '../_mocks/repertorioMissaFev';
+import deixaALuz from '../assets/musicBases/deixaLuz__intro.wav';
+import gloria from '../assets/musicBases/gloria3.wav';
+import joiaRara from '../assets/musicBases/joiaRara__tom-G.wav';
+import sacramento from '../assets/musicBases/sacramento2.wav';
+import sejaLuz from '../assets/musicBases/sejaLuz2.wav';
 
 // eslint-disable-next-line prettier/prettier
 const acordes =
@@ -59,7 +65,7 @@ function Cifra() {
 
   return (
     <>
-      <Link to="/">
+      <Link to="/missaFev">
         <Button variant="contained" sx={{ marginTop: '1rem', marginLeft: (() => (matches ? '58%' : '90%'))() }}>
           Voltar a home
         </Button>
@@ -85,6 +91,23 @@ function Cifra() {
       >
         A+
       </Button>
+
+      <Box
+        sx={{
+          display: 'flex',
+          justifyContent: 'center',
+          flexDirection: 'column',
+          alignItems: 'flex-end',
+          width: '97%',
+        }}
+      >
+        {cifra.base && <Typography variant="h6">Escute aqui a base da musica</Typography>}
+        {cifra.id === 2000 && <ReactAudioPlayer src={deixaALuz} type="audio/*" controls />}
+        {cifra.id === 2002 && <ReactAudioPlayer src={gloria} type="audio/*" controls />}
+        {cifra.id === 2009 && <ReactAudioPlayer src={sacramento} type="audio/*" controls />}
+        {cifra.id === 2010 && <ReactAudioPlayer src={joiaRara} type="audio/*" controls />}
+        {cifra.id === 2011 && <ReactAudioPlayer src={sejaLuz} type="audio/*" controls />}
+      </Box>
       <Card sx={{ width: '100%' }}>
         <Typography variant="h4" sx={{ textIndent: '1rem', marginTop: '1rem' }}>
           {cifra.titulo}
