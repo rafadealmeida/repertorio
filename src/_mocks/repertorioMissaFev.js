@@ -12,9 +12,8 @@ const repertorioMissaFev = [
     link: 'https://www.youtube.com/watch?v=gUdIhyT6bdE',
     base: true,
     cifra: `
-    Tom: G
+    Intro : D A7
     [refrão]
-
     D                     A7
     Deixa a luz do céu entrar
     Em              A7     D
@@ -130,20 +129,12 @@ const repertorioMissaFev = [
     Com Espírito Santo na glória de Deus pai amém
 
     [Refrão]
-
-      E                  B9
+    E                  B9
     Glória a Deus nas alturas
       A9                 B9
     Glória a Deus nas alturas
        C#m              B9              A9
-    E paz na terra aos homens por Ele amados
-
-      E                  B9
-    Glória a Deus nas alturas
-      A9                 B9
-    Glória a Deus nas alturas
-       C#m              B9              A9    E
-    E paz na terra aos homens por Ele amados
+    E paz na terra aos homens por Ele amados (2x)
     `,
   },
   {
@@ -166,6 +157,7 @@ const repertorioMissaFev = [
     Feliz o homem caridoso e prestativo,
     A9                  E/G#                  B
     que resolve seus negócios com justiça.
+
     A9           B9                C#m
     Porque jamais vacilará o homem reto,
     A9                 B9                C#m
@@ -174,6 +166,7 @@ const repertorioMissaFev = [
     Ele não teme receber notícias más;
     A9              E/G#                B
     confiando em Deus, seu coração está seguro.
+
     A9                    B9                C#m
     Seu coração está tranquilo e nada teme.
     A9                    B9                   C#m
@@ -220,8 +213,6 @@ const repertorioMissaFev = [
     base: false,
     cifra: `
     Tom: A
-
-    [Intro] D9  E  C#m7  Bm7
 
     [Primeira Parte]
 
