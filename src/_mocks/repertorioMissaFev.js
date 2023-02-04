@@ -422,7 +422,7 @@ const repertorioMissaFev = [
     ser,em gratidão
         G                   A/G       A#°         Bm Bm/A
     permanece em mim com teu amor, teu amor infinito
-    G  Em              A        D
+    G  Em              A        D      Am D7
        sela em mim  a tua salvação
 
     (volta  ao refrão)
