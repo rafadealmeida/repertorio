@@ -10,7 +10,7 @@ function ListaCategorias({ categorias = [] }) {
         // eslint-disable-next-line eqeqeq, prettier/prettier
         if (categoria.id === 'Todas') {
           return (
-            <Link key={categoria.id} to="/missaFev" className="link">
+            <Link key={categoria.id} to="/missaAbr" className="link">
               <li className={`lista-categorias__categoria lista-categorias__categoria--${categoria.id}`}>
                 {categoria.nome}
               </li>
