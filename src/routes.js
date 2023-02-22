@@ -7,6 +7,7 @@ import { Icon } from '@iconify/react';
 import Home from './pages/Home';
 import Missa from './pages/Missa';
 import MissaFev from './pages/MissaFev';
+import MissaAbr from './pages/MissaAbr';
 import Cifra from './pages/Cifra';
 import Drawer from './components/Drawer';
 import Categoria from './pages/Categoria';
@@ -21,6 +22,7 @@ export default function AppRouter() {
         <Route path="/" element={<Home />} />
         <Route path="/missa" element={<Missa />} />
         <Route path="/missafev" element={<MissaFev />} />
+        <Route path="/missaabr" element={<MissaAbr />} />
         <Route path="/cifra/:id" element={<Cifra />} />
         <Route path="categoria/:id" element={<Categoria />} />
       </Routes>

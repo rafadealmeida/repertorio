@@ -4,7 +4,8 @@ import ListaCategorias from '../components/ListaCategorias';
 import CardCifra from '../components/CardCifra';
 import cifras from '../_mocks/cifras';
 // import repertorioMissa from '../_mocks/repertorioMissa';
-import repertorioMissaFev from '../_mocks/repertorioMissaFev';
+// import repertorioMissaFev from '../_mocks/repertorioMissaFev';
+import repertorioMissaAbr from '../_mocks/repertorioMissaAbr';
 // eslint-disable-next-line no-unused-vars
 import { categorias, categoriaMissa } from '../_mocks/categorias';
 
@@ -30,7 +31,7 @@ function Categoria() {
 
   useEffect(() => {
     if (cifra.length <= 0) {
-      repertorioMissaFev.forEach((cifraBack) => {
+      repertorioMissaAbr.forEach((cifraBack) => {
         let cifraSelect;
         if (cifraBack.categoria === id) {
           cifraSelect = cifraBack;
