@@ -399,6 +399,7 @@ const repertorioMissaFev = [
     [Intro] C#m  B/C#  C#m  B/C#
             C#m  B/C#  A7M
 
+    [Primeira Parte]
     C#m7        B/C#
     Desde o princípio
           C#m7       B/C#      C#m7        B/C#
@@ -421,6 +422,7 @@ const repertorioMissaFev = [
     C#m7   B/C#         A9   B9
     Verbum panis factum est
 
+    [Refrão]
     E      B/D#         C#m7          B9
     E aqui partes o teu pão em meio a nós
           A9         E/G#  F#m7           B9
@@ -439,18 +441,7 @@ const repertorioMissaFev = [
     F#m7      G#m7
     Verbum panis
 
-    C#m7        B/C#
-    Desde o princípio
-              C#m7    B/C#       C#m7     B/C#
-    Quando o universo foi criado da escuridão
-    C#m7     B/C#           C#m7  B/C#  C#m7  B/C#
-    O verbo estava junto a Deus
-    C#m7     B/C#
-    Veio no mundo
-        C#m7     B/C#           C#m7         B/C#
-    Rico em misericórdia deus mandou o filho seu
-    C#m7      B/C#       C#m7  B/C#
-    Todo a si mesmo como pão
+    [Primeira parte]
 
     C#m7
     Verbum caro factum est
@@ -461,14 +452,7 @@ const repertorioMissaFev = [
     F#m7               A9   B9
     Verbum panis factum est
 
-    E      B/D#         C#m7          B9
-    E aqui partes o teu pão em meio a nós
-          A9         E/G#  F#m7           B9
-    Todo aquele que comer não terá mais fome
-    E      B/D#      C#m7             B9
-    E aqui vive tua igreja em torno a ti
-        A9      E/G#  F#m7      B9
-    Onde se encontrará a morada eterna
+    [Refrão (2x)]
 
     C#m7
     Verbum caro factum est
