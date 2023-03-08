@@ -69,9 +69,7 @@ const repertorioMissaFev = [
     link: 'https://youtu.be/NUUfEDkeXrQ',
     base: false,
     cifra: `
-    [Intro] E  B/D#  E  F#m7  E
-        B/D#  E  B/D#  C#m
-        B/D#  F#m7  E9
+    [Intro] A E G#m C#m
 
     [Primeira Parte]
 
@@ -270,9 +268,9 @@ const repertorioMissaFev = [
     Rei da eterna glória, Rei da eterna glória.
 
       Dm           Am
-    Oxalá ouvísseis hoje a tua voz
+    Cristo se fez obediente
            Dm            G        Gm      Dm
-    Não fecheis os corações. Como no deserto
+    Obediente até a morte, numa cruz
 
     `,
   },
@@ -441,7 +439,18 @@ const repertorioMissaFev = [
     F#m7      G#m7
     Verbum panis
 
-    [Primeira parte]
+    [C#m7        B/C#
+    Desde o princípio
+              C#m7    B/C#       C#m7     B/C#
+    Quando o universo foi criado da escuridão
+    C#m7     B/C#           C#m7  B/C#  C#m7  B/C#
+    O verbo estava junto a Deus
+    C#m7     B/C#
+    Veio no mundo
+         C#m7     B/C#           C#m7         B/C#
+    Rico em misericórdia deus mandou o filho seu
+    C#m7      B/C#       C#m7  B/C#
+    Todo a si mesmo como pão
 
     C#m7
     Verbum caro factum est
@@ -468,7 +477,7 @@ const repertorioMissaFev = [
     titulo: 'Diante do Rei',
     id: sumId(),
     categoria: 'Gracas',
-    link: 'https://www.cifraclub.com.br/vida-reluz/joia-rara/',
+    link: 'https://www.youtube.com/watch?v=2r-xhXGEhy0',
     base: true,
     cifra: `
     [Intro] E4
@@ -566,96 +575,25 @@ const repertorioMissaFev = [
     titulo: 'O Senhor É Rei',
     id: sumId(),
     categoria: 'Final',
-    link: 'https://www.cifraclub.com.br/anjos-de-resgate-musicas/seja-luz/',
+    link: 'https://www.youtube.com/watch?v=R_tA3R4Cc18',
     base: true,
     cifra: `
-    Tom: G
-
-    [Intro] Em  D  C  A  C
-        Em  D  Em  D
-        C  B7(4/9) B7(4)
-
-    [Primeira Parte]
-
-    Em                D/F#
-      O Senhor é Rei
-    G                          D  D#°
-      O Senhor é meu pastor e Rei
-    Em               D/F#
-      O Senhor é Rei
-    G                          D  B7(4/9) B7(4)
-      O Senhor é meu pastor e Rei
-
-    Em                      D/F#
-      O Senhor está no céu
-    G                      D4  D
-      O Senhor está no mar
-            C     B7   Em  C  A  D4  D
-    Na extensão do infinito
-    Em                      D/F#
-      O Senhor está no céu
-    G                      D4  D
-      O Senhor está no mar
-            C     B7   Em  C  A  D
-    Na extensão do infinito
-
-    [Refrão]
-
-    G             Em  D          Bm7
-      Está no céu,      está no mar
-    Em          C          D
-      Na extensão do infinito
-    G             Em  D          Bm7
-      Está no céu,      está no mar
-    Em          C          D
-      Na extensão do infinito
-
-    ( Em  D  Em  D )
-    ( C  Am7  B7(4/9) B7(4) )
-
-    [Primeira Parte]
-
-    Em                D/F#
-      O Senhor é Rei
-    G                          D  D#°
-      O Senhor é meu pastor e Rei
-    Em               D/F#
-      O Senhor é Rei
-    G                          D  B7(4/9) B7(4)
-      O Senhor é meu pastor e Rei
-
-    Em                      D/F#
-      O Senhor está no céu
-    G                      D4  D
-      O Senhor está no mar
-            C     B7   Em  C  A  D4  D
-    Na extensão do infinito
-    Em                      D/F#
-      O Senhor está no céu
-    G                      D4  D
-      O Senhor está no mar
-            C     B7   Em  C  A  D
-    Na extensão do infinito
-
-    [Refrão]
-
-    G             Em  D          Bm7
-      Está no céu,      está no mar
-    Em          C          D
-      Na extensão do infinito
-    G             Em  D          Bm7
-      Está no céu,      está no mar
-    Em          C          D
-      Na extensão do infinito
-
-    G             Em  D          Bm7
-      Está no céu,      está no mar
-    Em          C          D
-      Na extensão do infinito
-    G             Em  D          Bm7
-      Está no céu,      está no mar
-    Em          C          D   Em
-      Na extensão do infinito
+    C           Gm/C       C         Gm/C
+    Rei Senhor,         Rei Senhor
+    C                            C/E Gm                Gm/BB      C                    C/E Gm                 Gm/Bb
+    Vem louvar o Senhor, bendizer o seu nome, e ver que essa dor      do teu peito some
+    F                   G    F                   G F                 G     F                            D
+    Levanta o braço, abre o coração, morre pra ti mesmo e terás a paz então.
+    C           Gm/C       C         Gm/C
+    Rei Senhor,         Rei Senhor
+    C                            C/E Gm        Gm/BB C                   C/E Gm                Gm/Bb
+    Vem cantar ao Senhor, criador de tudo e receber alegria que não tem no mundo.
+    F              G    F       G  F          G     F               D      C           Gm/C       C         Gm/C
+    Bate palma, bate o pé dá um sorriso com muita fé. Rei Senhor,         Rei Senhor
+    C                            C/E Gm           Gm/BB   C                            C/E Gm                Gm/Bb
+    Vai confessar ao Senhor os teus pecados. Não , não tenhas medo, pois serás perdoado.
+    F              G   F        G    F                      G F                     D         C           Gm/C       C         Gm/C
+    Jesus te ama, meu irmão, entrega-te à Ele e terás a salvação. Rei Senhor,         Rei Senhor
     `,
   },
 ];
