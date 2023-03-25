@@ -516,7 +516,7 @@ const repertorioMissaFev = [
     Bem aqui, tão perto se deixa encontrar
             D7M
     Diante do rei dos reis
-    A/C#  Bm7       E4        E7
+    A/C#  Bm7            C#m  F#m 
     Todo joelho se dobrará
 
     (volta  ao refrão)
