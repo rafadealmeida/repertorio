@@ -516,7 +516,7 @@ const repertorioMissaFev = [
     Bem aqui, tão perto se deixa encontrar
             D7M
     Diante do rei dos reis
-    A/C#  Bm7            C#m  F#m 
+    A/C#  Bm7            C#m  F#m
     Todo joelho se dobrará
 
     (volta  ao refrão)
@@ -572,7 +572,7 @@ const repertorioMissaFev = [
   //   `,
   // },
   {
-    titulo: 'O Senhor É Rei',
+    titulo: 'Rei Senhor',
     id: sumId(),
     categoria: 'Final',
     link: 'https://www.youtube.com/watch?v=R_tA3R4Cc18',
