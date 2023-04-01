@@ -387,6 +387,66 @@ const repertorioMissaFev = [
     `,
   },
   {
+    titulo: 'Meu Alvo',
+    id: sumId(),
+    categoria: 'Novas',
+    link: '',
+    base: false,
+    cifra: `
+    Intro: F/C C
+
+    F/C    C   F/C    C
+    Eu não sei o que fazer
+    G/B        Am           G
+    Pois eu não vejo bondade em mim
+    F/C    C        F/C    C    G/B
+    Não sei dizer o que o Senhor viu
+      Am
+    no meu
+            G
+    Pobre e fraco coração
+
+    ( Dm  D9  Am  G )
+
+            F           G
+    Mas confesso, sou grato
+              C     G/B   Am
+    Não desististes de mim
+                Dm
+    Pode o mundo ir
+              G           C
+    Mas o Teu colo vai ficar
+
+    Refrão: Dm  D9  Am  G
+
+                  F                 G
+    Não vou desistir, quero Tua presença
+              C    G/B        Am
+    Hoje o meu alvo é Te sentir
+
+                F                   G
+    Eu só vou parar quando no Teu abraço
+    Senhor
+        C
+    Me embalar
+
+    ( Dm  D9  Am  G )
+
+    (Repete Refrão)
+
+    ( F  Am  G  F  Am  G )
+
+            F                 G
+    Não há outro lugar qu'eu ansei estar
+            Am            Em
+    Que o Teu colo, colo, colo
+            F                G
+    Não há outro lugar qu'eu ansei estar
+            C   G   Am
+    Que o Teu colo
+    `,
+  },
+  {
     titulo: 'Verbum Panis',
     id: sumId(),
     categoria: 'Comunhao',
