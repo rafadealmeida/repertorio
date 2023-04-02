@@ -351,6 +351,19 @@ const repertorioMissaFev = [
     `,
   },
   {
+    titulo: 'Amém',
+    id: sumId(),
+    categoria: 'Novas',
+    link: 'https://www.youtube.com/watch?v=ZpafvInYt1w&list=PL9F8jR3RBb9I30WZptERGTIr05Qvyj3Vp&index=9',
+    base: false,
+    cifra: `
+        D#º   Em9         C    G        D7
+        A________mém, a--a--mém amém, amém
+        D#º    Em9        C    G        D
+        A________mém, a--a--mém amém, amém
+    `,
+  },
+  {
     titulo: 'Cordeiro de Deus',
     id: sumId(),
     categoria: 'Cordeiro',
@@ -371,19 +384,6 @@ const repertorioMissaFev = [
     Cordeiro de Deus que tirais o pecado do mundo
            Am7     D/G  D7  G
     Dai-nos a paz, a vossa paz
-    `,
-  },
-  {
-    titulo: 'Amém',
-    id: sumId(),
-    categoria: 'Novas',
-    link: 'https://www.youtube.com/watch?v=ZpafvInYt1w&list=PL9F8jR3RBb9I30WZptERGTIr05Qvyj3Vp&index=9',
-    base: false,
-    cifra: `
-        D#º   Em9         C    G        D7
-        A________mém, a--a--mém amém, amém
-        D#º    Em9        C    G        D
-        A________mém, a--a--mém amém, amém
     `,
   },
   {
