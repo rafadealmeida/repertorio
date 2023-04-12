@@ -538,7 +538,7 @@ const repertorioMissaFev = [
     id: sumId(),
     categoria: 'Gracas',
     link: 'https://www.youtube.com/watch?v=2r-xhXGEhy0',
-    base: true,
+    base: false,
     cifra: `
     [Intro] E4
 
@@ -636,7 +636,7 @@ const repertorioMissaFev = [
     id: sumId(),
     categoria: 'Final',
     link: 'https://www.youtube.com/watch?v=R_tA3R4Cc18',
-    base: true,
+    base: false,
     cifra: `
     C           Gm/C       C         Gm/C
     Rei Senhor,         Rei Senhor

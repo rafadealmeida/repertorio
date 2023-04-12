@@ -50,8 +50,8 @@ export default function TemporaryDrawer() {
           </ListItem>
         </LinkStyled>
       </List>
-      {/* <List>
-        <Link to="/missa" className="menu__link">
+      <List>
+        <LinkStyled href="/missa" className="menu__link">
           <ListItem key="Missa" disablePadding>
             <ListItemButton>
               <ListItemIcon>
@@ -60,8 +60,8 @@ export default function TemporaryDrawer() {
               <ListItemText primary="Missa" sx={{ textDecoration: 'none', color: 'black' }} />
             </ListItemButton>
           </ListItem>
-        </Link>
-      </List> */}
+        </LinkStyled>
+      </List>
       <List>
         <LinkStyled href="/missaFev" className="menu__link">
           <ListItem key="Missa" disablePadding>
