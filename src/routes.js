@@ -24,7 +24,8 @@ export default function AppRouter() {
         <Route path="/missafev" element={<MissaFev />} />
         <Route path="/missaabr" element={<MissaAbr />} />
         <Route path="/cifra/:id" element={<Cifra />} />
-        <Route path="categoria/:id" element={<Categoria />} />
+        {/* <Route path="categoria/:id" element={<Categoria />} /> */}
+        <Route path="categoria/:repertorio/:id" element={<Categoria />} />
       </Routes>
       {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
       <a id="link__topo" href="#">
