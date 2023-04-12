@@ -7,7 +7,7 @@ import resetIcon from '@iconify/icons-carbon/reset';
 import reactStringReplace from 'react-string-replace';
 import React, { useState, useEffect } from 'react';
 import ReactAudioPlayer from 'react-audio-player';
-import { useParams, Link } from 'react-router-dom';
+import { useParams, useNavigate } from 'react-router-dom';
 import useMediaQuery from '@mui/material/useMediaQuery';
 import styled from 'styled-components';
 import cifras from '../_mocks/cifras';
@@ -29,6 +29,7 @@ function Cifra() {
   const [cifra, setCifra] = useState({});
   const [tamanho, setTamanho] = useState(1);
   const matches = useMediaQuery('(max-width:768px)');
+  const navigate = useNavigate();
 
   const CifraSelect = styled.pre`
     font-size: ${tamanho}rem;
@@ -70,11 +71,13 @@ function Cifra() {
 
   return (
     <>
-      <Link to="/missaFev">
-        <Button variant="contained" sx={{ marginTop: '1rem', marginLeft: (() => (matches ? '58%' : '90%'))() }}>
-          Voltar a home
-        </Button>
-      </Link>
+      <Button
+        onClick={() => navigate(-1)}
+        variant="contained"
+        sx={{ marginTop: '1rem', marginLeft: (() => (matches ? '58%' : '90%'))() }}
+      >
+        Voltar
+      </Button>
       <Button
         variant="contained"
         sx={{ marginTop: '1rem', marginLeft: (() => (matches ? '0%' : '0%'))() }}
