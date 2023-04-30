@@ -8,7 +8,6 @@ import colors from '../_mocks/colors';
 // eslint-disable-next-line react/prop-types
 function CardCifra({ cifras = [] }) {
   const { repertorio } = useParams();
-  console.log(useParams());
   const matches = useMediaQuery('(max-width:768px)');
   return (
     <div className="card--cifras">
