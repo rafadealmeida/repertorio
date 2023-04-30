@@ -6,6 +6,7 @@ import cifras from '../_mocks/cifras';
 import repertorioMissa from '../_mocks/repertorioMissa';
 import repertorioMissaFev from '../_mocks/repertorioMissaFev';
 import repertorioMissaAbr from '../_mocks/repertorioMissaAbr';
+import repertorioMissaJun from '../_mocks/repertorioMissaJun';
 import { categorias, categoriaMissa } from '../_mocks/categorias';
 
 function Categoria() {
@@ -23,6 +24,9 @@ function Categoria() {
       setMissa(true);
     } else if (path === 'missa') {
       repertorio.current = repertorioMissa;
+      setMissa(true);
+    } else if (path === 'missaJun') {
+      repertorio.current = repertorioMissaJun;
       setMissa(true);
     } else {
       repertorio.current = cifras;
