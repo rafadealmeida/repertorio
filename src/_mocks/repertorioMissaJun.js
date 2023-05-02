@@ -47,8 +47,16 @@ const repertorioMissaFev = [
     cifra: `
     Tom: G
 
-    [Intro] G  D/F#  Em  Bm  C
-            G  C  D/F#  C  G
+    [Intro] G  D/F#  Em  Bm  C D D7
+
+    E|----------------------------------------------------------|
+    A|----------------------------------------------------------|
+    D|----------------------------------------------------------|
+    G|----------------------------------------------------------|
+    B|-1/3----------------5-7-8---------8-7-5/7-----------------|
+    E|------5/7---5-3-2--------5-7/8-7--------------------------|
+
+
 
     [Primeira Parte]
 
@@ -59,7 +67,7 @@ const repertorioMissaFev = [
 
     [Refrão]
 
-    G      D/F#       Em      Bm C    Am D/F#     C  G/B  Am  G
+    G      D/F#       Em      Bm C    Am D       C  G/B  Am  G
     Kyrie eleison! Kyrie eleison! Ky-rie   Ele_________ison
 
     [Segunda Parte]
@@ -73,7 +81,7 @@ const repertorioMissaFev = [
 
     [Refrão 2]
 
-      G      D/F#         Em     Bm C      Am D/F#     C  G/B  Am  G
+      G      D/F#         Em     Bm C      Am D      C  G/B  Am  G
     Christe eleison! Christe eleison! Christe   Ele_________ison
 
     [Terceira Parte
@@ -87,7 +95,7 @@ const repertorioMissaFev = [
 
     [Refrão]
 
-    G      D/F#       Em      Bm C    Am D/F#     C  G/B  Am  G
+    G      D/F#       Em      Bm C    Am D/       C  G/B  Am  G
     Kyrie eleison! Kyrie eleison! Ky-rie   Ele_________ison
     `,
   },
