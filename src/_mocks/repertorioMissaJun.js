@@ -62,7 +62,7 @@ const repertorioMissaFev = [
 
     G                 D/F#     Em            Bm
     Como a ovelha perdida, pelo pecado ferida
-    C                D            Em  D/F#
+    C                D           Em  D/F#  G D/F#
     Eu Te suplico perdão, ó bom pastor
 
     [Refrão]
@@ -76,7 +76,7 @@ const repertorioMissaFev = [
     Como o ladrão perdoado
       Em                      Bm
     Encontro o paraíso ao Teu lado
-    C                      D             Em  D/F#
+    C                      D             Em  D/F#  G D/F#
     Lembra-te de mim, pecador, por Tua Cruz
 
     [Refrão 2]
