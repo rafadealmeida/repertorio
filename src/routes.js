@@ -8,6 +8,7 @@ import Home from './pages/Home';
 import Missa from './pages/Missa';
 import MissaFev from './pages/MissaFev';
 import MissaAbr from './pages/MissaAbr';
+import MissaJun from './pages/MissaJun';
 import Cifra from './pages/Cifra';
 import Drawer from './components/Drawer';
 import Categoria from './pages/Categoria';
@@ -23,7 +24,8 @@ export default function AppRouter() {
         <Route path="/missa" element={<Missa />} />
         <Route path="/missafev" element={<MissaFev />} />
         <Route path="/missaabr" element={<MissaAbr />} />
-        <Route path="/cifra/:id" element={<Cifra />} />
+        <Route path="/missajun" element={<MissaJun />} />
+        <Route path="/cifra/:repertorio/:id" element={<Cifra />} />
         {/* <Route path="categoria/:id" element={<Categoria />} /> */}
         <Route path="categoria/:repertorio/:id" element={<Categoria />} />
       </Routes>

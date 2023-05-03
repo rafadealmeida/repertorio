@@ -2,17 +2,18 @@ import '../assets/css/cards.css';
 import React from 'react';
 import { Typography, Card } from '@mui/material';
 import useMediaQuery from '@mui/material/useMediaQuery';
-import { Link } from 'react-router-dom';
+import { Link, useParams } from 'react-router-dom';
 import colors from '../_mocks/colors';
 
 // eslint-disable-next-line react/prop-types
 function CardCifra({ cifras = [] }) {
+  const { repertorio } = useParams();
   const matches = useMediaQuery('(max-width:768px)');
   return (
     <div className="card--cifras">
       {cifras.map((cifra) => {
         return (
-          <Link key={cifra.id} to={`/cifra/${cifra.id}`} style={{ textDecoration: 'none' }}>
+          <Link key={cifra.id} to={`/cifra/${repertorio}/${cifra.id}`} style={{ textDecoration: 'none' }}>
             <Card
               className={`cartao-post--${cifra.categoria} cartao-post `}
               key={cifra.id}
