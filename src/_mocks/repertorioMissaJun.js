@@ -62,7 +62,7 @@ const repertorioMissaFev = [
 
     G                 D/F#     Em            Bm
     Como a ovelha perdida, pelo pecado ferida
-    C                D           Em  D/F#  G D/F#
+    C                D           Em  D/F#
     Eu Te suplico perdão, ó bom pastor
 
     [Refrão]
@@ -70,13 +70,15 @@ const repertorioMissaFev = [
     G      D/F#       Em      Bm C    Am D       C  G/B  Am  G
     Kyrie eleison! Kyrie eleison! Ky-rie   Ele_________ison
 
+    G D/F# Em D D7
+
     [Segunda Parte]
 
     G                 D/F#
     Como o ladrão perdoado
       Em                      Bm
     Encontro o paraíso ao Teu lado
-    C                      D             Em  D/F#  G D/F#
+    C                      D             Em  D/F#
     Lembra-te de mim, pecador, por Tua Cruz
 
     [Refrão 2]
@@ -84,7 +86,9 @@ const repertorioMissaFev = [
       G      D/F#         Em     Bm C      Am D      C  G/B  Am  G
     Christe eleison! Christe eleison! Christe   Ele_________ison
 
-    [Terceira Parte
+    G D/F# Em D D7
+
+    [Terceira Parte]
 
     G                D/F#
     Como a pecadora caída
@@ -97,6 +101,8 @@ const repertorioMissaFev = [
 
     G      D/F#       Em      Bm C    Am D/       C  G/B  Am  G
     Kyrie eleison! Kyrie eleison! Ky-rie   Ele_________ison
+
+    G D/F# Em D D7
     `,
   },
   {
@@ -278,9 +284,9 @@ const repertorioMissaFev = [
     link: 'https://www.youtube.com/watch?v=P_zeO8bMR_g&t=123s',
     base: false,
     cifra: `
-    G         AM       C    D        G    D D7
+    G         AM       C    D        G     D7
     HOSANA, HOSANA, HOSANA AO NOSSO REI!
-    G         AM       C    D        G    D D7
+    G         AM       C    D        G     D7
     HOSANA, HOSANA, HOSANA AO NOSSO REI!
 
 
