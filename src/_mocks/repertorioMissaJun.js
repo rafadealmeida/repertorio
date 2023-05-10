@@ -47,30 +47,20 @@ const repertorioMissaFev = [
     cifra: `
     Tom: G
 
-    [Intro] G  D/F#  Em  Bm  C D D7
-
-    E|----------------------------------------------------------|
-    A|----------------------------------------------------------|
-    D|----------------------------------------------------------|
-    G|----------------------------------------------------------|
-    B|-1/3----------------5-7-8---------8-7-5/7-----------------|
-    E|------5/7---5-3-2--------5-7/8-7--------------------------|
-
-
+    [Intro] G  D/F#  Em  Bm  C
+            G  C  D/F#  C  G
 
     [Primeira Parte]
 
     G                 D/F#     Em            Bm
     Como a ovelha perdida, pelo pecado ferida
-    C                D           Em  D/F#
+    C                D            Em  D/F#
     Eu Te suplico perdão, ó bom pastor
 
     [Refrão]
 
-    G      D/F#       Em      Bm C    Am D       C  G/B  Am  G
+    G      D/F#       Em      Bm C    Am D/F#     C  G/B  Am  G
     Kyrie eleison! Kyrie eleison! Ky-rie   Ele_________ison
-
-    G D/F# Em D D7
 
     [Segunda Parte]
 
@@ -83,12 +73,10 @@ const repertorioMissaFev = [
 
     [Refrão 2]
 
-      G      D/F#         Em     Bm C      Am D      C  G/B  Am  G
+      G      D/F#         Em     Bm C      Am D/F#     C  G/B  Am  G
     Christe eleison! Christe eleison! Christe   Ele_________ison
 
-    G D/F# Em D D7
-
-    [Terceira Parte]
+    [Terceira Parte
 
     G                D/F#
     Como a pecadora caída
@@ -99,10 +87,8 @@ const repertorioMissaFev = [
 
     [Refrão]
 
-    G      D/F#       Em      Bm C    Am D/       C  G/B  Am  G
+    G      D/F#       Em      Bm C    Am D/F#     C  G/B  Am  G
     Kyrie eleison! Kyrie eleison! Ky-rie   Ele_________ison
-
-    G D/F# Em D D7
     `,
   },
   {
@@ -246,8 +232,7 @@ const repertorioMissaFev = [
     link: 'https://www.youtube.com/watch?v=p1H904bwfEw',
     base: false,
     cifra: `
-    Tom: A
-
+    [intro] G D/F# Em C D7 G D7
     [Primeira Parte]
 
     G       D/F#    Em   G     C        D7
@@ -284,9 +269,9 @@ const repertorioMissaFev = [
     link: 'https://www.youtube.com/watch?v=P_zeO8bMR_g&t=123s',
     base: false,
     cifra: `
-    G         AM       C    D        G     D7
+    G         AM       C    D        G    D D7
     HOSANA, HOSANA, HOSANA AO NOSSO REI!
-    G         AM       C    D        G     D7
+    G         AM       C    D        G    D D7
     HOSANA, HOSANA, HOSANA AO NOSSO REI!
 
 
@@ -297,9 +282,9 @@ const repertorioMissaFev = [
 
       G
     ÉS SANTO OH PAI!
-    D   D4/G     D/F#
+    C     G/B     D
     ÉS SANTO OH PAI!
-      C    Am    D
+      C    (Am - 2º)     D
     A TI TODO LOUVOR! (BIS)
 
     {{refrao}}
@@ -354,7 +339,7 @@ const repertorioMissaFev = [
     Tende piedade, piedade de nós
         G         Bm7               C9
     Cordeiro de Deus que tirais o pecado do mundo
-           Am7     D/G  D7  G
+           Am7     D  D4  G
     Dai-nos a paz, a vossa paz
     `,
   },
