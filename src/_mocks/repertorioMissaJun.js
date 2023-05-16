@@ -45,50 +45,49 @@ const repertorioMissaFev = [
     link: 'https://www.youtube.com/watch?v=U_mSMkAc698',
     base: false,
     cifra: `
-    Tom: G
-
-    [Intro] G  D/F#  Em  Bm  C
-            G  C  D/F#  C  G
+    [Intro] F  C  Dm  Am  A# F  C
 
     [Primeira Parte]
 
-    G                 D/F#     Em            Bm
+    F                 C     Dm            Am
     Como a ovelha perdida, pelo pecado ferida
-    C                D            Em  D/F#
+    A#               C             Dm  C
     Eu Te suplico perdão, ó bom pastor
 
     [Refrão]
 
-    G      D/F#       Em      Bm C    Am D/F#     C  G/B  Am  G
+    F      C       Dm      Am A#   Gm C     A# F/A  Gm  F
     Kyrie eleison! Kyrie eleison! Ky-rie   Ele_________ison
 
     [Segunda Parte]
 
-    G                 D/F#
+    F                 C
     Como o ladrão perdoado
-      Em                      Bm
+      Dm                      Am
     Encontro o paraíso ao Teu lado
-    C                      D             Em  D/F#
+    A#                     C             Dm  C
     Lembra-te de mim, pecador, por Tua Cruz
 
     [Refrão 2]
 
-      G      D/F#         Em     Bm C      Am D/F#     C  G/B  Am  G
+      F      C         Dm     Am A#     Gm C     A# F/A  Gm  F
     Christe eleison! Christe eleison! Christe   Ele_________ison
 
     [Terceira Parte
 
-    G                D/F#
+    F                C
     Como a pecadora caída
-      Em                       Bm
+      Dm                       Am
     Derramo aos Teus pés minha vida
-    C                     D              Em   D/F#
+    A#                    C             Dm   C
     Vê as lágrimas do meu coração e salva-me
 
     [Refrão]
 
-    G      D/F#       Em      Bm C    Am D/F#     C  G/B  Am  G
+    F      C       Dm      Am A#   Gm C     A# F/A  Gm  F
     Kyrie eleison! Kyrie eleison! Ky-rie   Ele_________ison
+
+
     `,
   },
   {
@@ -296,7 +295,7 @@ const repertorioMissaFev = [
 
       G
     TE EXALTAREI!
-    D   D4/G     D/F#
+    C     G/B     D
     TE EXALTAREI!
       C     Am     D
     DAREI O MEU LOUVOR! (BIS)
@@ -305,14 +304,14 @@ const repertorioMissaFev = [
 
           G
     CRISTO É A NOSSA VIDA
-    D   D4/G     D/F#
+    C     G/B     D
     O MOTIVO DO LOUVOR
       C          Am  D
     EM NOSSO NOVO CORAÇÃO
 
           G
     POIS MORREU A NOSSA MORTE
-    D   D4/G     D/F#
+    C     G/B     D
     PRA VIVERMOS SUA VIDA
         C             Am   D
     NOS TROUXE GRANDE SALVAÇÃO (BIS)
