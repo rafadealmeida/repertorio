@@ -46,46 +46,35 @@ const repertorioMissaFev = [
     base: false,
     cifra: `
     [Intro] F  C  Dm  Am  A# F  C
+    Intro Notas : F F F G C A A# G A C^ C^ A F E F C C/D C A# A
 
-    [Primeira Parte]
-
-    F                 C     Dm            Am
+        F                 C/E  Dm           Am
     Como a ovelha perdida, pelo pecado ferida
-    A#               C             Dm  C
-    Eu Te suplico perdão, ó bom pastor
+    A#                C            Dm    C9/E
+    Eu Te suplico perdão, ó Bom Pastor
 
-    [Refrão]
+    F     C9/E      Dm     Am   A#     F/A  Gm     A# Am     Gm  F  C
+    Kyrie eleison! / Kyrie eleison!     Kyrie    E  Le   i   son
 
-    F      C       Dm      Am A#   Gm C     A# F/A  Gm  F
-    Kyrie eleison! Kyrie eleison! Ky-rie   Ele_________ison
-
-    [Segunda Parte]
-
-    F                 C
+    F           C/E
     Como o ladrão perdoado
-      Dm                      Am
+    Dm               Am
     Encontro o paraíso ao Teu lado
-    A#                     C             Dm  C
+    A#                   C              Dm   C9
     Lembra-te de mim, pecador, por Tua Cruz
 
-    [Refrão 2]
+    F        C9/E     Dm      Am   A#   F/A   Gm    A# Am    Gm  F  C
+    Christe eleison!   Christe eleison!   Chri  ste e  Le   i  son!
 
-      F      C         Dm     Am A#     Gm C     A# F/A  Gm  F
-    Christe eleison! Christe eleison! Christe   Ele_________ison
-
-    [Terceira Parte
-
-    F                C
+    F         C9/E
     Como a pecadora caída
-      Dm                       Am
+    Dm                         Am
     Derramo aos Teus pés minha vida
-    A#                    C             Dm   C
+        A#           C  C9               Dm   C9
     Vê as lágrimas do meu coração e salva-me
 
-    [Refrão]
-
-    F      C       Dm      Am A#   Gm C     A# F/A  Gm  F
-    Kyrie eleison! Kyrie eleison! Ky-rie   Ele_________ison
+    F     C/E     Dm      Am   A#    F/A   Gm    A# Am     Gm  F  C
+    Kyrie eleison!   Kyrie eleison!     Kyrie    E  Le   i  son
 
 
     `,
