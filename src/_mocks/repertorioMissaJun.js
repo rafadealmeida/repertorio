@@ -208,7 +208,7 @@ const repertorioMissaFev = [
         A minh'alma abrirei
         D    F#m G   D
         Aleluia, aleluia
-        Em     A      G  D
+        Em     A      G Gm  D
         Cristo é meu Rei
 
     `,
