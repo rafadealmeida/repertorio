@@ -413,44 +413,55 @@ const repertorioMissaFev = [
     `,
   },
   {
-    titulo: 'O Mistério da Trindade',
+    titulo: 'Queima de Novo',
     id: sumId(),
     categoria: 'Gracas',
-    link: 'https://www.cifraclub.com.br/vida-reluz/joia-rara/',
+    link: 'https://www.cifraclub.com.br/comunidade-catolica-colo-de-deus/queima-de-novo/#tabs=false',
     base: true,
     cifra: `
-    Tom: D
+    Tom: A
 
-    Bm           F#m            Bm               F#m
-    Caminhando na praia deserta, me vi a pensar
-        G              A         Bm7/9
-    No mistério da Trindade Santa
+    [Intro] G  Em7  G  Em7
+               Em7                C9
+    Sarça que só queima, que não se apaga
+                G                  D/F#
+    Somos Tua Igreja, viemos Te adorar
+                Em7             C9
+    Neste Teu altar, somos sacrifício
+                  G           D/F#  Am7  D
+    Vem nos consumir, estamos aqui, aqu__i
 
-    Bm                  F#m            Bm           F#m
-    Quando ao longe um menino tentava com uma concha
+    [Refrão]
+                  G
+    Foi a Tua presença
+                      D
+    Que nos trouxe aqui, Senhor
+                C9
+    Não desistiremos
+                Em7       D/F#
+    De te perseguir até Te encontrar
 
-      G              A                D
-    Colocar o mar num buraquinho na areia
+                    G
+    Diante da Tua glória
+                D
+    Não podemos   ficar de pé
+                  C9              Em7
+    Mostra quem Tu és vem nos visitar
+                D/F#        G  Em7
+    Nos fazer queimar, de novo
 
-    A/C#  Bm            F#m           Bm
-    Logo me aproximei dizendo a ele
-                  F#m
-    Que era um trabalho em vão
-    G              D/F#             Em         C#m7(5b) F#
-    Qual surpresa, era um anjo! Que me olhou e então me disse
-    Bm            F#m           Bm                        F#m7
-    "É mais fácil pôr o mar aqui, que compreenderes
-    G          A                    Bm     G A
-    A Trindade e todo o seu mistério”
+    G
+      Manda Teu fogo, queima de novo
+    Em7
+        Manda Teu fogo, queima de novo
+    G
+      Manda Teu fogo, queima de novo
+    Em7
+        Manda Teu fogo, queima de novo
 
-    ( Bm A F#m G Em A Bm F#m G F#m G A D4 D Em9 Em D/C C G A
-    D4 D Em9 Em D/C C G A6
-    Bm A F#m G Em A Bm A F#m G A Bm )
 
-    Bm                     F#m            Bm                F#m
-    Caminhando na praia deserta, me vi a pensar
-              G                  A            Bm7/9
-    No mistério da Trindade Santa
+    [Refrão Final]
+
     `,
   },
   {
