@@ -421,6 +421,60 @@ const repertorioMissaFev = [
     cifra: `
     Tom: A
 
+    Intro: A  F#m
+
+                F#m                 D
+    Sarça que só queima, que não se apaga
+              A                 E9/G#
+    Somos Tua Igreja, Viemos Te adorar
+              F#m          D
+    Neste Teu altar somos sacrifício
+            A
+    Vem nos consumir
+            E9/G#
+    Estamos aqui
+    Bm      E9/G#
+    Aqui
+
+              A                       E9/G#
+    Foi a Tua Presença que nos trouxe aqui, Senhor
+        D                   A
+    Não desistiremos de Te perseguir
+          E9/G#
+    Até te encontrar
+                  A
+    Diante da Tua Glória
+                E9/G#
+    Não podemos ficar de pé
+                  D
+    Mostra quem Tu és
+            F#m
+    Vem nos visitar
+              E9/G#
+    Nos fazer queimar
+    A  F#m
+    De novo
+
+    A
+    Manda Teu fogo
+    A
+    Manda Teu fogo
+    F#m
+    Queima de novo
+    F#m
+    Queima de novo
+
+    `,
+  },
+  {
+    titulo: 'Queima de Novo- Teclado',
+    id: sumId(),
+    categoria: 'Gracas',
+    link: 'https://www.cifraclub.com.br/comunidade-catolica-colo-de-deus/queima-de-novo/#tabs=false',
+    base: true,
+    cifra: `
+    Tom: A
+
     [Intro] G  Em7  G  Em7
                Em7                C9
     Sarça que só queima, que não se apaga
