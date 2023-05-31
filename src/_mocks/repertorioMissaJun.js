@@ -421,39 +421,39 @@ const repertorioMissaFev = [
     cifra: `
     Tom: A
 
-    Intro: A  F#m
+    [Intro] A  F#m7 A  F#m7
 
-                F#m                 D
+    [Primeira parte]
+
+                  F#m7               D9
     Sarça que só queima, que não se apaga
-              A                 E9/G#
-    Somos Tua Igreja, Viemos Te adorar
-              F#m          D
-    Neste Teu altar somos sacrifício
-            A
-    Vem nos consumir
-            E9/G#
-    Estamos aqui
-    Bm      E9/G#
-    Aqui
+                A                  E/G#
+    Somos Tua Igreja, viemos Te adorar
+                F#m7            D9
+    Neste Teu altar, somos sacrifício
+                  A           E/G#  Bm7  E
+    Vem nos consumir, estamos aqui, aqu__i
 
-              A                       E9/G#
-    Foi a Tua Presença que nos trouxe aqui, Senhor
-        D                   A
-    Não desistiremos de Te perseguir
-          E9/G#
-    Até te encontrar
+    [Refrão]
+
                   A
-    Diante da Tua Glória
-                E9/G#
-    Não podemos ficar de pé
-                  D
-    Mostra quem Tu és
-            F#m
-    Vem nos visitar
-              E9/G#
-    Nos fazer queimar
-    A  F#m
-    De novo
+    Foi a Tua presença
+                      E
+    Que nos trouxe aqui, Senhor
+                D9
+    Não desistiremos
+                F#m7      E/G#
+    De te perseguir até Te encontrar
+
+                    A
+    Diante da Tua glória
+                E
+    Não podemos   ficar de pé
+                  D9              F#m7
+    Mostra quem Tu és vem nos visitar
+                E/G#        A  F#m7
+    Nos fazer queimar, de novo
+
 
     A
     Manda Teu fogo
