@@ -413,7 +413,7 @@ const repertorioMissaFev = [
     `,
   },
   {
-    titulo: 'Queima de Novo',
+    titulo: 'Queima de Novo - Teclado',
     id: sumId(),
     categoria: 'Gracas',
     link: 'https://www.cifraclub.com.br/comunidade-catolica-colo-de-deus/queima-de-novo/#tabs=false',
@@ -467,13 +467,14 @@ const repertorioMissaFev = [
     `,
   },
   {
-    titulo: 'Queima de Novo- Teclado',
+    titulo: 'Queima de Novo- Violão',
     id: sumId(),
     categoria: 'Gracas',
     link: 'https://www.cifraclub.com.br/comunidade-catolica-colo-de-deus/queima-de-novo/#tabs=false',
     base: true,
     cifra: `
     Tom: A
+    Capotraste: 2º casa
 
     [Intro] G  Em7  G  Em7
                Em7                C9
