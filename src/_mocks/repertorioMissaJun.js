@@ -142,47 +142,32 @@ const repertorioMissaFev = [
     `,
   },
   {
-    titulo:'Ó Senhor, nosso Deus, como é grande o vosso nome por todo universo!',
+    titulo:'A Vós Louvor, Honra e Glória Eternamente',
     id: sumId(),
     link: 'https://www.youtube.com/watch?v=x9xrtP9L0PY',
     base: false,
     categoria: 'Salmo',
     cifra: `
-    D                    A                        G
-    — Ó Senhor, nosso Deus, como é grande
-          Bm               Em           A7
-    Vosso nome por todo universo! (2x)
+    Tom: Em
 
-            Bm                G       D            A
-    — Contemplando estes céus que plasmastes
-          Bm                G       D            A
-    e formastes com dedos de artista;
-            Bm                G       D            A
-    vendo a lua e estrelas brilhantes, perguntamos:
-    Bm             G
-    'Senhor, que é o homem,
-        D          A                  G
-    para dele assim vos lembrardes
-                    Em        A
-    e o tratardes com tanto carinho?'
-
-          Bm     G       D        A
-    — Pouco abaixo de Deus o fizestes,
-       Bm     G       D        A
-    coroando-o de glória e esplendor;
-          Bm     G       D        A
-    vós lhe destes poder sobre tudo,
-          G             Em            A
-    vossas obras aos pés lhe pusestes.
-
-          Bm     G       D        A
-    — as ovelhas, os bois, os rebanhos,
-          Bm     G       D        A
-    todo o gado e as feras da mata;
-        Bm     G       D        A
-    passarinhos e peixes dos mares,
-          G               Em           A
-    todo ser que se move nas águas.
+        Em          C                    G
+    A vós louvor, honra e glória eternamente
+            D/F#
+    Eternamente
+    Em         C            G              D
+      Sede bendito, Senhor Deus de nossos pais
+    Em         C          G           D
+      Sede bendito, nome santo e glorioso
+    Em           C            G              D
+      No templo santo onde refulge a vossa glória
+    Em             C         G        D
+      E em vosso trono de poder vitorioso
+    Em         C            G             D
+      Sede bendito, que sondais as profundezas
+    Em        C            G             D
+      E superior aos querubins vos assentais
+    Em         C         G          D
+      Sede bendito no celeste firmamento
     `,
   },
   {
@@ -422,6 +407,7 @@ const repertorioMissaFev = [
     Tom: A
 
     [Intro] A  F#m7 A  F#m7
+    [Intro/Notas] D D C# B
 
     [Primeira parte]
 
