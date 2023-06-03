@@ -148,25 +148,27 @@ const repertorioMissaFev = [
     base: false,
     categoria: 'Salmo',
     cifra: `
-    Tom: Em
+    Tom: D
+    Refrao : D A G Bm Em A7
 
-        Em          C                    G
     A vós louvor, honra e glória eternamente
-            D/F#
+
     Eternamente
-    Em         C            G              D
+
+    Estrofe : Bm G D A   final estrofe (Em A)
+
       Sede bendito, Senhor Deus de nossos pais
-    Em         C          G           D
+
       Sede bendito, nome santo e glorioso
-    Em           C            G              D
+
       No templo santo onde refulge a vossa glória
-    Em             C         G        D
+
       E em vosso trono de poder vitorioso
-    Em         C            G             D
+
       Sede bendito, que sondais as profundezas
-    Em        C            G             D
+
       E superior aos querubins vos assentais
-    Em         C         G          D
+
       Sede bendito no celeste firmamento
     `,
   },
