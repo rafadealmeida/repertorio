@@ -294,61 +294,38 @@ const repertorioMissaFev = [
     `,
   },
   {
-    titulo: 'Hosana, Hosana ao nosso Rei',
+    titulo: 'Santo',
     id: sumId(),
     categoria: 'Santo',
-    link: 'https://www.youtube.com/watch?v=P_zeO8bMR_g&t=123s',
+    link: 'https://www.youtube.com/watch?v=vzykmWYLToo',
     base: false,
     cifra: `
-    G         AM       C    D        G    D D7
-    HOSANA, HOSANA, HOSANA AO NOSSO REI!
-    G         AM       C    D        G    D D7
-    HOSANA, HOSANA, HOSANA AO NOSSO REI!
+    [Intro] Dm  D7(4/9)  Dm  D7(4/9)
 
+      Dm7            Am7               Bb9            Dm7 C9
+    Santo, Santo, Santo é o Senhor, Senhor Deus do universo
+    F9                  C9             Bb9
+    O céu e a terra proclamam a vossa glória
 
-    G        D/F#            Em
-    GLORIFICAREI TEU NOME OH DEUS!
-        G        D/F#      C
-    COM CÂNTICOS TE CELEBRAREI!
+    Dm7            Am7               Bb9            Dm7 C9
+    Santo, Santo, Santo é o Senhor, Senhor Deus do universo
+    F9                  C9             Bb9
+    O céu e a terra proclamam a vossa glória
 
-      G
-    ÉS SANTO OH PAI!
-    C     G/B     D
-    ÉS SANTO OH PAI!
-      C    (Am - 2º)     D
-    A TI TODO LOUVOR! (BIS)
+      Dm7     C9   Bb9
+    Hosana no alto céu
 
-    {{refrao}}
+      Dm7                 Am7  Bb9        Dm7 C9
+    Bendito é aquele que vem , em nome do senhor
+      Dm7     C9           Bb9  Dm7     C9              D9
+    Hosana, Hosana no alto céu. Hosana, Hosana no alto céu
 
-    G                    D/F#      C
-    BENDITO O QUE VEM EM NOME DO SENHOR,
-      G                D/F#          C
-    O CÉU E A TERRA PROCLAMAM SEU LOUVOR!
-
-      G
-    TE EXALTAREI!
-    C     G/B     D
-    TE EXALTAREI!
-      C     Am     D
-    DAREI O MEU LOUVOR! (BIS)
-
-    {{refrao}}
-
-          G
-    CRISTO É A NOSSA VIDA
-    C     G/B     D
-    O MOTIVO DO LOUVOR
-      C          Am  D
-    EM NOSSO NOVO CORAÇÃO
-
-          G
-    POIS MORREU A NOSSA MORTE
-    C     G/B     D
-    PRA VIVERMOS SUA VIDA
-        C             Am   D
-    NOS TROUXE GRANDE SALVAÇÃO (BIS)
-
-    {{refrao}}
+    G9              D9               Am7              Em  D9
+    Santo, santo, santo é o Senhor, Senhor Deus do universo
+    G9                 D9               Am7
+    O céu e a terra proclamam a vossa glória
+      C9      D9    G9
+    Hosana no alto céu
     `,
   },
   {
