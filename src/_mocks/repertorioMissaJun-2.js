@@ -329,6 +329,36 @@ const repertorioMissaFev = [
     `,
   },
   {
+    titulo: 'Amém',
+    id: sumId(),
+    categoria: 'Novas',
+    link: 'https://www.youtube.com/watch?v=ZpafvInYt1w&list=PL9F8jR3RBb9I30WZptERGTIr05Qvyj3Vp&index=9',
+    base: false,
+    cifra: `
+        D#º   Em9         C    G        D7
+        A________mém, a--a--mém amém, amém
+        D#º    Em9        C    G        D
+        A________mém, a--a--mém amém, amém
+    `,
+  },
+  {
+    titulo: 'Deus está aqui',
+    id: sumId(),
+    categoria: 'Novas',
+    link: 'https://www.youtube.com/watch?v=ZpafvInYt1w&list=PL9F8jR3RBb9I30WZptERGTIr05Qvyj3Vp&index=9',
+    base: false,
+    cifra: `
+    C       G/B  Am7    Am7/G
+    Deus, está aqui, aleluia
+         F9                 G      C
+    Tão certo como o ar que eu respiro
+         F9               G           C  G/B  Am
+    Tão certo como o amanhã que se leva_____nta
+         Dm               G                 C
+    Tão certo como eu te falo e podes me ouvir
+    `,
+  },
+  {
     titulo: 'Cordeiro de Deus',
     id: sumId(),
     categoria: 'Cordeiro',
@@ -349,19 +379,6 @@ const repertorioMissaFev = [
     Cordeiro de Deus que tirais o pecado do mundo
            Am7     D  D4  G
     Dai-nos a paz, a vossa paz
-    `,
-  },
-  {
-    titulo: 'Amém',
-    id: sumId(),
-    categoria: 'Novas',
-    link: 'https://www.youtube.com/watch?v=ZpafvInYt1w&list=PL9F8jR3RBb9I30WZptERGTIr05Qvyj3Vp&index=9',
-    base: false,
-    cifra: `
-        D#º   Em9         C    G        D7
-        A________mém, a--a--mém amém, amém
-        D#º    Em9        C    G        D
-        A________mém, a--a--mém amém, amém
     `,
   },
   {
