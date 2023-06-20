@@ -166,65 +166,65 @@ const repertorioMissaFev = [
     categoria: 'Salmo',
     cifra: `
 
-    F            Dm7        Bb
+    A            F#m7        D
     Atendei-me, ó Senhor, pelo vosso
-    F
+    A
     imenso amor!
-     Bb
+     D
     1 - Por vossa causa é que sofri tantos
-       C
+       E
     insultos
-    Bb                                C
+    D                                E
     E o meu rosto se cobriu de confusão
-     Bb
+     D
     Eu me tornei como um estranho a meus
-          C
+          E
     irmãos
-     Bb
+     D
     Como estrangeiro para os filhos de
-       C
+       E
     minha mãe
-     Dm7                    Am7
+     F#m7                    C#M
     Pois meu zelo e meu amor por vossa
-    Bb
+    D
     casa
-    Bb                         C
+    D                         E
     Me devoram como fogo abrasador
 
-    Bb
+    D
      2 - Por isso elevo para vós minha
     C
     oração
-     Bb                C
+     D                E
     Neste tempo favorável, Senhor Deus
-     Bb                       C
+     D                       E
     Respondei-me pelo vosso imenso amor
-     Bb                      C
+     D                      E
     Pela vossa salvação que nunca falha
-    Dm7         Am7
+    F#m7         C#M
     Senhor, ouvi-me pois suave é vossa
-    Bb
+    D
     graça
-    Bb
+    D
     Ponde os olhos sobre mim com grande
       C
     amor
 
-     Bb                      C
+     D                      E
     3 - Humildes, vede isto e alegrai-vos
-     Bb                          C
+     D                          E
     O vosso coração reviverá
-     Bb                                      C
+     D                                      E
     Se procurardes o Senhor continuamente
-     Bb
+     D
     Pois nosso Deus atende à prece dos
-      C
+      E
     seus pobres
-     Dm7         Am7                Bb
+     F#m7         C#M                D
      não despreza o clamor de seus cativos
-     Bb                                C
+     D                                E
     Que céus e terra glorifiquem o Senhor
-     Bb                       C
+     D                      E
     Com o mar e todo ser que neles vive
     `,
   },
