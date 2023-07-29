@@ -455,7 +455,7 @@ const repertorioMissaAgo = [
     Senhor,    Tu me olhaste nos olhos
           Am7  D7                   G
     A sorrir,     pronunciaste meu nome
-    Dm7  G7     C   C#m7(5-)
+    Dm7  G7     C   D
         Lá na praia
             F#7(9-)   Bm7  Em7
     Eu larguei o meu barco
