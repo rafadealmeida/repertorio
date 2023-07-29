@@ -21,6 +21,7 @@ import gloria from '../assets/musicBases/gloria3.wav';
 import joiaRara from '../assets/musicBases/joiaRara__tom-G.wav';
 import sacramento from '../assets/musicBases/sacramento2.wav';
 import sejaLuz from '../assets/musicBases/sejaLuz2.wav';
+import repertorioMissaAgo from '../_mocks/repertorioMissaAgo';
 
 // eslint-disable-next-line prettier/prettier
 const acordes =
@@ -79,6 +80,10 @@ function Cifra() {
     }
     if (Number(id) >= 5000) {
       const cifraSelect = repertorioMissaJun2.find((cifraBack) => cifraBack.id === Number(id));
+      setCifra(cifraSelect);
+    }
+    if (Number(id) >= 6000) {
+      const cifraSelect = repertorioMissaAgo.find((cifraBack) => cifraBack.id === Number(id));
       setCifra(cifraSelect);
     }
   }, [id]);

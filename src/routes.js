@@ -10,6 +10,7 @@ import MissaFev from './pages/MissaFev';
 import MissaAbr from './pages/MissaAbr';
 import MissaJun from './pages/MissaJun';
 import MissaJun2 from './pages/MissaJun2';
+import MissaAgo from './pages/MissaAgo';
 import Cifra from './pages/Cifra';
 import Drawer from './components/Drawer';
 import Categoria from './pages/Categoria';
@@ -27,6 +28,7 @@ export default function AppRouter() {
         <Route path="/missaabr" element={<MissaAbr />} />
         <Route path="/missajun" element={<MissaJun />} />
         <Route path="/missajun2" element={<MissaJun2 />} />
+        <Route path="/missaago" element={<MissaAgo />} />
         <Route path="/cifra/:repertorio/:id" element={<Cifra />} />
         {/* <Route path="categoria/:id" element={<Categoria />} /> */}
         <Route path="categoria/:repertorio/:id" element={<Categoria />} />
