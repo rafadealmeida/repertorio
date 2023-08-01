@@ -6,33 +6,70 @@ const sumId = () => id++;
 
 const repertorioMissaAgo = [
   {
-    titulo: 'Autoridade e Poder',
+    titulo: 'Vamos Celebrar',
     id: sumId(),
     categoria: 'Entrada',
-    link: 'https://www.youtube.com/watch?v=L1jyMgQ7wZw',
+    link: 'https://www.youtube.com/watch?v=EjiJtKA2_O4',
     base: false,
     cifra: `
-    Intro A  F#m7  D  E  A  F#m7  D  E
+    [Intro] E  A2    D2  A2
 
-      A                            F#m
-    Os que confiam no Senhor , são como os montes de Sião
-          D             Bm7               E
-    Que não se abalam , mas permanecem para sempre
-      A                     F#m
-    Como em volta de Jerusalém , estão os montes
-      D            Bm7          E
-    Assim o Senhor , em volta do seu povo
-      A               F#m
-    Autoridade e poder , domínio em suas mãos
-      D                 Bm7               E
-    Pois o Senhor é Deus , o Senhor é Rei dos povos
-      A                             F#m
-    *Cale-se diante dEle a terra, dobrem os joelhos ergam as mãos
-      D                Bm7              E
-    Pois o Senhor é Deus o Senhor é Rei dos povos
+    [Primeira Parte]
 
-    Final:A  F#m  D  E  A  F#m  D  E
+    E           A2               E
+      Todos reunidos na casa de Deus
+                      A2              B5
+    Com cantos de alegria e grande louvor
+                A2                  B5
+    Vamos celebrar os feitos do Senhor
+              A2                 E
+    E sua bondade que nunca tem fim
 
+              A2               E
+    Todos reunidos na casa de Deus
+                      A2              B5
+    Com cantos de alegria e grande louvor
+                A/C#                B/D#
+    Vamos celebrar os feitos do Senhor
+              A2                 E  A2
+    E sua bondade que nunca tem fim
+
+    [Refrão]
+
+                E               A2
+    Vamos celebrar Deus esta aqui
+                E               A2
+    Vamos celebrar Deus esta aqui
+                B5
+    No meio de nós
+                E               A2
+    Vamos celebrar Deus esta aqui
+                E               A2
+    Vamos celebrar Deus esta aqui
+                B5
+    No meio de nós
+                        E
+    Ele está presente aqui
+
+    [Segunda Parte]
+
+                    A2              E
+    Quando estamos juntos unidos a Ti
+            A2             B5
+    Para elevar a nossa oração
+                    A2              B5
+    Um canto de alegria surge entre nós
+          A2                   E
+    Em adoração ao Teu eterno amor
+
+                    A2              E
+    Quando estamos juntos unidos a Ti
+            A2             B5
+    Para elevar a nossa oração
+                    A/C#            B/D#
+    Um canto de alegria surge entre nós
+            A2                 E  A2
+    Em adoração ao Teu eterno amor
     `,
   },
   {
@@ -195,40 +232,50 @@ const repertorioMissaAgo = [
     `,
   },
   {
-    titulo: 'Nesta Prece Senhor',
+    titulo: 'Pão e vinho',
     id: sumId(),
     categoria: 'Oferta',
-    link: 'https://www.youtube.com/watch?v=p1H904bwfEw',
+    link: 'https://www.youtube.com/watch?v=szAXJgaI_kI',
     base: false,
     cifra: `
-    [intro] G D/F# Em C D7 G D7
+    Tom: A
+
     [Primeira Parte]
 
-    G       D/F#    Em   G     C        D7
-    Nesta prece, Senhor, venho te oferecer
-    C      D7     G F#M Em   Am   D7      G   D7
-    O crepitar da chama, a certeza de dar!
+           A9              E          F#m7
+    Pão e vinho te apresentamos nesse altar
+          C#m7              D9         C#m7
+    Como sinal que tu recolhes nossa oferta
+                Bm7               E
+    Tudo o que somos deixamos aqui
 
-    G       D/F#    Em              Bm
-    Eu te ofereço o sol que brilha forte
-    G             C           D  D4
-    Te ofereço a dor do meu irmão
-    C  D  G  F#M    Em     Am  D    G  D7
-    A fé  na esperança, e o meu amor!
+           A9              E          F#m7
+    Pão e vinho te apresentamos nesse altar
+          C#m7              D9         C#m7
+    Como sinal que tu recolhes nossa oferta
+                Bm7              E
+    Tudo o que somos deixamos aqui
 
-    G        D/F#    Em                Bm
-    Eu te ofereço as mãos que estão abertas
-    G         C           D   D4
-    O cansaço do passo mantido
-    C    D     G  F#M  Em  Am    D   G  D7
-    Meu grito mais forte e o meu louvor!
+    [Refrão]
 
-    G        D/F#   Em        Bm
-    Eu te ofereço o que vi de belo
-    G      C            D   D4
-    No interior dos corações
-    C D G F#M  Em  Am    D        G  D7
-    E a coragem de me transformar!
+    A/C#    D9           C#m7
+    É um milagre que se dá
+               D9               F#m7
+    O pão e o vinho em corpo e sangue
+             Bm7      E
+    Vão se transformar
+     A/C#     D9          C#m7
+    Não ha limites para o amor
+                 D9               F#m7
+    Vem transformar também minha vida
+           Bm7    E                  A9  F#m7 Bm7
+    Oh senhor, é teu esse milagre de amor
+    [Final]
+
+       E                    A9  F#m7 Bm7
+    É teu esse milagre de amor
+       E                   A9
+    É teu esse milagre de amor
     `,
   },
   {
