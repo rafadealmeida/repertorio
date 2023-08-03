@@ -12,39 +12,39 @@ const repertorioMissaAgo = [
     link: 'https://www.youtube.com/watch?v=EjiJtKA2_O4',
     base: false,
     cifra: `
-    [Intro] E  A2    D2  A2
+    [Intro] E  A/C# B/D# B9
 
     [Primeira Parte]
 
-    E           A2               E
+    E           Asus2               E
       Todos reunidos na casa de Deus
-                      A2              B5
+                      Asus2              B5
     Com cantos de alegria e grande louvor
-                A2                  B5
+                Asus2                  B5
     Vamos celebrar os feitos do Senhor
-              A2                 E
+              Asus2                 E
     E sua bondade que nunca tem fim
 
-              A2               E
+              Asus2               E
     Todos reunidos na casa de Deus
-                      A2              B5
+                      Asus2              B5
     Com cantos de alegria e grande louvor
                 A/C#                B/D#
     Vamos celebrar os feitos do Senhor
-              A2                 E  A2
+              Asus2                 E  B9
     E sua bondade que nunca tem fim
 
     [Refrão]
 
-                E               A2
+                E               Asus2
     Vamos celebrar Deus esta aqui
-                E               A2
+                E               Asus2
     Vamos celebrar Deus esta aqui
                 B5
     No meio de nós
-                E               A2
+                E               Asus2
     Vamos celebrar Deus esta aqui
-                E               A2
+                E               Asus2
     Vamos celebrar Deus esta aqui
                 B5
     No meio de nós
@@ -53,22 +53,22 @@ const repertorioMissaAgo = [
 
     [Segunda Parte]
 
-                    A2              E
+                    Asus2              E
     Quando estamos juntos unidos a Ti
-            A2             B5
+            Asus2             B5
     Para elevar a nossa oração
-                    A2              B5
+                    Asus2              B5
     Um canto de alegria surge entre nós
-          A2                   E
+          Asus2                   E
     Em adoração ao Teu eterno amor
 
-                    A2              E
+                    Asus2              E
     Quando estamos juntos unidos a Ti
-            A2             B5
+            Asus2             B5
     Para elevar a nossa oração
                     A/C#            B/D#
     Um canto de alegria surge entre nós
-            A2                 E  A2
+            Asus2                 E  Asus2
     Em adoração ao Teu eterno amor
     `,
   },
@@ -481,7 +481,7 @@ const repertorioMissaAgo = [
 
     Tom: G
 
-    [Intro] Am7(9)  G4(9)  C6
+    [Intro] G D/F# Em
 
     [Primeira Parte]
 
@@ -502,9 +502,9 @@ const repertorioMissaAgo = [
     Senhor,    Tu me olhaste nos olhos
           Am7  D7                   G
     A sorrir,     pronunciaste meu nome
-    Dm7  G7     C   D
+    Dm7  G7     C   D/C
         Lá na praia
-            F#7(9-)   Bm7  Em7
+               Bm7  Em7
     Eu larguei o meu barco
             Am7  D7
     Junto a Ti
@@ -533,9 +533,9 @@ const repertorioMissaAgo = [
     Senhor,    Tu me olhaste nos olhos
           Am7  D7                   G
     A sorrir,     pronunciaste meu nome
-    Dm7  G7     C   C#m7(5-)
+    Dm7  G7     C   D/C
         Lá na praia
-            F#7(9-)   Bm7  Em7
+               Bm7  Em7
     Eu larguei o meu barco
             Am7  D7
     Junto a Ti
@@ -564,12 +564,12 @@ const repertorioMissaAgo = [
     Senhor,    Tu me olhaste nos olhos
           Am7  D7                   G
     A sorrir,     pronunciaste meu nome
-    Dm7  G7     C   C#m7(5-)
+    Dm7  G7     C   D/C
         Lá na praia
 
     Página 2 / 5
 
-            F#7(9-)   Bm7  Em7
+              Bm7  Em7
     Eu larguei o meu barco
           Am7  D7
     Junto a Ti
