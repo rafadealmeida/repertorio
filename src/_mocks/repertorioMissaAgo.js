@@ -417,61 +417,6 @@ const repertorioMissaAgo = [
     `,
   },
   {
-    titulo: 'Queima de Novo - Teclado',
-    id: sumId(),
-    categoria: 'Gracas',
-    link: 'https://www.cifraclub.com.br/comunidade-catolica-colo-de-deus/queima-de-novo/#tabs=false',
-    base: true,
-    cifra: `
-    Tom: A
-
-    [Intro] A  F#m7 A  F#m7
-    [Intro/Notas] D D C# B
-
-    [Primeira parte]
-
-                  F#m7               D9
-    Sarça que só queima, que não se apaga
-                A                  E/G#
-    Somos Tua Igreja, viemos Te adorar
-                F#m7            D9
-    Neste Teu altar, somos sacrifício
-                  A           E/G#  Bm7  E
-    Vem nos consumir, estamos aqui, aqu__i
-
-    [Refrão]
-
-                  A
-    Foi a Tua presença
-                      E
-    Que nos trouxe aqui, Senhor
-                D9
-    Não desistiremos
-                F#m7      E/G#
-    De te perseguir até Te encontrar
-
-                    A
-    Diante da Tua glória
-                E
-    Não podemos   ficar de pé
-                  D9              F#m7
-    Mostra quem Tu és vem nos visitar
-                E/G#        A  F#m7
-    Nos fazer queimar, de novo
-
-
-    A
-    Manda Teu fogo
-    A
-    Manda Teu fogo
-    F#m
-    Queima de novo
-    F#m
-    Queima de novo
-
-    `,
-  },
-  {
     titulo: 'A Barca',
     id: sumId(),
     categoria: 'Gracas',
@@ -624,59 +569,6 @@ const repertorioMissaAgo = [
 
     [Final] G/B  Am7  Bm7
             C  G/B  Am7  G/B
-
-    `,
-  },
-  {
-    titulo: 'Queima de Novo- Violão',
-    id: sumId(),
-    categoria: 'Gracas',
-    link: 'https://www.cifraclub.com.br/comunidade-catolica-colo-de-deus/queima-de-novo/#tabs=false',
-    base: true,
-    cifra: `
-    Tom: A
-    Capotraste: 2º casa
-
-    [Intro] G  Em7  G  Em7
-               Em7                C9
-    Sarça que só queima, que não se apaga
-                G                  D/F#
-    Somos Tua Igreja, viemos Te adorar
-                Em7             C9
-    Neste Teu altar, somos sacrifício
-                  G           D/F#  Am7  D
-    Vem nos consumir, estamos aqui, aqu__i
-
-    [Refrão]
-                  G
-    Foi a Tua presença
-                      D
-    Que nos trouxe aqui, Senhor
-                C9
-    Não desistiremos
-                Em7       D/F#
-    De te perseguir até Te encontrar
-
-                    G
-    Diante da Tua glória
-                D
-    Não podemos   ficar de pé
-                  C9              Em7
-    Mostra quem Tu és vem nos visitar
-                D/F#        G  Em7
-    Nos fazer queimar, de novo
-
-    G
-      Manda Teu fogo, queima de novo
-    Em7
-        Manda Teu fogo, queima de novo
-    G
-      Manda Teu fogo, queima de novo
-    Em7
-        Manda Teu fogo, queima de novo
-
-
-    [Refrão Final]
 
     `,
   },
