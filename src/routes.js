@@ -29,7 +29,7 @@ export default function AppRouter() {
         <Route path="/missajun" element={<MissaJun />} />
         <Route path="/missajun2" element={<MissaJun2 />} />
         <Route path="/missaago" element={<MissaAgo />} />
-        <Route path="/cifra/:repertorio/:id" element={<Cifra />} />
+        <Route path="/:repertorio/cifra/:id" element={<Cifra />} />
         {/* <Route path="categoria/:id" element={<Categoria />} /> */}
         <Route path="categoria/:repertorio/:id" element={<Categoria />} />
       </Routes>
