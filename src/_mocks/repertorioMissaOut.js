@@ -445,7 +445,7 @@ const repertorioMissaOut = [
     `,
   },
   {
-    titulo: 'A Barca',
+    titulo: 'Meu Alvo',
     id: sumId(),
     categoria: 'Gracas',
     link: 'https://www.cifraclub.com.br/thiago-brado/meu-alvo/',
