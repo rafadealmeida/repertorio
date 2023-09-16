@@ -8,6 +8,7 @@ import repertorioMissaFev from '../_mocks/repertorioMissaFev';
 import repertorioMissaAbr from '../_mocks/repertorioMissaAbr';
 import repertorioMissaJun from '../_mocks/repertorioMissaJun';
 import repertorioMissaAgo from '../_mocks/repertorioMissaAgo';
+import repertorioMissaOut from '../_mocks/repertorioMissaOut';
 import { categorias, categoriaMissa } from '../_mocks/categorias';
 
 function Categoria() {
@@ -31,6 +32,9 @@ function Categoria() {
       setMissa(true);
     } else if (path === 'missaAgo') {
       repertorio.current = repertorioMissaAgo;
+      setMissa(true);
+    } else if (path === 'missaOut') {
+      repertorio.current = repertorioMissaOut;
       setMissa(true);
     } else {
       repertorio.current = cifras;

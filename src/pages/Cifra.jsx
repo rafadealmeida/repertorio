@@ -16,6 +16,7 @@ import repertorioMissaFev from '../_mocks/repertorioMissaFev';
 import repertorioMissaAbr from '../_mocks/repertorioMissaAbr';
 import repertorioMissaJun from '../_mocks/repertorioMissaJun';
 import repertorioMissaJun2 from '../_mocks/repertorioMissaJun-2';
+import repertorioMissaOut from '../_mocks/repertorioMissaOut';
 import deixaALuz from '../assets/musicBases/deixaLuz__intro.wav';
 import gloria from '../assets/musicBases/gloria3.wav';
 import joiaRara from '../assets/musicBases/joiaRara__tom-G.wav';
@@ -84,6 +85,10 @@ function Cifra() {
     }
     if (Number(id) >= 6000) {
       const cifraSelect = repertorioMissaAgo.find((cifraBack) => cifraBack.id === Number(id));
+      setCifra(cifraSelect);
+    }
+    if (Number(id) >= 7000) {
+      const cifraSelect = repertorioMissaOut.find((cifraBack) => cifraBack.id === Number(id));
       setCifra(cifraSelect);
     }
   }, [id]);
