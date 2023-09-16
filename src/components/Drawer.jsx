@@ -129,7 +129,7 @@ export default function TemporaryDrawer() {
               <ListItemIcon>
                 <Icon icon={crossOutline} fontSize={30} />
               </ListItemIcon>
-              <ListItemText primary="Missa Agosto" sx={{ textDecoration: 'none', color: 'black' }} />
+              <ListItemText primary="Missa Outubro" sx={{ textDecoration: 'none', color: 'black' }} />
             </ListItemButton>
           </ListItem>
         </LinkStyled>
