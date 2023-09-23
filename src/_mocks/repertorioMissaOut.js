@@ -130,6 +130,33 @@ const repertorioMissaOut = [
     Ele____________ison
       E/G#  E  A
     Ele______ison
+
+    ( Bm7  F#m7  G7M )
+
+    [Terceira  Parte]
+
+        Bm7       A      G7M
+    Senhor, que intercedeis por nós
+            Bm7         A/C#  F#4  F#
+    Junto a Deus Pai que nos perdo_____a
+
+    [Refrão]
+
+          D  D4  D  A/C#
+    Kyrie  elei____son
+      F#7/A#  F#7  Bm7
+    Elei__________son
+      E4  E  A
+    Elei____son
+
+    D       D4  D  A/C#
+    Kyrie  elei____son
+      F#7/A#  F#7  Bm7
+    Elei__________son,
+      E4  E  A
+    Elei____son
+
+    ( Bm7  F#m7  G7M )
     `,
   },
   {
@@ -410,37 +437,34 @@ const repertorioMissaOut = [
     `,
   },
   {
-    titulo: 'Maria de Deus senhora de Paz ',
+    titulo: 'Maria de Deus senhora de Paz',
     id: sumId(),
     categoria: 'Comunhao',
     cifra: `
-    Tom:A
-    A               C#m     D     Bm          E
+    Tom: G
+
+    G               Bm          C  Am       D
     É bom estarmos juntos Nesta mesa do Senhor
-    A                  C#m  D       Bm             E
+    G                  Bm        C  Am             D  D7
     E sentirmos Sua presença No calor de nosso irmão
-    A                C#m           D9         BM     E
+    G                Bm            C9  Am          D  D7
     Deus nos reune aqui Em um só espírito, Um só coração
-    A             C#m              D9         BM       E
+    G             Bm             C9  Am          D   D7
     Toda família vem Não falta ninguém Nesta comunhão
 
-       A                                         B
+      G                                 A           D
     E vem cantando entre nós  Maria de Deus, Senhora da Paz
-       D              BM      E                 A           E
+      C  C  G/B  Am  D          D7  G
     E vem orando por nós  A mãe de Jesus
 
-       D              BM      E                 A           Bm  E    A
-    E vem orando por nós  A mãe de Jesus
-
-    A               C#m          D9  Bm      E
+    G               Bm           C9  Am      D
     Maria, nossa mãezinha Nos convida a união
-    A                C#m         D9  Bm        E4  E
-    sua presença nos une Faz-nos todos mais irmãos
-    A               C#m            D9  Bm           E
+    G                Bm          C9  Am        D4  D  D7
+    Sua presença nos une Faz-nos todos mais irmãos
+    G               Bm             C9  Am           D  D7
     Nossa Senhora escuta O nosso silêncio, a nossa oração
-    A               C#m               D9  Bm              E4  E
+    G               Bm                C9  Am              D  D7
     E apresenta ao Filho Que se dá no vinho Que se dá no pão
-
 
     `,
   },
