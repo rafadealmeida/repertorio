@@ -323,29 +323,23 @@ const repertorioMissaOut = [
     VOSSA TERNURA E COMPAIXÃO!(BIS)`,
   },
   {
-    titulo: 'Quando estámos unidos',
+    titulo: 'Aleluia',
     id: sumId(),
     categoria: 'Aclamacao',
     cifra: `
-    Tom:D
-    D   A   Bm  F#m  G    D  A  A7
-    Aleluia,  aleluia,  aleluia
-    D   A   Bm  F#m  G    D  A  A7
-    Aleluia,  aleluia,  aleluia
+    Tom:E
+    E               F#m           C#m  A       B    E
+    Aleluia,       aleluia,  Aleluia,  alelu      ia,
 
-    G             D/F#  Bm          A
-    Quando estamos unidos, estás entre nós
-    G         EM               A A4
-    E nos falarás da Tua vida
-    G             D/F#  Bm          A
-    Este nosso mundo sentido terá
-    G         EM            A   A4
-    Se Tua palavra renovar
-        1.
-    D   A   Bm  F#m  G    D  A  A7
-    Aleluia,  aleluia,  aleluia
-    D   A   Bm  F#m  G    D  A  A7
-    Aleluia,  aleluia,  aleluia
+    E            A            E
+    Minhas ovelhas escutam minha voz,
+    F#m      B7          E
+    Minha voz estão elas a escutar
+
+        A              B          E
+    Eu conheço, então, minhas ovelhas, que
+    F#m     C#m           B7
+    Segue,  comigo a caminhar
     `,
   },
   {
@@ -737,7 +731,7 @@ const repertorioMissaOut = [
     id: sumId(),
     categoria: 'Novas',
     cifra: `
-    [Intro]  E  F#m  G#m  A  E  B9  E  B9
+    [Intro]  E  F#m  G#m  A  G#m  F#m B7  E B7
 
     E              F#m   G#m                  A9
    Mesmo na tempestade, mesmo que se agite o mar
@@ -751,12 +745,12 @@ const repertorioMissaOut = [
 
            A9            B9    G#m           C#m
    Pois somente tenho a Ti, Tu és a minha herança
-    A9           B9          E   E7
+    F#m           B9          E   E7
    Te louvo, te louvo em verdade
 
            A9            B9    G#m           C#m
    Pois somente tenho a Ti, Tu és a minha herança
-    A9           B9
+    F#m           B9
    Te louvo, te louvo em verdade
 
    E  F#m  G#m  A  E  B9  E  B9
@@ -770,53 +764,7 @@ const repertorioMissaOut = [
    Te louvo, te louvo em verdade
     `,
   },
-  {
-    titulo: 'Incendeia Minha Alma',
-    id: sumId(),
-    categoria: 'Novas',
-    cifra: `
-    [Intro] C  Am  Dm7  G4
-    C  Am  Dm7  G  G4
 
-    [Primeira Parte]
-
-    C           G/B         Am
-    Espírito Santo, vinde
-            G
-    Falar em mim
-    C           G/B         Am
-    Espírito Santo, vinde
-            G
-    Falar em mim (2X)
-
-    [Pré-Refrão]
-
-        C/E  F               Am
-    Vinde curar, vinde libertar
-                Dm      C/E  G
-    Nossos corações de toda  opressão
-        C/E        F              Am
-    Vinde transformar, vem incendiar
-                D           G
-    Traz fogo do céu nesse lugar
-
-    [Refrão]
-
-        C              G/B
-    Incendeia minha alma
-        Am             Am/G
-    Incendeia minha alma
-        F         C/E       G4  G
-    Incendeia minha alma, Senhor    (2x)
-
-    [Primeira Parte]
-
-    [Pré-Refrão]
-
-    [Refrão]
-
-    `,
-  },
   {
     titulo: 'Posso Tudo Posso',
     id: sumId(),
