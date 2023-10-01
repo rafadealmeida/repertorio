@@ -352,6 +352,8 @@ const repertorioMissaOut = [
 
     Tom: C
 
+    Intro : C G/B Am F G G
+
     C     G/B    Am      Em       F        Dm             F         G  F/G
     O que te ofertar não sei, só sei agradecer por tudo que você me dá
     C    G/B   Am        Em           F            Dm             F         G  Gm7 C
@@ -370,6 +372,17 @@ const repertorioMissaOut = [
         C      G/B  Am      Em   F       Dm                  F           G   Gm7 C
     Só vejo uma solução pra mim: é a de amar cada vez mais forte o meu irmão
 
+    F         G         C      G/B   Am           F          Dm         G
+    Transforma ó Senhor este vinho e este pão, que nos sirva de exemplo a doação
+       F              G            C    G/B      Am       F       G                C
+    E se transforme agora no Seu corpo e no seu sangue, prova de amor por nós cristãos
+    (C G/B Am)
+    F       G                C
+    prova de amor por nós cristãos
+    (C G/B Am)
+    F       G                C
+    prova de amor por nós cristão
+    (C G/B Am Dm G F Fm   C)
 
     `,
   },
