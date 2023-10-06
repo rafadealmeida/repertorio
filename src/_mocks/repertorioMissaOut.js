@@ -327,19 +327,25 @@ const repertorioMissaOut = [
     id: sumId(),
     categoria: 'Aclamacao',
     cifra: `
-    Tom:E
-    E               F#m           C#m  A       B    E
-    Aleluia,       aleluia,  Aleluia,  alelu      ia,
 
-    E            A            E
-    Minhas ovelhas escutam minha voz,
-    F#m      B7          E
-    Minha voz estão elas a escutar
+    G    C   D    Bm  EM   Am  D7    G       D7
+    Aleluia, aleluia, aleluia, aleluia! (Bis)
 
-        A              B          E
-    Eu conheço, então, minhas ovelhas, que
-    F#m     C#m           B7
-    Segue,  comigo a caminhar
+    G       D/F#
+    Eu vos escolhi,
+    EM
+    no meio do mundo,
+    G           C
+    a fim de que deis
+    D       D7
+    um fruto que dure.
+    C  D7  G  F#M    Em     Am  D    G  D7
+    Eu vos escolhi foi do meio do mundo.
+    G    D7
+    Amém!
+
+    G    C   D    Bm  EM   Am  D7    G
+    Aleluia, aleluia, aleluia, aleluia! (Bis)
     `,
   },
   {
