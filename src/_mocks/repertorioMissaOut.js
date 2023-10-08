@@ -186,12 +186,7 @@ const repertorioMissaOut = [
     Em   D/F#
     Por vossa
 
-    G      A9            G    A9   Bm
-    Glória - a, glória a Deus nas alturas
-    Em       A9            G       A9
-    Ô    -   ô          glória  -  a
-        G     A9  Bm
-    E A nós, a sua paz
+    [Refrão]
 
               Em            A9          Bm       F#m
     Jesus cristo senhor Deus, filho único do pai
@@ -204,12 +199,7 @@ const repertorioMissaOut = [
     A                  Bm   F#m    G      Em  A9
     Tende piedade, acolhei a nossa súplica
 
-    G      A9            G    A9   Bm
-    Glória - a, glória a Deus nas alturas
-    Em       A9            G       A9
-    Ô    -   ô          glória  -  a
-        G     A9  Bm
-    E A nós, a sua paz
+    [Refrão]
 
           Em         F#m           G         A9
     Só vós sois o santo, o senhor, o altíssimo
@@ -358,37 +348,38 @@ const repertorioMissaOut = [
 
     Tom: C
 
-    Intro : C G/B Am F G G
+    Intro : C G/B Am   F G
 
     C     G/B    Am      Em       F        Dm             F         G  F/G
     O que te ofertar não sei, só sei agradecer por tudo que você me dá
-    C    G/B   Am        Em           F            Dm             F         G  Gm7 C
+    C    G/B   Am        Em           F            Dm             F         G
     Como te ofertar não sei se o que tenho é muito pouco pois sou pobre de amor
 
     (Refrão)
 
           F         G         C      G/B   Am           F          Dm         G
     Transforma ó Senhor este vinho e este pão, que nos sirva de exemplo a doação
-       F              G            C    G/B      Am       F       G                C
+       F              G            C    G/B      Am       F       G                C    (C G/B Am)
     E se transforme agora no Seu corpo e no seu sangue, prova de amor por nós cristãos
     (2x)
 
+
     C     G/B  Am    Em        F        Dm            F         G  F/G
     Este gesto seu Senhor, oferece sua vida ao Pai celeste por amor
-        C      G/B  Am      Em   F       Dm                  F           G   Gm7 C
+        C      G/B  Am      Em   F       Dm                  F           G
     Só vejo uma solução pra mim: é a de amar cada vez mais forte o meu irmão
+
 
     F         G         C      G/B   Am           F          Dm         G
     Transforma ó Senhor este vinho e este pão, que nos sirva de exemplo a doação
-       F              G            C    G/B      Am       F       G                C
+       F              G            C    G/B      Am       F       G                C    (C G/B Am)
     E se transforme agora no Seu corpo e no seu sangue, prova de amor por nós cristãos
-    (C G/B Am)
     F       G                C
     prova de amor por nós cristãos
     (C G/B Am)
-    F       G                C
+    Dm       G                F   Fm  C
     prova de amor por nós cristão
-    (C G/B Am Dm G F Fm   C)
+
 
     `,
   },
@@ -605,21 +596,9 @@ const repertorioMissaOut = [
     Eu só vou parar quando no Teu abraço
      Senhor
          C
-    Me embalar
+    Me embalar (2x)
 
     ( Dm  D9  Am  G )
-
-                  F     Am           G
-    Não vou desistir, quero Tua presença
-     Em          Am    G        F
-    Hoje o meu alvo é Te sentir
-              Dm                     G
-    Eu só vou parar quando no Teu abraço
-     Senhor
-         C
-    Me embalar
-
-    (Repete)
 
     ( F  Am  G  F  Am  G )
 
