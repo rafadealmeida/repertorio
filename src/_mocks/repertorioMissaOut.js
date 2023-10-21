@@ -521,424 +521,193 @@ const repertorioMissaOut = [
     `,
   },
   {
-    titulo: 'Maria de Deus senhora de Paz',
+    titulo: 'Milagre da comunhão',
     id: sumId(),
     categoria: 'Comunhao',
     cifra: `
-    Tom: G
+    [Intro] E  A  C#m  B  C#m  A  C#m  B
 
-    G               Bm          C  Am       D
-    É bom estarmos juntos Nesta mesa do Senhor
-    G                  Bm        C  Am             D  D7
-    E sentirmos Sua presença No calor de nosso irmão
-    G                Bm            C9  Am          D  D7
-    Deus nos reune aqui Em um só espírito, Um só coração
-    G             Bm             C9  Am          D   D7
-    Toda família vem Não falta ninguém Nesta comunhão
+    E           A              E    A  B
+    Quanto amor existe neste altar!
+    E           A         B4     B
+    Tanta vida para celebrar
+    A                  B  G#m               C#m
+    Gente que aqui se uniu, pôs as mãos e o coração
+    F#m         A6        E4   E    D   E
+    E em cada detalhe veio preparar
+    A           B      G#m          C#
+    Flores para enfeitar, velas para iluminar
+    F#m7       B       E   A   B
+    Tudo enfim pra celebrar
 
-      G                                 A           D
-    E vem cantando entre nós  Maria de Deus, Senhora da Paz
-      C  C  G/B  Am  D          D7  G
-    E vem orando por nós  A mãe de Jesus
+        E     C#m    G#m  C#m
+    O amor maior chegou assim
+    F#m          B
+    Se fez servo para o outro
+    A            B
+    Deu sentido ao nosso encontro
+    G#m     C#m    G#m7       C#m
+    Nossa união, o vinho e o pão
+    F#m       A/B             E   A C#m B C#m A C#m B
+    Eis o milagre desta comunhão
 
-    G               Bm           C9  Am      D
-    Maria, nossa mãezinha Nos convida a união
-    G                Bm          C9  Am        D4  D  D7
-    Sua presença nos une Faz-nos todos mais irmãos
-    G               Bm             C9  Am           D  D7
-    Nossa Senhora escuta O nosso silêncio, a nossa oração
-    G               Bm                C9  Am              D  D7
-    E apresenta ao Filho Que se dá no vinho Que se dá no pão
+    Quanta harmonia neste altar!
+    Tanta vida para celebrar
+    Gente que aqui chegou, o seu tempo dedicou
+    E em cada ensaio veio preparar
+    Instrumentos pra tocar, vozes para entoar
+    Tudo enfim pra celebrar
+
+    [Refrão]
+
+    Quanta história existe neste altar!
+    Tanta vida para celebrar
+    Homem que se consagrou, sacerdote se tornou
+    E em cada momento traz o céu a nós
+    Desde jovem decidiu ao Senhor se abandonar
+    Tudo enfim pra celebrar
+
+    [Refrão]
 
     `,
   },
   {
-    titulo: 'Meu Alvo',
+    titulo: 'Milagre de amor',
     id: sumId(),
     categoria: 'Gracas',
-    link: 'https://www.cifraclub.com.br/thiago-brado/meu-alvo/',
+    link: 'https://youtu.be/0W0nXvwHxB8?si=aD_3F8odn89jO4ou',
     base: false,
     cifra: `
-    Tom: C
+    [Intro] F  F/G  Em9  Am
+    Dm  C/E  Dm  G7
+    C  F  F/C  G
 
-    Intro: F/C C
+    C            G/B            Am
+    Que bom te receber no meu coração
+    G                     F
+    Te tocar, ter-te em minhas mãos
+      C/E         Dm              G
+    Com carinho te acolher e contigo ser um só
+    C           G/B         Am
+    Ter contigo uma perfeita comunhão
+        Am/G             F
+    Corpo e sangue, vinho e pão
+            C/E  Dm            G
+    Milagre de amor,         fonte de vida
 
-    F/C    C   F/C    C
-    Eu não sei o que fazer
-    G/B        Am           G
-    Pois eu não vejo bondade em mim
-    F/C    C        F/C    C    G/B
-    Não sei dizer o que o Senhor viu
-       Am
-    no meu
-            G
-    Pobre e fraco coração
+        F        G/F          F             G/F
+    Ó meu Jesus Eucaristia, eu te recebo em comunhão
+          F             C/E
+    Pois mesmo sem que eu mereça
+            Dm               G
+    Vens fazer morada no meu coração
+      F         G/F
+    Eu te adoro meu Jesus
+      Em               Am
+    Doce mistério no meu coração
+        F                 C/E
+    Como um Deus tão grande e soberano se faz
+    Dm               G          C
+    Pequeno um pedaço de pão só por amor
 
-    ( Dm  D9  Am  G )
-
-            F           G
-    Mas confesso, sou grato
-              C     G/B   Am
-    Não desististes de mim
-                 Dm
-    Pode o mundo ir
-              G           C
-    Mas o Teu colo vai ficar
-
-    Refrão: Dm  D9  Am  G
-
-                  F                 G
-    Não vou desistir, quero Tua presença
-               C    G/B        Am
-    Hoje o meu alvo é Te sentir
-
-                 F                   G
-    Eu só vou parar quando no Teu abraço
-     Senhor
-         C
-    Me embalar (2x)
-
-    ( Dm  D9  Am  G )
-
-    ( F  Am  G  F  Am  G )
-
-            F                 G
-    Não há outro lugar qu'eu ansei estar
-             Am            Em
-    Que o Teu colo, colo, colo
-             F                G
-    Não há outro lugar qu'eu ansei estar
-             C   G   Am
-    Que o Teu colo
 
     `,
   },
   {
-    titulo: 'Busque o alto',
+    titulo: 'Milagre de amor',
+    id: sumId(),
+    categoria: 'Gracas',
+    link: 'https://www.cifraclub.com.br/davidson-silva/amar-te-mais/#tabs=false&instrument=keyboard',
+    base: false,
+    cifra: `
+    Tom: G
+
+    [Intro] G  D9/F#  Em7  C9
+
+      G         D9/F#    C9
+    Amar-te mais,    que a mim mesmo
+    G         D9/F#     C9
+    Amar-te mais,    que tudo que há aqui
+    G         D9/F#        C9
+    Amar-te mais,    que aos mais queridos
+    Am           D9            C9
+    Amar-te, e dar a vida só por Ti
+
+    G         D9/F#    C9
+    Amar-te mais,    que a mim mesmo
+    G         D9/F#     C9
+    Amar-te mais,    que tudo que há aqui
+    G         D9/F#        C9
+    Amar-te mais,    que aos mais queridos
+    Am           D9             C9 G 2x
+    Amar-te, e dar a vida só por Ti
+
+    G          D9/F#  C9            Em7
+    Com minhas forças, com minha alma
+              C9      G     D9/F#        Em7
+    De todo coração, viverei eu, só pra Te amar
+      C9          D9
+    Amar-te... Amar-Te
+      C9           C/D           G
+    Amar-te, e dar a vida só por Ti
+
+    ( G  D9/F#  Em7  C9 )
+
+    G         D9/F#    C9
+    Amar-te mais,    que a mim mesmo
+    G         D9/F#     C9
+    Amar-te mais,    que tudo que há aqui
+    G         D9/F#        C9
+    Amar-te mais,    que aos mais queridos
+    Am           D9              C9 G
+    Amar-te, e dar a vida só por Ti
+
+    G          D9/F#  C9            Em7
+    Com minhas forças, com minha alma
+              C9      G     D9/F#        Em7
+    De todo coração, viverei eu, só pra Te amar
+    C9           D9            G
+    Amar-te, e dar a vida só por Ti
+
+    G          D9/F#  C9            Em7
+    Com minhas forças, com minha alma
+              C9      G     D9/F#        Em7
+    De todo coração, viverei eu, só pra Te amar
+      C9          D9
+    Amar-te... Amar-Te
+      C9           C/D           G
+    Amar-te, e dar a vida só por Ti
+
+    [Final] G  D9/F#  Em7  C9
+    `,
+  },
+  {
+    titulo: 'Autoridade e poder',
     id: sumId(),
     categoria: 'Final',
     cifra: `
-    G  Am7  C  D
+    [Intro] A  F#m7  D  Bm
+    E  A  F#m7  D  E
 
-        G                          Bm7
-    Uma vida nova em Cristo venha experimentar
-        C                           D
-    E de coração rendido, dia a dia se entregar
-          G                         Bm7
-    Com os olhos para o alto daqui menos depender
-          C
-    Para o mundo estamos mortos
-          C#º                  D
-    Nossa vida escondida está em Deus
+          A                            F#m
+    Os que confiam no Senhor , são como os montes de Sião
+            D        Bm                    E
+    Que não se abalam , mas permanecem para sempre
+        A                     F#m
+    Como em volta de Jerusalém , estão os montes
+          D           Bm           E
+    Assim o Senhor , em volta do seu povo
+      A               F#m
+    Autoridade e poder , domínio em suas mãos
+          D                 Bm               E
+    Pois o Senhor é Deus , o Senhor é Rei dos povos
+          A                             F#m
+    Cale-se diante dEle a terra, dobrem os joelhos ergam as mãos
+          D               Bm               E
+    Pois o Senhor é Deus o Senhor é Rei dos povos
 
-    Nasci pro céu
-
-    G              Am7            C              D
-    Olhe, olhe mais longe, além do mundo, voe pro céu
-    G               Am7               C
-    Busque, busque o alto, pôr sobre a vida
-        Cm6                 G      Am7
-    Veja o trono, onde está Deus!
-    C      D7           G
-      (Alçando vôo se lançar)
-
-          G                         Bm7
-    Vem do céu essa alegria que me faz compreender
-          C                 D
-    Vejo além da agonia é certo eu vou vencer
-        G                            Bm7
-    Se levante para Cristo, não se arraste mais ao chão
-          C                       C#º
-    Meu irmão cabeça erguida, Ele trás a nova vida
-      D
-    O amor e o perdão, olhe pro céu
-
-        Am7         D7          Bm7              E7/4   E7
-    Se portanto ressuscitastes, buscai tudo que está no alto
-    Am7          D7              C         Cm6       G   Bm7  C9  D
-    Onde Cristo é tudo em todos, vem à vida nova se lançar
-    C      D7           G
-      (Alçando vôo se lançar)
-    `,
-  },
-  {
-    titulo: 'Espírito da Verdade',
-    id: sumId(),
-    categoria: 'Novas',
-    cifra: `
-    [Intro] C  C9  F  C  C9  F
-
-    C              C9
-    Espírito da verdade
-    C              C9
-    Espírito da verdade
-        Am
-    Ouça a minha voz
-
-        F                     G
-    Já não quero o que não te agrada
-        F                G
-    Renuncio o que nos afasta
-
-    C              Am
-    Sopra dos quatro cantos
-            F
-    Espírito Santo
-                C              G
-    E enche meu coração, meu coração
-
-    `,
-  },
-  {
-    titulo: 'JESUS FILHO DE DAVI',
-    id: sumId(),
-    categoria: 'Novas',
-    cifra: `
-    [Intro] C  F  C  F
-
-        C                        G
-    Me contaram que o Senhor ia passar
-            Dm                      G
-    E que havia uma chance de eu poder enxergar
-        C                   G
-    Me disseram que tinhas poder
-        Dm                       G
-    Pra ressuscitar e fazer o paralítico andar
-
-    Am                     Em    F
-    Renasceu dentro de mim a fé
-                        G
-    Que há muito eu já não tinha
-    Am                   Em    F
-    Eu senti meu coração arder
-                        G
-    E eu gritei para o Senhor me responder:
-
-    C                    G     Am
-    Jesus, filho de Davi, me cura
-        F           C
-    És o Santo de Israel
-                        G       Am
-    Diante de Ti a tempestade se cala
-            G             C
-    Meu Deus honra a minha fé  (2x)
-    `,
-  },
-  {
-    titulo: 'TE LOUVO EM VERDADE',
-    id: sumId(),
-    categoria: 'Novas',
-    cifra: `
-    [Intro]  E  F#m  G#m  A  G#m  F#m B7  E B7
-
-    E              F#m   G#m                  A9
-   Mesmo na tempestade, mesmo que se agite o mar
-    E            B9          E    B9
-   Te louvo, te louvo em verdade
-
-    E               F#m      G#m       A9
-   Mesmo longe dos meus, mesmo na solidão
-    E            B9          E   E7
-   Te louvo, te louvo em verdade
-
-           A9            B9    G#m           C#m
-   Pois somente tenho a Ti, Tu és a minha herança
-    F#m           B9          E   E7
-   Te louvo, te louvo em verdade
-
-           A9            B9    G#m           C#m
-   Pois somente tenho a Ti, Tu és a minha herança
-    F#m           B9
-   Te louvo, te louvo em verdade
-
-   E  F#m  G#m  A  E  B9  E  B9
-
-
-   Mesmo que me faltem palavras
-   Mesmo que eu não saiba louvar
-   Te louvo, te louvo em verdade
-   Mesmo que me faltem palavras
-   Ainda que eu não saiba louvar
-   Te louvo, te louvo em verdade
-    `,
-  },
-
-  {
-    titulo: 'Posso Tudo Posso',
-    id: sumId(),
-    categoria: 'Novas',
-    cifra: `
-    Tom: C
-
-    (intro) Em D C9 Am G D
-            C G/B Am D C G/B Am Am/G D
-
-       G       D/F#     C               Em    D
-    Posso, tudo posso Naquele que me fortalece
-     C               G/B                Am   D
-    Nada e ninguém no mundo vai me fazer desistir
-     G        D/F#        C                   Em      D
-    Quero, tudo quero, sem medo entregar meus projetos
-        C                 G/B                Am     D/F# C/E  D
-    Deixar-me guiar nos caminhos que Deus desejou pra mim e a.....li estar
-
-    [Refrão]
-    G          D/F#                  C/E   D
-    Vou perseguir tudo aquilo que Deus já escolheu pra mim
-              G     D/F#                 C
-    Vou persistir, e mesmo nas marcas daquela dor
-       G/B                   Am Dsus4 D
-    Do que ficou, vou me lembrar
-            G    D/F#                  C/E       D
-    E realizar o sonho mais lindo que Deus sonhou
-     Eb°     Em              Bm                  C
-    Em meu lugar estar na espera de um novo que vai chegar
-        G/B            Am    Am/G  D/F#    C/E     D
-    Vou persistir, continuar a esperar      e     crer
-
-     G/B    C           G/B      Am          D          C
-    E      mesmo quando a visão se turva e o coração só chora
-          G/B           Am         D
-    Mas na alma, há certeza da vitória
-
-
-
-       G       D/F#     C               Em    D
-    Posso, tudo posso Naquele que me fortalece
-     C               G/B                Am   D
-    Nada e ninguém no mundo vai me fazer desistir
-
-    [Repete Refrão]
-
-    C7M(9)        G/B           Am9          D
-    Eu vou sofrendo, mas seguindo enquanto tantos não entendem
-            C7M(9)       G/B            Am9
-    Vou cantando minha história, profetizando
-            D          C     G/B    Am9       D     G9
-    Que eu posso, tudo posso...                 em Jesus
-
-    `,
-  },
-  {
-    titulo: 'SÓ POR TI JESUS',
-    id: sumId(),
-    categoria: 'Novas',
-    cifra: `
-    [Intro]       Emaj7  F#m/E  Emaj7  F#m/E  B/C#  C#m  B  C#m Amaj7 F#m7 Amaj7/B
-
-    E7+   F#m/E             B/C#   C#m
-    Só por Ti, Jesus, quero me consumir,
-                A7+              F#m7                A/B
-    Como vela que queima no altar, me consumir de amor.
-      E7+      F#m/E             B/C#  C#m
-    Só em Ti, Jesus, quero me derramar,
-                    A7+      A/B             Emaj7 F#m/E
-    Como o rio se entrega ao mar, me derramar de amor.
-        E7+   F#m/E             B/C#   C#m
-    Só por Ti, Jesus, quero me consumir,
-                A7+              F#m7                A/B
-    Como vela que queima no altar, me consumir de amor.
-      E7+      F#m/E             B/C#  C#m
-    Só em Ti, Jesus, quero me derramar,
-                    A7+      A/B             Emaj7 F#m/E
-    Como o rio se entrega ao mar, me derramar de amor.
-
-      A7+               B/A
-    Pois Tu és o meu amparo, o meu refúgio,
-                      C#m (B/C# C#m)
-    és alegria de minh'alma.
-    A7+               B/A        G#m7
-    Só em Ti repousa a minha esperança, não vacilarei,
-            C#m7          F#m7       D A/C#  A/B
-    e mesmo na dor, quero seguir até o fim.
-      E7+   E6                E7+  E6
-        E7+   F#m/E             B/C#   C#m
-    Só por Ti, Jesus, quero me consumir,
-                A7+              F#m7                A/B
-    Como vela que queima no altar, me consumir de amor.
-
-    `,
-  },
-  {
-    titulo: 'TÃO SUBLIME SACRAMENTO',
-    id: sumId(),
-    categoria: 'Novas',
-    cifra: `
-    D                  G        D      BM   EM      G  A  D
-    Tão sublime sacramento, adoremos neste altar
-    D                  G        D      BM      EM      G  A  D
-    Pois a antigo testamento deu ao novo seu lugar
-     G           D  G              D     BM   EM        G A  D
-    Venha a fé por suplemento os sentidos completai
-    D                  G        D      BM   EM      G  A  D
-    Ao eterno Pai cantemos  e a Jesus o salvador
-    D                  G        D  BM    EM        G      A  D
-    Ao Espírito exaltemos na Trindade eterno amor
-    G           D       G         D     BM   EM   G   A   D    G D A D
-    Ao Deus uno, e trino demos a alegria do louvor, Amém
-
-    `,
-  },
-  {
-    titulo: 'EM TUA PRESENÇA',
-    id: sumId(),
-    categoria: 'Novas',
-    cifra: `
-    G                      Am
-    É teu este momento de adoração
-     Bm7                         Am
-    Não tenho nem palavras para me expressar
-     G                                Am
-    No brilho dessa luz que vem do teu olhar
-       C          D           G
-    Encontro meu abrigo meu lugar
-
-      G                           Am
-    E quando estamos juntos entre nós estás
-     Bm7                         Am
-    Passando em nosso meio a nos abençoar
-     G                                Am
-    E tocas com ternura com a tua mão
-     C             D           G
-    A cada um que  abre o coração
-
-       G         Em7   Em/D    Am   Am/G         D D/C
-    Minhas mãos  se elevam    minha     voz te louva
-       Bm    E4  E7         Am  Am/G       D     G           D  D7
-    O meu ser se alegra/quando estou  em tua presença Senhor
-
-    `,
-  },
-  {
-    titulo: 'ALFA, OMEGA, PRINCÍPIO E FIM',
-    id: sumId(),
-    categoria: 'Novas',
-    cifra: `
-    E       G#M              A7+ C#M         A7+E/G#     F#M B7
-    Alfa,Ômega, Princípio e Fim, sim Ele É,   sim Ele É.
-    E       G#M              A7+ C#M         A7+E/G#     F#M B7
-    Alfa,Ômega, Princípio e Fim, sim Ele É,   sim Ele É.
-    E B/D#  C#M           E/G# A7+                  F#M7       A/B                 E
-    Lírio do Vale, Estrela     da Manhã, para sempre cantarei o seu louvor.
-    E  B/D#  C#M           E/G# A7+  B7                 E           B/D#         C#M
-    Lírio do Vale, Estrela     da Manhã, A Ele a Glória, a Ele o Louvor,
-                    A7+                  D   B7
-    A Ele a Domínio, Ele é o Senhor.
-                   E              B/D#   C#M           A7+         B7
-    A Ele a Glória, a Ele o Louvor, a Ele o Domínio, Ele é ...
-    E       G#M              A7+ C#M         A7+E/G#     F#M B7
-    Alfa,Ômega, Princípio e Fim, sim Ele É,   sim Ele É.
-    E       G#M              A7+ C#M         A7+E/G#     F#M B7
-    Alfa,Ômega, Princípio e Fim, sim Ele É,   sim Ele É.
-    E B/D#  C#M                E/G# A7+              F#M7       A/B                 E
-    Lírio do Vale, Estrela     da Manhã, para sempre cantarei o seu louvor.
-    E  B/D#  C#M           E/G# A7+  B7  E           B/D#         C#M
-    Lírio do Vale, Estrela     da Manhã, a Ele a Glória, a Ele o Louvor,
-                    A7+                  D   B7
-    A Ele a Domínio, Ele é o Senhor.
-    E              B/D#   C#M           A7+         B7
-    A Ele a Glória, a Ele o Louvor, a Ele o Domínio, Ele é ...    (várias vezes)
-
+    [Final] A  F#m  D  Bm
+        E  A  F#m  D  E
     `,
   },
 ];

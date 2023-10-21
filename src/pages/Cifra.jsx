@@ -23,6 +23,7 @@ import joiaRara from '../assets/musicBases/joiaRara__tom-G.wav';
 import sacramento from '../assets/musicBases/sacramento2.wav';
 import sejaLuz from '../assets/musicBases/sejaLuz2.wav';
 import repertorioMissaAgo from '../_mocks/repertorioMissaAgo';
+import repertorioMissaOut2 from '../_mocks/repertorioMissaOut-2';
 
 // eslint-disable-next-line prettier/prettier
 const acordes =
@@ -89,6 +90,10 @@ function Cifra() {
     }
     if (Number(id) >= 7000) {
       const cifraSelect = repertorioMissaOut.find((cifraBack) => cifraBack.id === Number(id));
+      setCifra(cifraSelect);
+    }
+    if (Number(id) >= 7000) {
+      const cifraSelect = repertorioMissaOut2.find((cifraBack) => cifraBack.id === Number(id));
       setCifra(cifraSelect);
     }
   }, [id]);
