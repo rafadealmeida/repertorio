@@ -1,4 +1,4 @@
-# Repertório BAnda Fogo Divino
+# Repertório Banda Fogo Divino
 
 ## Resumo
 
