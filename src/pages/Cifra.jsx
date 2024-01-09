@@ -17,13 +17,14 @@ import repertorioMissaAbr from '../_mocks/repertorioMissaAbr';
 import repertorioMissaJun from '../_mocks/repertorioMissaJun';
 import repertorioMissaJun2 from '../_mocks/repertorioMissaJun-2';
 import repertorioMissaOut from '../_mocks/repertorioMissaOut';
+import repertorioMissaAgo from '../_mocks/repertorioMissaAgo';
+import repertorioMissaOut2 from '../_mocks/repertorioMissaOut-2';
+import repertorioMissaFev24 from '../_mocks/repertorioMissaFev24';
 import deixaALuz from '../assets/musicBases/deixaLuz__intro.wav';
 import gloria from '../assets/musicBases/gloria3.wav';
 import joiaRara from '../assets/musicBases/joiaRara__tom-G.wav';
 import sacramento from '../assets/musicBases/sacramento2.wav';
 import sejaLuz from '../assets/musicBases/sejaLuz2.wav';
-import repertorioMissaAgo from '../_mocks/repertorioMissaAgo';
-import repertorioMissaOut2 from '../_mocks/repertorioMissaOut-2';
 
 // eslint-disable-next-line prettier/prettier
 const acordes =
@@ -56,44 +57,44 @@ function Cifra() {
   `;
 
   useEffect(() => {
-    if (Number(id) < 1000) {
+    if (Number(id) < 50) {
       const cifraSelect = cifras.find((cifraBack) => cifraBack.id === Number(id));
       setCifra(cifraSelect);
     }
-    if (Number(id) >= 1000) {
+    if (Number(id) >= 100) {
       const cifraSelect = repertorioMissa.find((cifraBack) => cifraBack.id === Number(id));
       setCifra(cifraSelect);
     }
-    if (Number(id) >= 2000) {
+    if (Number(id) >= 150) {
       const cifraSelect = repertorioMissaFev.find((cifraBack) => cifraBack.id === Number(id));
       setCifra(cifraSelect);
     }
-    if (Number(id) >= 3000) {
+    if (Number(id) >= 200) {
       const cifraSelect = repertorioMissaAbr.find((cifraBack) => cifraBack.id === Number(id));
       setCifra(cifraSelect);
     }
-    if (Number(id) >= 3000) {
-      const cifraSelect = repertorioMissaAbr.find((cifraBack) => cifraBack.id === Number(id));
-      setCifra(cifraSelect);
-    }
-    if (Number(id) >= 4000) {
+    if (Number(id) >= 250) {
       const cifraSelect = repertorioMissaJun.find((cifraBack) => cifraBack.id === Number(id));
       setCifra(cifraSelect);
     }
-    if (Number(id) >= 5000) {
+    if (Number(id) >= 300) {
       const cifraSelect = repertorioMissaJun2.find((cifraBack) => cifraBack.id === Number(id));
       setCifra(cifraSelect);
     }
-    if (Number(id) >= 6000) {
+    if (Number(id) >= 350) {
       const cifraSelect = repertorioMissaAgo.find((cifraBack) => cifraBack.id === Number(id));
       setCifra(cifraSelect);
     }
-    if (Number(id) >= 7000) {
+    if (Number(id) >= 400) {
       const cifraSelect = repertorioMissaOut.find((cifraBack) => cifraBack.id === Number(id));
       setCifra(cifraSelect);
     }
-    if (Number(id) >= 7000) {
+    if (Number(id) >= 450) {
       const cifraSelect = repertorioMissaOut2.find((cifraBack) => cifraBack.id === Number(id));
+      setCifra(cifraSelect);
+    }
+    if (Number(id) >= 500) {
+      const cifraSelect = repertorioMissaFev24.find((cifraBack) => cifraBack.id === Number(id));
       setCifra(cifraSelect);
     }
   }, [id]);
