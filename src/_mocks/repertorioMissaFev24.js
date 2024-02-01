@@ -43,7 +43,6 @@ const repertorioMissaFev24 = [
     D       Bm     Em  A7     D
     E deixa a luz do céu    entrar
 
-
     [refrão]
 
     `,
@@ -77,43 +76,163 @@ const repertorioMissaFev24 = [
     `,
   },
   {
-    titulo: 'Salmo 118/119',
+    titulo: 'Glória a Deus Nas Alturas (Na Dança da Vida)',
+    id: sumId(),
+    categoria: 'Gloria',
+    link: 'https://www.cifraclub.com.br/missionario-shalom/oh-oh-gloria/',
+    base: false,
+    cifra: `
+    Tom: Am
+
+    G      A9            G    A9   Bm
+    Glória - a, glória a Deus nas alturas
+    Em       A9            G       A9
+    Ô    -   ô          glória  -  a
+        G     A9  Bm
+    E A nós, a sua paz
+
+            Em           A9          Bm
+    Senhor Deus rei dos céus, Deus pai
+          F#m
+    Onipotente
+          G            A9        Em   G
+    Vos louvamos, bendizemos, adoramos
+        A                             Bm        F#m      G
+    Nós vos glorificamos, e   -   e   nós  vos damos graças
+    Em   D/F#
+    Por vossa
+
+    [Refrão]
+
+              Em            A9          Bm       F#m
+    Jesus cristo senhor Deus, filho único do pai
+        G                  A9               Bm
+    Cordeiro de Deus que tirais o pecado do mundo, tende piedade
+    G          A9               Bm
+    Vós que estais à direita do pa - ai, tende   piedade
+    G        A9               Em   G
+    Vós que tirais o pecado do mundo
+    A                  Bm   F#m    G      Em  A9
+    Tende piedade, acolhei a nossa súplica
+
+    [Refrão]
+
+          Em         F#m           G         A9
+    Só vós sois o santo, o senhor, o altíssimo
+    Bm      Em         A
+    Só  -  vós, Jesus cristo
+          Bm       F#m          G
+    Com o espiri  -  to      e o pai
+    Em   D/F#
+    Em sua
+
+    G      A9            G    A9   Bm
+    Glória - a, glória a Deus nas alturas
+    Em       A9            G       A9
+    Ô    -   ô          glória  -  a
+        G     A9  Bm
+    E A nós, a sua paz
+    `,
+  },
+  // {
+  //   titulo: 'Salmo 118/119',
+  //   id: sumId(),
+  //   link: 'https://www.youtube.com/watch?v=kRTxsKhzTPc',
+  //   base: false,
+  //   categoria: 'Salmo',
+  //   cifra: `
+  //   INTRO: D A Bm G
+
+  //   Ó Senhor, ensinai-me os vossos mandamentos!
+
+  //   D  A  Bm G Bm A
+
+  //   Como um jovem poderá ter vida pura?
+  //   Observando, ó Senhor, vossa palavra.
+  //   De todo o coração eu vos procuro,
+  //   não deixeis que eu abandone a vossa lei!
+
+  //   Conservei no coração vossas palavras,
+  //   a fim de que eu não peque contra vós.
+  //   Ó Senhor, vós sois bendito para sempre;
+  //   os vossos mandamentos ensinai-me!
+
+  //   Com meus lábios, ó Senhor, eu enumero
+  //   os decretos que ditou a vossa boca.
+  //   Seguindo vossa lei, me rejubilo
+  //   muito mais do que em todas as riquezas.
+  //   `,
+  // },
+  {
+    titulo: 'Salmo 146',
     id: sumId(),
     link: 'https://www.youtube.com/watch?v=kRTxsKhzTPc',
     base: false,
     categoria: 'Salmo',
     cifra: `
-    INTRO: D A Bm G
+    C    D   Em7
+    Louvai a Deus, porque Ele é bom
+    C              D4 D
+    e conforta os corações
 
-    Ó Senhor, ensinai-me os vossos mandamentos!
+    G                             D/F#
+    Louvai o Senhor Deus, porque Ele é bom
+    G                              D9
+    Cantai ao nosso Deus, porque é suave
+    Em7                             G
+    Ele é digno de louvor, Ele o merece!
+    Bm7                            Em7
+    O Senhor reconstruiu Jerusalém
+    D4             D7M                     D
+    E os dispersos de Israel juntou de novo
 
-    D  A  Bm G Bm A
+    G                             D/F#
+    Ele conforta os corações despedaçados
+    G                             D9
+    Ele enfaixa suas feridas e as cura
+    Em7                           G
+    Fixa o número de todas as estrelas
+    D4             D7M                     D
+    E chama a cada uma por seu nome
 
-    Como um jovem poderá ter vida pura?
-    Observando, ó Senhor, vossa palavra.
-    De todo o coração eu vos procuro,
-    não deixeis que eu abandone a vossa lei!
-
-    Conservei no coração vossas palavras,
-    a fim de que eu não peque contra vós.
-    Ó Senhor, vós sois bendito para sempre;
-    os vossos mandamentos ensinai-me!
-
-    Com meus lábios, ó Senhor, eu enumero
-    os decretos que ditou a vossa boca.
-    Seguindo vossa lei, me rejubilo
-    muito mais do que em todas as riquezas.
+    G                           D/F#
+    É grande e onipotente o nosso Deus
+    G                            D9
+    Seu saber não tem medida nem limites
+    Em7                            G
+    O Senhor Deus é o amparo dos humildes
+    D4             D7M                     D
+    Mas dobra até o chão os que são ímpios
     `,
   },
+  // {
+  //   titulo: 'Aleluia',
+  //   id: sumId(),
+  //   categoria: 'Aclamacao',
+  //   cifra: `
+
+  //   D         A           Bm Em A7
+  //   R. Aleluia, Aleluia, Aleluia
+  //   D                                                            A
+  //   V. Encontramos o Messias, Jesus Cristo
+  //   Bm                                                F#m
+  //   De graça e verdade ele e pleno;
+  //                                  G                                        A 7
+  //   De sua imensa riqueza graças, sem fim, recebemos
+  //   `,
+  // },
   {
     titulo: 'Aleluia',
     id: sumId(),
     categoria: 'Aclamacao',
     cifra: `
+            D    A        BM     Em      A7
+    R. Aleluia, Aleluia, Aleluia, Aleluia
 
-    R. Aleluia, Aleluia, Aleluia.
-    V. Minhas ovelhas escutam minha voz,
-    eu as conheço e elas me seguem.
+    D                     F#m
+    Cristo tomou sobre si nossas dores,
+    G                              A7
+    carrego em seu corpo as nossas fraquezas.
     `,
   },
   {
