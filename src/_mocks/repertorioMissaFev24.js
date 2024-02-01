@@ -476,69 +476,90 @@ const repertorioMissaFev24 = [
     (volta  ao refrão)
     `,
   },
+  // {
+  //   titulo: 'Jóia Rara',
+  //   id: sumId(),
+  //   categoria: 'Gracas',
+  //   link: 'https://www.cifraclub.com.br/vida-reluz/joia-rara/',
+  //   base: true,
+  //   cifra: `
+  //   Tom: F
+  //   [Intro]
+  //   C/D F/G
+
+  //   C                       F
+  //   Este é o momento da mais pura doação
+  //       C                      G             G#°
+  //   de quem sabe amar como ninguém jamais amou
+  //    Am              F        Dm                    G
+  //   Ele nos da sua vida, seu plano de amor nos revela
+  //    C             F       C                  G   G#°
+  //   É alimento da alma, o pão que desceu do céu
+  //      Am                      F               G       C
+  //   nos da o seu corpo e seu sangue,para nossa comunhão
+  //   Gm C7   F            G/F
+  //        Jesus tu és a jóia mais rara,
+  //   G#°              Am       Am/G F Dm
+  //   fonte de vida que não se acaba,  te entrego todo meu
+  //      G           C  Gm C7
+  //   ser,em gratidão
+  //       F                   G/F       G#°         Am Am/G
+  //   permanece em mim com teu amor, teu amor infinito
+  //   F  Dm              G        C
+  //      sela em mim  a tua salvação
+
+  //   (volta  ao início)  Am D7
+
+  //   `,
+  // },
   {
-    titulo: 'Jóia Rara',
-    id: sumId(),
-    categoria: 'Gracas',
-    link: 'https://www.cifraclub.com.br/vida-reluz/joia-rara/',
-    base: true,
-    cifra: `
-    Tom: F
-    [Intro]
-    C/D F/G
-
-    C                       F
-    Este é o momento da mais pura doação
-        C                      G             G#°
-    de quem sabe amar como ninguém jamais amou
-     Am              F        Dm                    G
-    Ele nos da sua vida, seu plano de amor nos revela
-     C             F       C                  G   G#°
-    É alimento da alma, o pão que desceu do céu
-       Am                      F               G       C
-    nos da o seu corpo e seu sangue,para nossa comunhão
-    Gm C7   F            G/F
-         Jesus tu és a jóia mais rara,
-    G#°              Am       Am/G F Dm
-    fonte de vida que não se acaba,  te entrego todo meu
-       G           C  Gm C7
-    ser,em gratidão
-        F                   G/F       G#°         Am Am/G
-    permanece em mim com teu amor, teu amor infinito
-    F  Dm              G        C
-       sela em mim  a tua salvação
-
-    (volta  ao início)  Am D7
-
-    `,
-  },
-  {
-    titulo: 'Autoridade e poder',
+    titulo: 'Derrama teu amor',
     id: sumId(),
     categoria: 'Final',
+    link: 'https://www.youtube.com/watch?v=azqrmPCpW2w',
+    base: false,
     cifra: `
-    [Intro] A  F#m7  D  Bm
-    E  A  F#m7  D  E
+    G                  D      Em        C
+    1 - Senhor, eu quero obedecer    a Tua voz
+    G                  D          Em               C
+    Derrama o Teu Espírito (uh, uh) sobre todos nós
+    G                   D        Em             C
+      Senhor, eu quero mergulhar,   me comprometer
+    G                  D    Em                C
+      Entrar na intimida----de do Teu coração
+                D         G
+    Derrama em nós Tua unção
 
-          A                            F#m
-    Os que confiam no Senhor , são como os montes de Sião
-            D        Bm                    E
-    Que não se abalam , mas permanecem para sempre
-        A                     F#m
-    Como em volta de Jerusalém , estão os montes
-          D           Bm           E
-    Assim o Senhor , em volta do seu povo
-      A               F#m
-    Autoridade e poder , domínio em suas mãos
-          D                 Bm               E
-    Pois o Senhor é Deus , o Senhor é Rei dos povos
-          A                             F#m
-    Cale-se diante dEle a terra, dobrem os joelhos ergam as mãos
-          D               Bm               E
-    Pois o Senhor é Deus o Senhor é Rei dos povos
+                          D
+    Derrama o teu amor aqui
+                         Em
+    Derrama o teu amor aqui
+                      C
+    Faz chover sobre nós Água Viva
 
-    [Final] A  F#m  D  Bm
-        E  A  F#m  D  E
+    C  Em                  D
+    2 - Uma Igreja renovada
+    Em                D
+       Povo santo reunido
+    Em              D
+    Famílias restauradas
+    Em                      C
+       Pelo poder do Teu Espírito
+                          G
+    Derrama o Teu amor aqui!
+
+                          D
+    Derrama o teu amor aqui
+                         Em
+    Derrama o teu amor aqui
+                      C
+    Faz chover sobre nós Água Viva
+    G/B                       D
+        Derrama o teu amor aqui
+                         Em
+    Derrama o teu amor aqui
+                      C   G/B     Em C  D
+    Faz chover sobre nós Água Viva
     `,
   },
 ];

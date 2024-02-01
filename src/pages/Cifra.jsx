@@ -33,6 +33,7 @@ const acordes =
 function Cifra() {
   const { id } = useParams();
   const [cifra, setCifra] = useState({});
+  const [coluna, setColuna] = useState(false);
   const [tamanho, setTamanho] = useState(1);
   const matches = useMediaQuery('(max-width:768px)');
   const navigate = useNavigate();
@@ -40,6 +41,16 @@ function Cifra() {
   const CifraSelect = styled.pre`
     font-size: ${tamanho}rem;
     white-space: pre-wrap;
+    @media screen and (max-width: 768px) {
+      font-size: ${tamanho / 2}rem;
+    }
+  `;
+
+  const CifraSelectColum = styled.pre`
+    font-size: ${tamanho}rem;
+    white-space: pre-wrap;
+    column-count: 2;
+    column-gap: 1em;
     @media screen and (max-width: 768px) {
       font-size: ${tamanho / 2}rem;
     }
@@ -101,6 +112,9 @@ function Cifra() {
 
   return (
     <>
+      <Button onClick={() => setColuna(!coluna)} variant="contained" sx={{ marginTop: '1rem', marginLeft: 0 }}>
+        Colocar cifra em modo coluna
+      </Button>
       <Button
         onClick={() => navigate(-1)}
         variant="contained"
@@ -177,13 +191,23 @@ function Cifra() {
           </Button>
         )}
 
-        <CifraSelect>
-          {reactStringReplace(cifra.cifra, acordes, (match, i) => (
-            <b key={i} style={{ color: '#f70' }}>
-              {match}
-            </b>
-          ))}
-        </CifraSelect>
+        {coluna ? (
+          <CifraSelectColum>
+            {reactStringReplace(cifra.cifra, acordes, (match, i) => (
+              <b key={i} style={{ color: '#f70' }}>
+                {match}
+              </b>
+            ))}
+          </CifraSelectColum>
+        ) : (
+          <CifraSelect>
+            {reactStringReplace(cifra.cifra, acordes, (match, i) => (
+              <b key={i} style={{ color: '#f70' }}>
+                {match}
+              </b>
+            ))}
+          </CifraSelect>
+        )}
       </Card>
     </>
   );
