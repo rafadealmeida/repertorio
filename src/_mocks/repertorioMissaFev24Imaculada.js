@@ -112,78 +112,56 @@ const repertorioMissaFev24Imaculada = [
     base: false,
     categoria: 'Salmo',
     cifra: `
-    G          Am7           Bm    C      G   Am7   D
-    Sois, Senhor, para mim, alegria e refúgio!
-    G          Am7           Bm    C      G   Am7   D
-    Sois, Senhor, para mim, alegria e refúgio!
+    A         Bm7           C#m   D     A  Bm7  E
+    Sois, Senhor, para mim,  alegria e refúgio.
 
-    G                             D/F#
+    A                           E/G#
     Feliz o homem que foi perdoado
-    C               Em       D
-    E cuja falta já foi encoberta!
-    G                             D/F#
+    D         F#m        E
+    e cuja falta já foi encoberta!
+    A                               E/G#
     Feliz o homem a quem o Senhor
-    C                        Em       D
-    Não olha mais como sendo culpado
-    C                   G/B       D     D4
-    E em cuja alma não há falsidade!
+    D               F#m            E
+    não olha mais como sendo culpado,
+    D           A/C#        E   E4
+    e em cuja alma não há falsidade!
 
-      G                             D/F#
-    Eu confessei, afinal, meu pecado
-    C               Em       D
-    E minha falta vos fiz conhecer
-        C                               G/B
+    A                          E/G#
+    Eu confessei, afinal, meu pecado,
+    D          F#m         E
+    e minha falta vos fiz conhecer.
+    D                              A/C#
     Disse: “Eu irei confessar meu pecado!”
-    Am                 Am/G          D         D4
-    E perdoastes, Senhor, minha falta
+    Bm         Bm/A              E    E4
+    E perdoastes, Senhor, minha falta.
 
-      G                             D/F#
-    Regozijai-vos, ó justos, em Deus
-    C               Em       D
-    E no Senhor exultai de alegria!
-    C                   G/B       D     D4
+    A                           E/G#
+    Regozijai-vos, ó justos, em Deus,
+    D       F#m              E
+    e no Senhor exultai de alegria!
+    D           A/C#        E   E4
     Corações retos, cantai jubilosos!
     `,
   },
-  // {
-  //   titulo: 'Aleluia',
-  //   id: sumId(),
-  //   categoria: 'Aclamacao',
-  //   cifra: `
-
-  //   D         A           Bm Em A7
-  //   R. Aleluia, Aleluia, Aleluia
-  //   D                                                            A
-  //   V. Encontramos o Messias, Jesus Cristo
-  //   Bm                                                F#m
-  //   De graça e verdade ele e pleno;
-  //                                  G                                        A 7
-  //   De sua imensa riqueza graças, sem fim, recebemos
-  //   `,
-  // },
   {
     titulo: 'Aleluia',
     id: sumId(),
     categoria: 'Aclamacao',
     cifra: `
-       D     A7 D       G       A
-    ALELUIA, ALELUIA, ALELUIA, ALELUIA!
-       A      D         A
-    ALELUIA, ALELUIA, ALELUIA, ALELUIA!
+       D         A        Bm       G  A2 D
+    ALELUIA, ALELUIA, ALELUIA, ALELU----IA! (2x)
 
-    D                     A7
+    D                     F#m
      UM GRANDE PROFETA SURGIU,
-    A7                      D
+    G F#m   Em                A7
      SURGIU E ENTRE NÓS SE MOSTROU;
-    D                     A7
+    D                     F#M
      É DEUS QUE SEU POVO VISITA,
-    A7             G      A7  D
+    G                          A7
      SEU POVO, MEU DEUS VISI--TOU.
 
-    D     A7 D       G       A
-    ALELUIA, ALELUIA, ALELUIA, ALELUIA!
-       A      D         A
-    ALELUIA, ALELUIA, ALELUIA, ALELUIA!
+     D         A        Bm       G  A2 D
+     ALELUIA, ALELUIA, ALELUIA, ALELU----IA! (2x)
     `,
   },
   {
@@ -234,54 +212,47 @@ const repertorioMissaFev24Imaculada = [
     `,
   },
   {
-    titulo: 'Nossa Oferta de Amor',
+    titulo: 'O Que Te Ofertar',
     id: sumId(),
     categoria: 'Oferta',
-    link: 'https://www.cifraclub.com.br/comunidade-catolica-shalom/nossa-oferta-de-amor/#tabs=false&instrument=keyboard',
+    link: 'https://www.youtube.com/watch?v=Q2g8Iut8i4k',
     base: false,
     cifra: `
-    Tom: D
 
-    [Intro] Bm  G  D  A/C#  Bm  G/B  D  A/C#  Em  D/F#  G
+    Tom: C
 
-    D               A            G
-    Vidas que se ofertam neste altar
-    D            A     G
-    Para novas vidas gerar
-    Bm                  G       D            A     Em   D/F#   G
-    Como o grão de trigo cai e morre para frutificar
+    Intro : C G/B Am   F G
 
-    D               A             G
-    Dons que se consagram neste altar
-    D                A     G
-    O eterno vem o tempo tocar
-    Bm             G         D        A     Em
-    Sacrifício de amor que sempre se renovará
-              D/F#              G                A
-    Como no altar da cruz, o milagre da vida se fará
+    C     G/B    Am      Em       F        Dm             F         G  F/G
+    O que te ofertar não sei, só sei agradecer por tudo que você me dá
+    C    G/B   Am        Em           F            Dm             F         G
+    Como te ofertar não sei se o que tenho é muito pouco pois sou pobre de amor
 
-    Bm            G          D          A
-    Hoje nossa pobreza se encontra no altar
-    Bm            G        D    A
-    Com a tua grandeza, senhor!
-    Bm            G          D        A
-    Nossa vida perdida no vinho e no pão
-    Bm            G        D    A
-    Eis a nossa oferta de amor!
+    (Refrão)
 
-    Bm  G  D  A/C#
-    De amor!
-    Bm  G  D  A
-    De amor!
+          F         G         C      G/B   Am           F          Dm         G
+    Transforma ó Senhor este vinho e este pão, que nos sirva de exemplo a doação
+       F              G            C    G/B      Am       F       G                C    (C G/B Am)
+    E se transforme agora no Seu corpo e no seu sangue, prova de amor por nós cristãos
+    (2x)
 
-    ( Em  D/F#  G )
 
-    Bm  G  D  A/C#
-    De amor!
-    Bm  G  D  A
-    De amor!
+    C     G/B  Am    Em        F        Dm            F         G  F/G
+    Este gesto seu Senhor, oferece sua vida ao Pai celeste por amor
+        C      G/B  Am      Em   F       Dm                  F           G
+    Só vejo uma solução pra mim: é a de amar cada vez mais forte o meu irmão
 
-    [Final] Em  D/F#  G
+
+    F         G         C      G/B   Am           F          Dm         G
+    Transforma ó Senhor este vinho e este pão, que nos sirva de exemplo a doação
+       F              G            C    G/B      Am       F       G                C    (C G/B Am)
+    E se transforme agora no Seu corpo e no seu sangue, prova de amor por nós cristãos
+    F       G                C
+    prova de amor por nós cristãos
+    (C G/B Am)
+    Dm       G                F   Fm  C
+    prova de amor por nós cristão
+
     `,
   },
   {
@@ -377,70 +348,54 @@ const repertorioMissaFev24Imaculada = [
     `,
   },
   {
-    titulo: 'Sacramento da Comunhão',
+    titulo: 'Milagre da comunhão',
     id: sumId(),
     categoria: 'Comunhao',
-    link: 'https://www.cifras.com.br/cifra/diacono-nelsinho-correa/sacramento-da-comunhao',
-    base: true,
     cifra: `
+    [Intro] E  A  C#m  B  C#m  A  C#m  B
 
-    Intro : D A Bm A
-        D           A/C#      Bm7              Bm/A
-    Senhor, quando te vejo no sacramento da comunhão
+    E           A              E    A  B
+    Quanto amor existe neste altar!
+    E           A         B4     B
+    Tanta vida para celebrar
+    A                  B  G#m               C#m
+    Gente que aqui se uniu, pôs as mãos e o coração
+    F#m         A6        E4   E    D   E
+    E em cada detalhe veio preparar
+    A           B      G#m          C#
+    Flores para enfeitar, velas para iluminar
+    F#m7       B       E   A   B
+    Tudo enfim pra celebrar
 
-    G              A          D         A/C#    Bm7
-    Sinto o céu se abrir e uma luz a me atin     gir
+        E     C#m    G#m  C#m
+    O amor maior chegou assim
+    F#m          B
+    Se fez servo para o outro
+    A            B
+    Deu sentido ao nosso encontro
+    G#m     C#m    G#m7       C#m
+    Nossa união, o vinho e o pão
+    F#m       A/B             E   A C#m B C#m A C#m B
+    Eis o milagre desta comunhão
 
-    Em7/9               G       Em7           A4   A
-    Esfriando minha cabeça e esquentando meu coração
+    Quanta harmonia neste altar!
+    Tanta vida para celebrar
+    Gente que aqui chegou, o seu tempo dedicou
+    E em cada ensaio veio preparar
+    Instrumentos pra tocar, vozes para entoar
+    Tudo enfim pra celebrar
 
-    D               A/C#           Bm7             Bm/A
-    Senhor, graças e louvores sejam dados a todo momento
+    [Refrão]
 
-    G             A              D         A/C#     Bm7
-    Quero te louvar na dor, na alegria e no sofrimento
+    Quanta história existe neste altar!
+    Tanta vida para celebrar
+    Homem que se consagrou, sacerdote se tornou
+    E em cada momento traz o céu a nós
+    Desde jovem decidiu ao Senhor se abandonar
+    Tudo enfim pra celebrar
 
-        Em7            A         D   D/F#        G
-    E se em meio à tribulação, eu me esquecer de ti
+    [Refrão]
 
-    Em7           G              A4 A
-    Ilumina minhas trevas com Tua luz
-
-    D    A/C#           Bm7                     Bm/A
-    Jesus, fonte de misericórdia que jorra do templo
-
-    G      D/F#        Em7    A4    A
-    Jesus, O Filho da Rainha
-
-          D     Bbº   Bm7               G
-      Jesus....us,   rosto divino do homem
-
-        D   Em7     A            D
-    Jesus, rosto humano de Deus
-
-    G                      A
-    Chego muitas vezes em Tua casa, meu Senhor
-
-    F#m7                Bm7        Bm/A
-    Triste, abatido, precisando de amor
-
-          G                  C
-    Mas depois da comunhão Tua casa é meu coração
-
-          Em7       G         A4   A
-    Então sinto o céu dentro de mim
-
-          G                     A
-    Não comungo porque mereço, isso eu sei, oh meu Senhor
-
-    F#m7(11)             B4   B
-    Comungo pois preciso de ti
-
-      Em7                    C
-    Quando faltei à missa, fugia de mim e de Ti
-
-        Em7       G                A4     A
-    Mas agora eu voltei, por favor aceita-me
     `,
   },
   {
