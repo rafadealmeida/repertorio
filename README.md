@@ -2,7 +2,7 @@
 
 ## Resumo
 
-Um sistema web para visualização visualização e organização de cifras musicais para os membros da banda.
+Um sistema web para visualização e organização de cifras musicais para os membros da banda.
 Esta iniciativa nasceu de uma motivação pessoal, uma vez que sou membro de uma banda religiosa que frequentemente
 adaptava cifras de músicas e criava versões personalizadas.
 Sentimos a necessidade de um espaço centralizado para armazenar e acessar esses documentos de maneira eficiente.
