@@ -367,7 +367,7 @@ const repertorioMissaFev24Pedro = [
     `,
   },
   {
-    titulo: 'Derrama teu amor',
+    titulo: 'Tempo de Conversão',
     id: sumId(),
     categoria: 'Final',
     link: 'https://www.youtube.com/watch?v=azqrmPCpW2w',
