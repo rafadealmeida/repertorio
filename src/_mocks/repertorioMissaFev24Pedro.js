@@ -367,7 +367,7 @@ const repertorioMissaFev24Pedro = [
     `,
   },
   {
-    titulo: 'Tempo de Conversão',
+    titulo: 'É Tempo',
     id: sumId(),
     categoria: 'Final',
     link: 'https://www.youtube.com/watch?v=azqrmPCpW2w',
