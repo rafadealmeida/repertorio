@@ -17,6 +17,7 @@ import MissaFev24 from './pages/MissaFev24';
 import MissaFev24Imaculada from './pages/MissaFev24Imaculada';
 import MissaFev24Pedro from './pages/MissaFev24Pedro';
 import MissaMar24Judas from './pages/MissaMar24Judas';
+import MissaMar24Imac from './pages/MissaMar24Imac';
 import Cifra from './pages/Cifra';
 import Drawer from './components/Drawer';
 import Categoria from './pages/Categoria';
@@ -41,6 +42,7 @@ export default function AppRouter() {
         <Route path="/missaFev24Imaculada" element={<MissaFev24Imaculada />} />
         <Route path="/missaFev24Pedro" element={<MissaFev24Pedro />} />
         <Route path="/missaMar24Judas" element={<MissaMar24Judas />} />
+        <Route path="/MissaMar24Imac" element={<MissaMar24Imac />} />
         <Route path="/:repertorio/cifra/:id" element={<Cifra />} />
         {/* <Route path="categoria/:id" element={<Categoria />} /> */}
         <Route path="categoria/:repertorio/:id" element={<Categoria />} />
