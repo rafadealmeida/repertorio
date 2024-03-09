@@ -44,7 +44,7 @@
     ]
   },
   "engines": {
-    "node": "20.x"
+    "node": "18.x"
   },
   "devDependencies": {
     "@iconify/icons-carbon": "^1.2.11",
