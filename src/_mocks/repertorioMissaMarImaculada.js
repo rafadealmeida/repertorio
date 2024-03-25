@@ -59,7 +59,7 @@ const repertorioMissaMarImaculada = [
     `,
   },
   {
-    titulo: 'Salmo 18',
+    titulo: 'Salmo 136',
     id: sumId(),
     link: 'https://www.youtube.com/watch?v=DPFQWPRgd2E',
     base: false,
